@@ -1,3 +1,7 @@
+@import 'colours';
+@import 'buttons';
+
+
 html,
 body {
   padding: 0;
@@ -66,9 +70,28 @@ a {
 }
 
 .page-footer, .top-nav-collapse {
-  background-color: #929FBA;
+  background-color: #ffffff;
 }
 
 .dropdown-toggle:after {
     display: none;
 }
+
+.navbar-nav .nav-link {
+color: $orginalLogo-color !important;
+}
+
+.navbar-nav .nav-link:hover {
+    color: $original-dark !important;
+    }
+
+    @media (min-width: 992px){
+    .navbar-expand-lg .navbar-nav .nav-link {
+        padding-right: .75rem;
+        padding-left: .75rem;
+    }
+    }
+
+    .navbar-dark .navbar-toggler {
+        color: $orginalLogo-color !important;
+    }
