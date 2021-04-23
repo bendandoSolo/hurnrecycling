@@ -140,3 +140,16 @@ footer {
 .card {
   margin-bottom: 2rem;
 }
+
+#map {
+  width: 90%;
+}
+
+form {
+  display: flex;
+  flex-direction: column;
+  background-color: $original-dark;
+  label {
+    color: whitesmoke;
+  }
+}

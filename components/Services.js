@@ -1,10 +1,11 @@
 import React from "react";
 import Link from "next/link";
 
-const Services = () => {
+const Services = ({ title }) => {
   return (
     <section className="text-center">
       <div className="container mt-5 py-5 pb-2">
+        {!!title && <h2 className="mb-5">SERVICES</h2>}
         <div className="row">
           <div className="col-md-6 col-lg-4 mb-4 mb-md-0 pb-2">
             <div className="card">

@@ -20,7 +20,7 @@ export default function Home() {
         button
       />
       <main>
-        <Services />
+        <Services title />
         <About />
         <Clients button />
       </main>

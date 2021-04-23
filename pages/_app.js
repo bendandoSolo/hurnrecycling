@@ -28,10 +28,8 @@ const MyApp = ({ Component, pageProps }) => {
         type="text/javascript"
         src="https://cdnjs.cloudflare.com/ajax/libs/mdb-ui-kit/3.5.0/mdb.min.js"
       ></script> */}
-
         <script type="text/javascript" src="mdb.min.js"></script>
       </Head>
-
       <Navbar2 />
       <Component {...pageProps} />
       <Footer />

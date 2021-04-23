@@ -25,7 +25,7 @@ const Clients = ({ button }) => {
               </div>
             </div>
           </div>
-          <div className="col-md-12 col-lg-3 mb-4 mb-lg-0 pb-2 order-md-1 order-lg-2">
+          <div className="col-md-6 col-lg-3 pb-2 order-md-3 order-lg-3">
             <div className="card">
               <div className="bg-image hover-zoom">
                 <img
@@ -71,7 +71,7 @@ const Clients = ({ button }) => {
               </div>
             </div>
           </div>
-          <div className="col-md-12 col-lg-3 mb-4 mb-lg-0 pb-2 order-md-1 order-lg-2">
+          <div className="col-md-6 col-lg-3 pb-2 order-md-3 order-lg-3">
             <div className="card">
               <div className="bg-image hover-zoom">
                 <img

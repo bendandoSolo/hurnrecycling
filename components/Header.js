@@ -4,21 +4,21 @@ import Link from "next/link";
 const Header = ({ background, text, smallText, button }) => {
   return (
     <header>
-      <div id="intro" class="text-center bg-image">
+      <div id="intro" className="text-center bg-image">
         <div
           id="intro"
-          class="text-center bg-image"
+          className="text-center bg-image"
           style={{ backgroundImage: `url(${background})`, height: "70vh" }}
         >
-          <div class="mask">
-            <div class="d-flex justify-content-center align-items-center h-100 mt-4">
+          <div className="mask">
+            <div className="d-flex justify-content-center align-items-center h-100 mt-4">
               <div>
-                <h1 class="display-1 font-weight-bold">{text}</h1>
-                <hr class="my-4" />
-                <h4 class="font-weight-light mb-4">{smallText}</h4>
+                <h1 className="display-1 font-weight-bold">{text}</h1>
+                <hr className="my-4" />
+                <h4 className="font-weight-light mb-4">{smallText}</h4>
                 {!!button && (
                   <Link href="/contact">
-                    <button class="btn btn-lg btn-success" id="green-btn">
+                    <button className="btn btn-lg btn-success" id="green-btn">
                       Get A Quote
                     </button>
                   </Link>

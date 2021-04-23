@@ -5,7 +5,7 @@ const Navbar2 = () => {
   useEffect(() => {
     const handleScroll = () => {
       const currentScrollY = window.scrollY;
-      console.log(currentScrollY);
+      // console.log(currentScrollY);
       //could use useRef to change the classValue.
       //should use callback
       if (window.pageYOffset > 20) {
@@ -149,7 +149,7 @@ const Navbar2 = () => {
                 style={{ marginLeft: "20px", marginTop: "1px" }}
               >
                 <button type="button" className="btn btn-success btn-lg">
-                  CALL 01202 257 530 <i class="fas fa-phone"></i>
+                  CALL 01202 257 530 <i className="fas fa-phone"></i>
                 </button>
               </li>
             </ul>
