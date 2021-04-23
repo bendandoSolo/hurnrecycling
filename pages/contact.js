@@ -14,7 +14,7 @@ const contact = () => {
               form displayed below.
             </p>
             <img src="/images/map.jpg" id="map" />
-            <div className="lead">
+            <div className="lead contact">
               <ul className="list-unstyled my-4">
                 <li>Hurn Recycling Ltd</li>
                 <li>The Salterns, 2 Sandy Close</li>
