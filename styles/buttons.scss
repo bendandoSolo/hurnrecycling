@@ -1,11 +1,11 @@
-@import 'colours';
+@import "colours";
 
 .btn-success {
- background-color: $orginalLogo-color;
- color: white;
+  background-color: $original-logo-color;
+  color: white;
 }
 
 .btn-success:hover {
-    background-color:original-dark;
-    color: white;
-   }
+  background-color: $original-dark;
+  color: white;
+}
