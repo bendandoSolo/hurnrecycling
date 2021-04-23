@@ -1,12 +1,15 @@
 @import "colours";
 @import "buttons";
 
+@import url("https://fonts.googleapis.com/css2?family=Exo:wght@300;400;700&display=swap");
+
 html,
 body {
   padding: 0;
   margin: 0;
-  font-family: -apple-system, BlinkMacSystemFont, Segoe UI, Roboto, Oxygen,
-    Ubuntu, Cantarell, Fira Sans, Droid Sans, Helvetica Neue, sans-serif;
+  // font-family: -apple-system, BlinkMacSystemFont, Segoe UI, Roboto, Oxygen,
+  //   Ubuntu, Cantarell, Fira Sans, Droid Sans, Helvetica Neue, sans-serif;
+  font-family: "Exo", sans-serif;
 }
 
 a {
@@ -103,8 +106,8 @@ header {
 }
 
 footer {
-  background-color: $original-dark;
-  background-color: rgba(0, 80, 24, 0.8);
+  // background-color: $original-dark;
+  background-color: rgba(0, 80, 24, 1);
   hr {
     background-color: whitesmoke;
   }
@@ -119,10 +122,21 @@ footer {
     color: $original-logo-color;
   }
   .copyright {
-    background-color: rgba(0, 80, 24, 0.8);
+    background-color: $original-dark;
     color: $original-logo-color;
     a {
       color: whitesmoke;
     }
+    a:hover {
+      color: $original-light;
+    }
   }
+}
+
+.mask {
+  background-color: rgba(0, 80, 24, 0.8);
+}
+
+.card {
+  margin-bottom: 2rem;
 }

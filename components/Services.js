@@ -1,11 +1,11 @@
 import React from "react";
+import Link from "next/link";
 
 const Services = () => {
   return (
     <section className="text-center">
-      <div className="container my-5 py-5">
-        <h2 className="mb-5">SERVICES</h2>
-        <div className="row mb-4">
+      <div className="container mt-5 py-5 pb-2">
+        <div className="row">
           <div className="col-md-6 col-lg-4 mb-4 mb-md-0 pb-2">
             <div className="card">
               <div className="bg-image">
@@ -79,7 +79,7 @@ const Services = () => {
             </div>
           </div>
         </div>
-        <div className="row mb-4">
+        <div className="row">
           <div className="col-md-6 col-lg-4 mb-4 mb-md-0 pb-2">
             <div className="card">
               <div className="bg-image">
@@ -108,7 +108,7 @@ const Services = () => {
             <div className="card">
               <div className="bg-image">
                 <img
-                  src="/images/paper.png"
+                  src="/images/services/electrical.jpg"
                   className="card-img-top"
                   alt="Sample image"
                 />
@@ -132,7 +132,7 @@ const Services = () => {
             <div className="card">
               <div className="bg-image">
                 <img
-                  src="/images/paper.png"
+                  src="/images/services/glass.jpg"
                   className="card-img-top"
                   alt="Sample image"
                 />
@@ -140,7 +140,7 @@ const Services = () => {
               <div className="card-body">
                 <h5 className="card-title text-center my-3">Glass</h5>
                 <p className="small">
-                  Recyle all your glass with easy and cost effective recycling
+                  Recycle all your glass with easy and cost effective recycling
                   solutions for your business
                 </p>
                 <hr className="mt-3 mb-4" />
@@ -151,12 +151,12 @@ const Services = () => {
             </div>
           </div>
         </div>
-        <div className="row mb-4">
+        <div className="row">
           <div className="col-md-6 col-lg-4 mb-4 mb-md-0 pb-2">
             <div className="card">
               <div className="bg-image">
                 <img
-                  src="/images/paper.png"
+                  src="/images/services/furniture-removal.jpg"
                   className="card-img-top"
                   alt="Sample image"
                 />
@@ -180,7 +180,7 @@ const Services = () => {
             <div className="card">
               <div className="bg-image">
                 <img
-                  src="/images/paper.png"
+                  src="/images/services/general-waste.jpg"
                   className="card-img-top"
                   alt="Sample image"
                 />
@@ -204,7 +204,7 @@ const Services = () => {
             <div className="card">
               <div className="bg-image">
                 <img
-                  src="/images/paper.png"
+                  src="/images/services/office-recycle-2.jpg"
                   className="card-img-top"
                   alt="Sample image"
                 />

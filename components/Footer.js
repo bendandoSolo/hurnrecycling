@@ -1,4 +1,5 @@
 import React from "react";
+import Link from "next/link";
 
 const Footer = () => {
   return (
@@ -10,19 +11,19 @@ const Footer = () => {
 
             <ul className="list-unstyled mb-0">
               <li>
-                <a href="#!">Home</a>
+                <Link href="/">Home</Link>
               </li>
               <li>
-                <a href="#!">Services</a>
+                <Link href="/services">Services</Link>
               </li>
               <li>
-                <a href="#!">Clients</a>
+                <Link href="/clients">Clients</Link>
               </li>
               <li>
-                <a href="#!">Environment</a>
+                <Link href="/environment">Environment</Link>
               </li>
               <li>
-                <a href="#!">Contact</a>
+                <Link href="/contact">Contact</Link>
               </li>
             </ul>
           </div>
@@ -30,28 +31,28 @@ const Footer = () => {
             <h5 className="text-uppercase">Services</h5>
             <ul className="list-unstyled mb-0">
               <li>
-                <a href="#!">Office Paper</a>
+                <Link href="/">Office Paper</Link>
               </li>
               <li>
-                <a href="#!">Cardboard & Packaging</a>
+                <Link href="/">Cardboard & Packaging</Link>
               </li>
               <li>
-                <a href="#!">Plastic Bottles & Cans</a>
+                <Link href="/">Plastic Bottles & Cans</Link>
               </li>
               <li>
-                <a href="#!">Confidential Waste</a>
+                <Link href="/">Confidential Waste</Link>
               </li>
               <li>
-                <a href="#!">Electrical Equipment</a>
+                <Link href="/">Electrical Equipment</Link>
               </li>
               <li>
-                <a href="#!">General Waste</a>
+                <Link href="/">General Waste</Link>
               </li>
               <li>
-                <a href="#!">Glass</a>
+                <Link href="/">Glass</Link>
               </li>
               <li>
-                <a href="#!">Office Furniture</a>
+                <Link href="/">Office Furniture</Link>
               </li>
             </ul>
           </div>
@@ -75,7 +76,7 @@ const Footer = () => {
               </li>
               <li>
                 <a href="#!">
-                  Follow us on Facebook{" "}
+                  Follow us on Facebook
                   <i className="fab fa-facebook-square"></i>
                 </a>
               </li>
@@ -86,7 +87,7 @@ const Footer = () => {
       </div>
       <div className="text-center p-3 copyright">
         © 2021 Copyright:
-        <a href="https://mdbootstrap.com/">bendando ltd</a>
+        <a href="https://mdbootstrap.com/"> bendando ltd</a>
       </div>
     </footer>
   );

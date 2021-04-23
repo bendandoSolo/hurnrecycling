@@ -1,6 +1,7 @@
 import React from "react";
+import Link from "next/link";
 
-const Clients = () => {
+const Clients = ({ button }) => {
   return (
     <section className="text-center">
       <div className="container my-5 p-5">
@@ -104,10 +105,13 @@ const Clients = () => {
             </div>
           </div>
         </div>
-
-        <button className="btn btn-lg btn-success mt-4">
-          See More Clients
-        </button>
+        {!!button && (
+          <Link href="/clients">
+            <button className="btn btn-lg btn-success mt-4">
+              See More Clients
+            </button>
+          </Link>
+        )}
       </div>
     </section>
   );

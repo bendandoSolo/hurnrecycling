@@ -1,4 +1,5 @@
 import React from "react";
+import Link from "next/link";
 
 const Header = ({ background, text, smallText, button }) => {
   return (
@@ -16,9 +17,11 @@ const Header = ({ background, text, smallText, button }) => {
                 <hr class="my-4" />
                 <h4 class="font-weight-light mb-4">{smallText}</h4>
                 {!!button && (
-                  <button class="btn btn-lg btn-success" id="green-btn">
-                    Get A Quote
-                  </button>
+                  <Link href="/contact">
+                    <button class="btn btn-lg btn-success" id="green-btn">
+                      Get A Quote
+                    </button>
+                  </Link>
                 )}
               </div>
             </div>

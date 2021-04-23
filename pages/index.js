@@ -1,6 +1,4 @@
 import Head from "next/head";
-import Link from "next/link";
-import styles from "../styles/Home.module.css";
 
 // Components
 import Services from "../components/Services";
@@ -12,10 +10,11 @@ export default function Home() {
   return (
     <div>
       <Head>
-        <title>Create Next App</title>
+        <title>Hurn Recycling</title>
         <link rel="icon" href="/favicon.ico" />
       </Head>
       <Header
+        background="/images/lorry-hurn.jpg"
         text="Total Waste Management Solutions"
         smallText="Helping local businesses since 1995"
         button
@@ -23,7 +22,7 @@ export default function Home() {
       <main>
         <Services />
         <About />
-        <Clients />
+        <Clients button />
       </main>
     </div>
   );
