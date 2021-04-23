@@ -15,7 +15,9 @@ const About = () => {
           </div>
           <div className="col-lg-6">
             <h4 className="mb-4">
-              Recycling & Waste Management throughout England and the UK
+              <strong>
+                Recycling & Waste Management throughout England and the UK
+              </strong>
             </h4>
             <p className="lead mb-4 pb-1">
               Welcome to Hurn Recycling, Dorset largest independent waste
@@ -62,7 +64,9 @@ const About = () => {
               Dorset which would otherwise have been destined for the county’s
               ever expanding landfills.
             </p>
-            <h4 className="mb-4">Total Waste Management Solutions</h4>
+            <h4 className="mb-4 text-center ">
+              <strong>Total Waste Management Solutions</strong>
+            </h4>
             <p className="lead mb-4 pb-1">
               Our total waste management solution means you don’t have to worry
               about a thing, Hurn Recycling will ensure your company has a clean

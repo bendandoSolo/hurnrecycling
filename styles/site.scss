@@ -104,6 +104,15 @@ header {
   background-color: rgba(0, 80, 24, 0.8);
   color: whitesmoke;
 }
+#intro {
+  height: 70vh;
+}
+
+@media (max-width: 992px) {
+  #intro {
+    height: 90vh;
+  }
+}
 
 footer {
   // background-color: $original-dark;
@@ -151,5 +160,9 @@ form {
   background-color: $original-dark;
   label {
     color: whitesmoke;
+  }
+  input,
+  textarea {
+    border: whitesmoke;
   }
 }

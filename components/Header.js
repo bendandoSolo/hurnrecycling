@@ -8,7 +8,7 @@ const Header = ({ background, text, smallText, button }) => {
         <div
           id="intro"
           className="text-center bg-image"
-          style={{ backgroundImage: `url(${background})`, height: "70vh" }}
+          style={{ backgroundImage: `url(${background})` }}
         >
           <div className="mask">
             <div className="d-flex justify-content-center align-items-center h-100 mt-4">

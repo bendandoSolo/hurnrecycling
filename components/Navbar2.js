@@ -61,65 +61,52 @@ const Navbar2 = () => {
                 </a>
                 <ul className="dropdown-menu">
                   <li>
-                    <Link href="/">
-                      <a className="dropdown-item" href="#">
-                        {" "}
-                        Service 1
-                      </a>
-                    </Link>
-                  </li>
-
-                  <li>
                     <a className="dropdown-item" href="#">
-                      {" "}
-                      Service 2{" "}
+                      Office Recycling
                     </a>
                   </li>
                   <li>
                     <a className="dropdown-item" href="#">
-                      {" "}
-                      Service 3{" "}
+                      Plastic Bottles & Cans
                     </a>
                   </li>
                   <li>
                     <a className="dropdown-item" href="#">
-                      {" "}
-                      Service 4
+                      Cardboard & Packaging Recycling
                     </a>
                   </li>
                   <li>
                     <a className="dropdown-item" href="#">
-                      {" "}
-                      Service 5{" "}
+                      Confidential Waste
+                    </a>
+                  </li>
+                  <li>
+                    <a className="dropdown-item" href="/electrical">
+                      Electrical Equipment Disposal
                     </a>
                   </li>
                   <li>
                     <a className="dropdown-item" href="#">
-                      {" "}
-                      Service 6{" "}
+                      Glass
                     </a>
                   </li>
                   <li>
                     <a className="dropdown-item" href="#">
-                      {" "}
-                      Service 7
+                      Office Furniture
                     </a>
                   </li>
                   <li>
                     <a className="dropdown-item" href="#">
-                      {" "}
-                      Service 8{" "}
+                      General Waste Disposal
                     </a>
                   </li>
                   <li>
                     <a className="dropdown-item" href="#">
-                      {" "}
-                      Service 9{" "}
+                      Cardboard & Packaging Recycling
                     </a>
                   </li>
                 </ul>
               </li>
-
               <li className="nav-item">
                 <Link href="/clients">
                   <a className="nav-link" href="#">
@@ -127,7 +114,6 @@ const Navbar2 = () => {
                   </a>
                 </Link>
               </li>
-
               <li className="nav-item">
                 <Link href="/environment">
                   <a className="nav-link" href="#">
@@ -135,7 +121,6 @@ const Navbar2 = () => {
                   </a>
                 </Link>
               </li>
-
               <li className="nav-item">
                 <Link href="/contact">
                   <a className="nav-link" href="#">
@@ -143,7 +128,6 @@ const Navbar2 = () => {
                   </a>
                 </Link>
               </li>
-
               <li
                 className="nav-item"
                 style={{ marginLeft: "20px", marginTop: "1px" }}
