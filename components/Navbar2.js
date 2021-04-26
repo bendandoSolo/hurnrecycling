@@ -3,6 +3,27 @@ import Link from "next/link";
 
 const Navbar2 = () => {
   useEffect(() => {
+    let navOpenBtn = document.getElementById("open-nav-btn");
+    let navCloseBtn = document.getElementById("close-nav-btn");
+    let fullScreenNavMenu = document.getElementById("nav-full-menu");
+    // let navLinks = Array.from(document.querySelectorAll(".nav-link"));
+    let openNav = false;
+    navOpenBtn.addEventListener("click", () => {
+      openNav = true;
+      fullScreenNavMenu.classList.add("nav-mob");
+      if (openNav) {
+        fullScreenNavMenu.style.cssText =
+          "display: flex; animation: fade-in 0.3s both;";
+      }
+    });
+    navCloseBtn.addEventListener("click", () => {
+      openNav = false;
+      fullScreenNavMenu.classList.remove("nav-mob");
+      if (!openNav) {
+        fullScreenNavMenu.style.cssText = "display: none;";
+      }
+    });
+
     const handleScroll = () => {
       const currentScrollY = window.scrollY;
       // console.log(currentScrollY);
@@ -37,23 +58,23 @@ const Navbar2 = () => {
             aria-controls="navbarSupportedContent"
             aria-expanded="false"
             aria-label="Toggle navigation"
+            id="open-nav-btn"
           >
             <i className="fas fa-bars"></i>
           </button>
 
-          <div className="collapse navbar-collapse" id="navbarSupportedContent">
+          <div className="nav-full-menu" id="nav-full-menu">
+            <i className="far fa-window-close" id="close-nav-btn"></i>
             <ul className="navbar-nav mb-2 mb-lg-0">
               <li className="nav-item">
-                <Link href="/">
-                  <a className="nav-link" href="/">
-                    Home
-                  </a>
-                </Link>
+                <a className="nav-link" href="/">
+                  Home
+                </a>
               </li>
 
               <li className="nav-item dropdown">
                 <a
-                  className="nav-link  dropdown-toggle"
+                  className="nav-link dropdown-toggle"
                   href="/services"
                   data-bs-toggle="dropdown"
                 >
@@ -108,25 +129,19 @@ const Navbar2 = () => {
                 </ul>
               </li>
               <li className="nav-item">
-                <Link href="/clients">
-                  <a className="nav-link" href="#">
-                    Clients
-                  </a>
-                </Link>
+                <a className="nav-link" href="/clients">
+                  Clients
+                </a>
               </li>
               <li className="nav-item">
-                <Link href="/environment">
-                  <a className="nav-link" href="#">
-                    Environment
-                  </a>
-                </Link>
+                <a className="nav-link" href="/environment">
+                  Environment
+                </a>
               </li>
               <li className="nav-item">
-                <Link href="/contact">
-                  <a className="nav-link" href="#">
-                    Contact
-                  </a>
-                </Link>
+                <a className="nav-link" href="/contact">
+                  Contact
+                </a>
               </li>
               <li
                 className="nav-item"

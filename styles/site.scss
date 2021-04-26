@@ -100,6 +100,12 @@ a {
   color: $original-logo-color !important;
 }
 
+nav img {
+  width: 200px;
+}
+
+// Header Component
+
 header {
   background-color: rgba(0, 80, 24, 0.8);
   color: whitesmoke;
@@ -114,8 +120,15 @@ header {
   }
 }
 
+@media (max-width: 767px) {
+  #intro {
+    height: 100vh;
+  }
+}
+
+// Footer Component
+
 footer {
-  // background-color: $original-dark;
   background-color: rgba(0, 80, 24, 1);
   hr {
     background-color: whitesmoke;
@@ -154,6 +167,8 @@ footer {
   width: 90%;
 }
 
+// Contact Page
+
 form {
   display: flex;
   flex-direction: column;
@@ -169,4 +184,71 @@ form {
 
 .contact ul li a:hover {
   color: $original-logo-color;
+}
+
+#close-nav-btn {
+  display: none;
+}
+
+@media (max-width: 992px) {
+  .nav-full-menu {
+    position: fixed;
+    background-color: whitesmoke;
+    left: 0;
+    top: 0;
+    height: 100vh;
+    min-width: 100%;
+    text-align: center;
+    display: none;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    font-size: 2rem;
+    #close-nav-btn {
+      display: block;
+      position: absolute;
+      top: 28px;
+      right: 15px;
+      color: $original-logo-color;
+      font-size: 2rem;
+    }
+    li {
+      margin-bottom: 1rem;
+    }
+  }
+}
+
+@media (max-width: 600px) {
+  .nav-full-menu {
+    font-size: 1rem;
+  }
+}
+
+.nav-mob {
+}
+
+.fade-in {
+  animation: fade-in 0.8s both;
+}
+
+.fade-out {
+  animation: fade-out 0.8s both;
+}
+
+@keyframes fade-in {
+  0% {
+    opacity: 0;
+  }
+  100% {
+    opacity: 1;
+  }
+}
+
+@keyframes fade-out {
+  0% {
+    opacity: 1;
+  }
+  100% {
+    opacity: 0;
+  }
 }

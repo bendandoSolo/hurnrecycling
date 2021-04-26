@@ -7,7 +7,7 @@ const Services = ({ title }) => {
       <div className="container mt-5 py-5 pb-2">
         {!!title && <h2 className="mb-5">SERVICES</h2>}
         <div className="row">
-          <div className="col-md-6 col-lg-4 mb-4 mb-md-0 pb-2">
+          <div className="col-md-4 mb-4 mb-lg-0 pb-2">
             <div className="card">
               <div className="bg-image">
                 <img
@@ -26,12 +26,12 @@ const Services = ({ title }) => {
                 </p>
                 <hr className="mt-3 mb-4" />
                 <a className="btn btn-success btn stretched-link mb-2 ">
-                  See More <i class="fas fa-arrow-circle-right"></i>
+                  See More <i className="fas fa-arrow-circle-right"></i>
                 </a>
               </div>
             </div>
           </div>
-          <div className="col-md-6 col-lg-4 mb-4 mb-lg-0 pb-2">
+          <div className="col-md-4 mb-4 mb-lg-0 pb-2">
             <div className="card">
               <div className="bg-image">
                 <img
@@ -50,12 +50,12 @@ const Services = ({ title }) => {
                 </p>
                 <hr className="mt-3 mb-4" />
                 <a className="btn btn-success stretched-link mb-2">
-                  See More <i class="fas fa-arrow-circle-right"></i>
+                  See More <i className="fas fa-arrow-circle-right"></i>
                 </a>
               </div>
             </div>
           </div>
-          <div className="col-md-6 col-lg-4 mb-4 mb-lg-0 pb-2">
+          <div className="col-md-4 mb-4 mb-lg-0 pb-2">
             <div className="card">
               <div className="bg-image">
                 <img
@@ -74,14 +74,14 @@ const Services = ({ title }) => {
                 </p>
                 <hr className="mt-3 mb-4" />
                 <a className="btn btn-success stretched-link mb-2">
-                  See More <i class="fas fa-arrow-circle-right"></i>
+                  See More <i className="fas fa-arrow-circle-right"></i>
                 </a>
               </div>
             </div>
           </div>
         </div>
         <div className="row">
-          <div className="col-md-6 col-lg-4 mb-4 mb-md-0 pb-2">
+          <div className="col-md-4 mb-4 mb-lg-0 pb-2">
             <div className="card">
               <div className="bg-image">
                 <img
@@ -100,12 +100,12 @@ const Services = ({ title }) => {
                 </p>
                 <hr className="mt-3 mb-4" />
                 <a className="btn btn-success stretched-link mb-2">
-                  See More <i class="fas fa-arrow-circle-right"></i>
+                  See More <i className="fas fa-arrow-circle-right"></i>
                 </a>
               </div>
             </div>
           </div>
-          <div className="col-md-6 col-lg-4 mb-4 mb-lg-0 pb-2">
+          <div className="col-md-4 mb-4 mb-lg-0 pb-2">
             <div className="card">
               <div className="bg-image">
                 <img
@@ -124,12 +124,12 @@ const Services = ({ title }) => {
                 </p>
                 <hr className="mt-3 mb-4" />
                 <a className="btn btn-success stretched-link mb-2">
-                  See More <i class="fas fa-arrow-circle-right"></i>
+                  See More <i className="fas fa-arrow-circle-right"></i>
                 </a>
               </div>
             </div>
           </div>
-          <div className="col-md-6 col-lg-4 mb-4 mb-lg-0 pb-2">
+          <div className="col-md-4 mb-4 mb-lg-0 pb-2">
             <div className="card">
               <div className="bg-image">
                 <img
@@ -146,14 +146,14 @@ const Services = ({ title }) => {
                 </p>
                 <hr className="mt-3 mb-4" />
                 <a className="btn btn-success stretched-link mb-2">
-                  See More <i class="fas fa-arrow-circle-right"></i>
+                  See More <i className="fas fa-arrow-circle-right"></i>
                 </a>
               </div>
             </div>
           </div>
         </div>
         <div className="row">
-          <div className="col-md-6 col-lg-4 mb-4 mb-md-0 pb-2">
+          <div className="col-md-4 mb-4 mb-lg-0 pb-2">
             <div className="card">
               <div className="bg-image">
                 <img
@@ -172,12 +172,12 @@ const Services = ({ title }) => {
                 </p>
                 <hr className="mt-3 mb-4" />
                 <a className="btn btn-success stretched-link mb-2">
-                  See More <i class="fas fa-arrow-circle-right"></i>
+                  See More <i className="fas fa-arrow-circle-right"></i>
                 </a>
               </div>
             </div>
           </div>
-          <div className="col-md-6 col-lg-4 mb-4 mb-lg-0 pb-2">
+          <div className="col-md-4 mb-4 mb-lg-0 pb-2">
             <div className="card">
               <div className="bg-image">
                 <img
@@ -196,12 +196,12 @@ const Services = ({ title }) => {
                 </p>
                 <hr className="mt-3 mb-4" />
                 <a className="btn btn-success stretched-link mb-2">
-                  See More <i class="fas fa-arrow-circle-right"></i>
+                  See More <i className="fas fa-arrow-circle-right"></i>
                 </a>
               </div>
             </div>
           </div>
-          <div className="col-md-6 col-lg-4 mb-4 mb-lg-0 pb-2">
+          <div className="col-md-4 mb-4 mb-lg-0 pb-2">
             <div className="card">
               <div className="bg-image">
                 <img
@@ -220,7 +220,7 @@ const Services = ({ title }) => {
                 </p>
                 <hr className="mt-3 mb-4" />
                 <a className="btn btn-success stretched-link mb-2">
-                  See More <i class="fas fa-arrow-circle-right"></i>
+                  See More <i className="fas fa-arrow-circle-right"></i>
                 </a>
               </div>
             </div>
