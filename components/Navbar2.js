@@ -3,19 +3,23 @@ import Link from "next/link";
 
 const Navbar2 = () => {
   useEffect(() => {
+    // Get the Nav Buttons
     let navOpenBtn = document.getElementById("open-nav-btn");
     let navCloseBtn = document.getElementById("close-nav-btn");
+    // Get the new Full Nav Menu
     let fullScreenNavMenu = document.getElementById("nav-full-menu");
-    // let navLinks = Array.from(document.querySelectorAll(".nav-link"));
+    // Create a nav state to determine if the navbar has been clicked
     let openNav = false;
+    // If Navbar is opened
     navOpenBtn.addEventListener("click", () => {
       openNav = true;
       fullScreenNavMenu.classList.add("nav-mob");
       if (openNav) {
         fullScreenNavMenu.style.cssText =
-          "display: flex; animation: fade-in 0.3s both;";
+          "display: flex; animation: fade-in 0.5s both;";
       }
     });
+    // If Navbar is closed
     navCloseBtn.addEventListener("click", () => {
       openNav = false;
       fullScreenNavMenu.classList.remove("nav-mob");

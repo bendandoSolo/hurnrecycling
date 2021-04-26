@@ -102,6 +102,7 @@ a {
 
 nav img {
   width: 200px;
+  cursor: pointer;
 }
 
 // Header Component
@@ -225,14 +226,6 @@ form {
 }
 
 .nav-mob {
-}
-
-.fade-in {
-  animation: fade-in 0.8s both;
-}
-
-.fade-out {
-  animation: fade-out 0.8s both;
 }
 
 @keyframes fade-in {
