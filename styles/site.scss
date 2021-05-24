@@ -2,6 +2,8 @@
 @import "buttons";
 
 @import url("https://fonts.googleapis.com/css2?family=Exo:wght@300;400;700&display=swap");
+@import url("https://fonts.googleapis.com/css2?family=Roboto:wght@300;400;500&display=swap");
+
 
 html,
 body {
@@ -9,7 +11,8 @@ body {
   margin: 0;
   // font-family: -apple-system, BlinkMacSystemFont, Segoe UI, Roboto, Oxygen,
   //   Ubuntu, Cantarell, Fira Sans, Droid Sans, Helvetica Neue, sans-serif;
-  font-family: "Exo", sans-serif;
+ font-family: "Exo", sans-serif;
+ font-family: "Roboto", sans-serif;
 }
 
 a {
