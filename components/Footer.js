@@ -6,8 +6,8 @@ const Footer = () => {
     <footer className="text-lg-start">
       <div className="container p-4">
         <div className="row">
-          <div className="col-lg-3 col-md-6 mb-4 mb-md-0">
-            <h5 className="text-uppercase">Links</h5>
+          <div className="col-lg-4 col-md-6 mb-4 mb-md-0">
+            <h5 className="text-uppercase mb-4">Menu</h5>
 
             <ul className="list-unstyled mb-0">
               <li>
@@ -27,8 +27,8 @@ const Footer = () => {
               </li>
             </ul>
           </div>
-          <div className="col-lg-3 col-md-6 mb-4 mb-md-0">
-            <h5 className="text-uppercase">Services</h5>
+          <div className="col-lg-4 col-md-6 mb-4 mb-md-0">
+            <h5 className="text-uppercase mb-4">Services</h5>
             <ul className="list-unstyled mb-0">
               <li>
                 <Link href="/">Office Paper</Link>
@@ -56,8 +56,8 @@ const Footer = () => {
               </li>
             </ul>
           </div>
-          <div className="col-lg-3 col-md-6 mb-4 mb-md-0">
-            <h5 className="text-uppercase">Contact</h5>
+          <div className="col-lg-4 col-md-6 mb-4 mb-md-0">
+            <h5 className="text-uppercase mb-4">Contact</h5>
             <ul className="list-unstyled mb-0">
               <li>Hurn Recycling Ltd</li>
               <li>The Salterns, 2 Sandy Close</li>
@@ -75,9 +75,8 @@ const Footer = () => {
                 </a>
               </li>
               <li>
-                <a href="#!">
-                  Follow us on Facebook
-                  <i className="fab fa-facebook-square"></i>
+                <a href="https://www.facebook.com/Hurnrecycling" target="_blank" alt="Hurne Recycling Facebook Page">
+                   <img src="/images/facebook.png" className="hover" style={{width: '32px', height: '32px', marginTop: '6px'}}/>
                 </a>
               </li>
             </ul>
@@ -85,9 +84,8 @@ const Footer = () => {
           <div className="col-lg-3 col-md-6 mb-4 mb-md-0"></div>
         </div>
       </div>
-      <div className="text-center p-3 copyright">
-        © 2021 Copyright:
-        <a href="https://mdbootstrap.com/"> bendando ltd</a>
+      <div className="text-center p-3 ">
+        <a href="https://bendando.com" target="_blank" alt="bendando website creaters" className="hover"> created by Bendando</a>
       </div>
     </footer>
   );
