@@ -4,7 +4,7 @@ import Link from "next/link";
 const ServicesCard = ({ title, text, imageURL, url }) => {
   return (
     <>
-      <div className="col-lg-2 mb-4 mb-lg-0 pb-2">
+      <div className="col-lg-2 mb-4 mb-lg-0 pb-2 service-card">
         <div className="card mx-2">
           <div className="bg-image">
             <img

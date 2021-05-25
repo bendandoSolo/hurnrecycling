@@ -1,5 +1,6 @@
 import React from "react";
 import Header from "../components/Header";
+import Link from "next/link";
 
 const generalWaste = () => {
   return (
@@ -37,12 +38,14 @@ const generalWaste = () => {
                 To find out more, call free on 01202 257 530 or Request a
                 Callback.
               </p>
-              <button
-                className="btn btn-lg btn-success text-center mb-4"
-                id="green-btn"
-              >
-                Get A Quote
-              </button>
+              <Link href="/contact">
+                <button
+                  className="btn btn-lg btn-success text-center mb-4"
+                  id="green-btn"
+                >
+                  Get A Quote
+                </button>
+              </Link>
             </div>
           </div>
         </div>

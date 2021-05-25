@@ -2,8 +2,19 @@ import React from "react";
 import Link from "next/link";
 
 import ServicesCard from "./ServicesCard";
+import { useEffect, useState } from "react";
 
 const Services = ({ title }) => {
+  const [serviceHeight, setServiceHeight] = useState(0);
+  useEffect(() => {
+    let serviceBoxArr = Array.from(document.querySelectorAll(".service-card"));
+    serviceBoxArr.map((box) => {
+      if (box.offsetHeight > serviceHeight) {
+        setServiceHeight(box.offsetHeight);
+      }
+    });
+  }, []);
+
   return (
     <section className="text-center">
       <div className=" mt-5 py-5 pb-2">

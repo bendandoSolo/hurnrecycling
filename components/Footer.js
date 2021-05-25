@@ -31,28 +31,34 @@ const Footer = () => {
             <h5 className="text-uppercase mb-4">Services</h5>
             <ul className="list-unstyled mb-0">
               <li>
-                <Link href="/">Office Paper</Link>
+                <Link href="/municipal-waste">Municipal Waste</Link>
               </li>
               <li>
-                <Link href="/">Cardboard & Packaging</Link>
+                <Link href="/dry-mixed">Dry Mixed Recycling</Link>
               </li>
               <li>
-                <Link href="/">Plastic Bottles & Cans</Link>
+                <Link href="/glass">Glass</Link>
               </li>
               <li>
-                <Link href="/">Confidential Waste</Link>
+                <Link href="/office-paper">Office Paper Recycling</Link>
               </li>
               <li>
-                <Link href="/">Electrical Equipment</Link>
+                <Link href="/bottle-cans">Plastic Bottles & Cans</Link>
               </li>
               <li>
-                <Link href="/">General Waste</Link>
+                <Link href="/card-packaging">Cardboard & Packaging</Link>
               </li>
               <li>
-                <Link href="/">Glass</Link>
+                <Link href="/confidential-waste">Confidential Waste</Link>
               </li>
               <li>
-                <Link href="/">Office Furniture</Link>
+                <Link href="/electrical">Electrical Equipment</Link>
+              </li>
+              <li>
+                <Link href="/office-furniture">Office Furniture</Link>
+              </li>
+              <li>
+                <Link href="/general-waste">General Waste Disposal</Link>
               </li>
             </ul>
           </div>
@@ -75,8 +81,16 @@ const Footer = () => {
                 </a>
               </li>
               <li>
-                <a href="https://www.facebook.com/Hurnrecycling" target="_blank" alt="Hurne Recycling Facebook Page">
-                   <img src="/images/facebook.png" className="hover" style={{width: '32px', height: '32px', marginTop: '6px'}}/>
+                <a
+                  href="https://www.facebook.com/Hurnrecycling"
+                  target="_blank"
+                  alt="Hurne Recycling Facebook Page"
+                >
+                  <img
+                    src="/images/facebook.png"
+                    className="hover"
+                    style={{ width: "32px", height: "32px", marginTop: "6px" }}
+                  />
                 </a>
               </li>
             </ul>
@@ -85,7 +99,15 @@ const Footer = () => {
         </div>
       </div>
       <div className="text-center p-3 ">
-        <a href="https://bendando.com" target="_blank" alt="bendando website creaters" className="hover"> created by Bendando</a>
+        <a
+          href="https://bendando.com"
+          target="_blank"
+          alt="bendando website creaters"
+          className="hover"
+        >
+          {" "}
+          created by Bendando
+        </a>
       </div>
     </footer>
   );

@@ -1,5 +1,6 @@
 import React from "react";
 import Header from "../components/Header";
+import Link from "next/link";
 
 const officePaper = () => {
   return (
@@ -48,12 +49,14 @@ const officePaper = () => {
                 To find out more, call free on 01202 257 530 for a Free
                 Recycling Audit.
               </p>
-              <button
-                className="btn btn-lg btn-success text-center mb-4"
-                id="green-btn"
-              >
-                Get A Quote
-              </button>
+              <Link href="/contact">
+                <button
+                  className="btn btn-lg btn-success text-center mb-4"
+                  id="green-btn"
+                >
+                  Get A Quote
+                </button>
+              </Link>
             </div>
           </div>
         </div>
