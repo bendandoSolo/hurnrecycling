@@ -1,7 +1,7 @@
 import React from "react";
 import Link from "next/link";
 
-const ServicesCard = ({ title, text, imageURL }) => {
+const ServicesCard = ({ title, text, imageURL, url }) => {
   return (
     <>
       <div className="col-lg-2 mb-4 mb-lg-0 pb-2">
@@ -19,7 +19,7 @@ const ServicesCard = ({ title, text, imageURL }) => {
             <h5 className="card-title text-center ">{title}</h5>
             <p className="small">{text}</p>
             {/*<hr className="mt-3 mb-4" />*/}
-            <a className="btn btn-success stretched-link mb-3 ">
+            <a className="btn btn-success stretched-link mb-3" href={url}>
               See More <i className="fas fa-arrow-circle-right"></i>
             </a>
           </div>
