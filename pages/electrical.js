@@ -10,7 +10,7 @@ const electrical = () => {
         <div className="container mt-5 py-5 pb-2">
           <h2 className="mb-5 text-center">ELECTRICAL EQUIPMENT</h2>
           <div className="row mb-4">
-            <div className="col-lg-6 mb-4 mb-lg-0 pb-2 pb-lg-0 pb-xl-2">
+            <div className="col-lg-6 mb-4 mb-lg-0 pb-2 pb-lg-0 pb-xl-2 mt-5">
               <img
                 src="/images/it-disposal.png"
                 className="img-fluid"
@@ -22,7 +22,7 @@ const electrical = () => {
                 alt="Sample image"
               />
             </div>
-            <div className="col-lg-6">
+            <div className="col-lg-6 mt-5">
               <h4 className="mb-4">
                 <strong>IT and Electrical Equipment</strong>
               </h4>
