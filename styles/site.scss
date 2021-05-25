@@ -231,7 +231,14 @@ form {
   }
 }
 
-.nav-mob {
+.dropdown-menu {
+  background-color: rgba(0, 80, 24, 1);
+  .dropdown-item {
+    color: whitesmoke;
+    &:hover {
+      background-color: #50b849;
+    }
+  }
 }
 
 @keyframes fade-in {

@@ -5,7 +5,6 @@ const electrical = () => {
   return (
     <>
       <Header text="Electrical Equipment" smallText="Recycling Service" />
-
       <section>
         <div className="container mt-5 py-5 pb-2">
           <h2 className="mb-5 text-center">ELECTRICAL EQUIPMENT</h2>

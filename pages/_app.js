@@ -7,6 +7,7 @@ import Head from "next/head";
 
 import Navbar from "../components/Navbar";
 import Navbar2 from "../components/Navbar2";
+import Navbar3 from "../components/Navbar3";
 import NavbarAnimated from "../components/NavbarAnimated";
 import NavbarAnimated2 from "../components/NavbarAnimated2";
 import Footer from "../components/Footer";

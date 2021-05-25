@@ -101,49 +101,58 @@ const Navbar2 = () => {
                 </a>
                 <ul className="dropdown-menu">
                   <li>
-                    <a className="dropdown-item" href="#">
-                      Office Recycling
-                    </a>
+                    <Link href="/municipal-waste">
+                      <a className="dropdown-item">Municipal Waste</a>
+                    </Link>
                   </li>
                   <li>
-                    <a className="dropdown-item" href="#">
-                      Plastic Bottles & Cans
-                    </a>
+                    <Link href="/dry-mixed">
+                      <a className="dropdown-item">Dry Mixed Recycling</a>
+                    </Link>
                   </li>
                   <li>
-                    <a className="dropdown-item" href="#">
-                      Cardboard & Packaging Recycling
-                    </a>
+                    <Link href="/glass">
+                      <a className="dropdown-item">Glass</a>
+                    </Link>
                   </li>
                   <li>
-                    <a className="dropdown-item" href="#">
-                      Confidential Waste
-                    </a>
+                    <Link href="/office-paper">
+                      <a className="dropdown-item">Office Paper Recycling</a>
+                    </Link>
                   </li>
                   <li>
-                    <a className="dropdown-item" href="/electrical">
-                      Electrical Equipment Disposal
-                    </a>
+                    <Link href="/bottle-cans">
+                      <a className="dropdown-item">Plastic Bottles & Cans</a>
+                    </Link>
                   </li>
                   <li>
-                    <a className="dropdown-item" href="#">
-                      Glass
-                    </a>
+                    <Link href="/card-packaging">
+                      <a className="dropdown-item">
+                        Cardboard & Packaging Recycling
+                      </a>
+                    </Link>
                   </li>
                   <li>
-                    <a className="dropdown-item" href="#">
-                      Office Furniture
-                    </a>
+                    <Link href="/confidential-waste">
+                      <a className="dropdown-item">Confidential Waste</a>
+                    </Link>
                   </li>
                   <li>
-                    <a className="dropdown-item" href="#">
-                      General Waste Disposal
-                    </a>
+                    <Link href="/electrical">
+                      <a className="dropdown-item">
+                        Electrical Equipment Disposal
+                      </a>
+                    </Link>
                   </li>
                   <li>
-                    <a className="dropdown-item" href="#">
-                      Cardboard & Packaging Recycling
-                    </a>
+                    <Link href="/office-furniture">
+                      <a className="dropdown-item">Office Furniture</a>
+                    </Link>
+                  </li>
+                  <li>
+                    <Link href="/general-waste">
+                      <a className="dropdown-item">General Waste Disposal</a>
+                    </Link>
                   </li>
                 </ul>
               </li>
