@@ -13,12 +13,22 @@ const Header = ({ background, text, smallText, button }) => {
           <div className="mask">
             <div className="d-flex justify-content-center align-items-center h-100 ">
               <div>
-                <h1 className="display-1" /*mb-4*/ style={{marginBottom: '36px'}}><strong>{text}</strong></h1>
+                <h1
+                  className="display-1"
+                  style={{
+                    marginBottom: "36px",
+                  }}
+                >
+                  <strong>{text}</strong>
+                </h1>
                 {/* <hr className="my-4" /> */}
-                <h4 className="font-weight-light mb-4">{smallText}</h4>
+                <h4 className="font-weight-light mb-4 px-2">{smallText}</h4>
                 {!!button && (
                   <Link href="/contact">
-                    <button className="btn btn-lg btn-success mt-2" id="green-btn">
+                    <button
+                      className="btn btn-lg btn-success mt-2"
+                      id="green-btn"
+                    >
                       Get A Quote
                     </button>
                   </Link>

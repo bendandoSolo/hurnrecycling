@@ -198,10 +198,15 @@ form {
   display: none;
 }
 
+.navbar {
+  z-index: 1000;
+}
+
 @media (max-width: 992px) {
   .nav-full-menu {
     position: fixed;
-    background-color: whitesmoke;
+    z-index: -1;
+    background-color: rgba(0, 80, 24, 1);
     display: flex;
     right: -100%;
     top: 0;
@@ -212,7 +217,7 @@ form {
     align-items: center;
     justify-content: center;
     transition: 0.5s;
-    font-size: 2rem;
+    font-size: 20px;
     #close-nav-btn {
       display: block;
       position: absolute;
@@ -222,7 +227,7 @@ form {
       font-size: 2rem;
     }
     li {
-      margin-bottom: 1rem;
+      margin-bottom: 2rem;
     }
   }
   .nav-full-menu.active {
@@ -236,6 +241,9 @@ form {
   .dropdown-item {
     color: whitesmoke;
     &:hover {
+      background-color: #50b849;
+    }
+    &:focus {
       background-color: #50b849;
     }
   }

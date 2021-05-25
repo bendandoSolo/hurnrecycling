@@ -9,31 +9,6 @@ const Navbar2 = () => {
   }
 
   useEffect(() => {
-    // // Get the Nav Buttons
-    // let navOpenBtn = document.getElementById("open-nav-btn");
-    // let navCloseBtn = document.getElementById("close-nav-btn");
-    // // Get the new Full Nav Menu
-    // let fullScreenNavMenu = document.getElementById("nav-full-menu");
-    // // Create a nav state to determine if the navbar has been clicked
-    // let openNav = false;
-    // // If Navbar is opened
-    // navOpenBtn.addEventListener("click", () => {
-    //   openNav = true;
-    //   fullScreenNavMenu.classList.add("nav-mob");
-    //   if (openNav) {
-    //     fullScreenNavMenu.style.cssText =
-    //       "display: flex; animation: fade-in 0.5s both;";
-    //   }
-    // });
-    // // If Navbar is closed
-    // navCloseBtn.addEventListener("click", () => {
-    //   openNav = false;
-    //   fullScreenNavMenu.classList.remove("nav-mob");
-    //   if (!openNav) {
-    //     fullScreenNavMenu.style.cssText = "display: none;";
-    //   }
-    // });
-
     const handleScroll = () => {
       const currentScrollY = window.scrollY;
       // console.log(currentScrollY);
@@ -54,10 +29,7 @@ const Navbar2 = () => {
       <nav className="navbar navbar-expand-lg navbar-dark fixed-top scrolling-navbar">
         <div className="container">
           <Link href="/">
-            <img
-              src="\images\logo-transparent.png" /*style={{width: "100%", height: "50vh"}}*/
-            ></img>
-            {/* <a className="navbar-brand" href="#">Hurn Recycling Logo</a> */}
+            <img src="\images\logo-transparent.png"></img>
           </Link>
 
           <button
@@ -71,19 +43,13 @@ const Navbar2 = () => {
             aria-label="Toggle navigation"
             id="open-nav-btn"
           >
-            <i className="fas fa-bars"></i>
-            <i className="far fa-window-close" id="close-nav-btn"></i>
+            <i className={navToggle ? "fas fa-times" : "fas fa-bars"}></i>
           </button>
 
           <div
             className={navToggle ? "nav-full-menu active" : "nav-full-menu"}
             id="nav-full-menu"
           >
-            <i
-              onClick={navStatus}
-              className="far fa-window-close"
-              id="close-nav-btn"
-            ></i>
             <ul className="navbar-nav mb-2 mb-lg-0">
               <li className="nav-item">
                 <a className="nav-link" href="/">
@@ -109,11 +75,11 @@ const Navbar2 = () => {
                     <Link href="/dry-mixed">
                       <a className="dropdown-item">Dry Mixed Recycling</a>
                     </Link>
-                  </li>
-                  <li>
-                    <Link href="/glass">
-                      <a className="dropdown-item">Glass</a>
-                    </Link>
+                    <li>
+                      <Link href="/glass">
+                        <a className="dropdown-item">Glass</a>
+                      </Link>
+                    </li>
                   </li>
                   <li>
                     <Link href="/office-paper">

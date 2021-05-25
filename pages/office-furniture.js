@@ -4,17 +4,12 @@ import Header from "../components/Header";
 const officeFurniture = () => {
   return (
     <>
-      <Header text="OFFICE FURNITURE" smallText="Recycling Service" />
+      <Header text="Office Furniture" smallText="Recycling Service" />
       <section>
-        <div className="container mt-5 py-5 pb-2">
+        <div className="container mt-5 py-5">
           <h2 className="mb-5 text-center">OFFICE FURNITURE RECYCLING</h2>
           <div className="row mb-4">
             <div className="col-lg-6 mb-4 mb-lg-0 pb-2 pb-lg-0 pb-xl-2 mt-5">
-              <img
-                src="/images/it-disposal.png"
-                className="img-fluid"
-                alt="Sample image"
-              />
               <img
                 src="/images/it-disposal.png"
                 className="img-fluid"
