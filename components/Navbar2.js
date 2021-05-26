@@ -75,11 +75,11 @@ const Navbar2 = () => {
                     <Link href="/dry-mixed">
                       <a className="dropdown-item">Dry Mixed Recycling</a>
                     </Link>
-                    <li>
-                      <Link href="/glass">
-                        <a className="dropdown-item">Glass</a>
-                      </Link>
-                    </li>
+                  </li>
+                  <li>
+                    <Link href="/glass">
+                      <a className="dropdown-item">Glass</a>
+                    </Link>
                   </li>
                   <li>
                     <Link href="/office-paper">
