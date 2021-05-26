@@ -143,7 +143,7 @@ const Navbar2 = () => {
               >
                 <a href="tel:+14123815500">
                   <button type="button" className="btn btn-success btn-lg">
-                    CALL 01202 257 530 <i className="fas fa-phone"></i>
+                    CALL 01202 257 530 <i className="fas fa-phone ps-2"></i>
                   </button>
                 </a>
               </li>

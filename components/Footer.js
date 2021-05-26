@@ -98,14 +98,14 @@ const Footer = () => {
           <div className="col-lg-3 col-md-6 mb-4 mb-md-0"></div>
         </div>
       </div>
-      <div className="text-center p-3 ">
+      <div className="text-center p-1">
         <a
           href="https://bendando.com"
           target="_blank"
           alt="bendando website creaters"
           className="hover"
+          style={{fontSize: '12px'}}
         >
-          {" "}
           created by Bendando
         </a>
       </div>

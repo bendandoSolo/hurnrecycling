@@ -1,25 +1,24 @@
-import React from "react";
-import Link from "next/link";
+import React , {useEffect} from "react";
 
 import ServicesCard from "./ServicesCard";
-import { useEffect, useState } from "react";
 
-const Services = ({ title }) => {
-  const [serviceHeight, setServiceHeight] = useState(0);
+const Services = () => {
   useEffect(() => {
-    let serviceBoxArr = Array.from(document.querySelectorAll(".service-card"));
-    serviceBoxArr.map((box) => {
-      if (box.offsetHeight > serviceHeight) {
-        setServiceHeight(box.offsetHeight);
-      }
+    let serviceBoxArr = document.querySelectorAll(".card-body-text")
+    let largestBoxHeight = 0;
+    serviceBoxArr.forEach(function (element) {
+      largestBoxHeight = Math.max(largestBoxHeight, element.offsetHeight);
+    });
+    serviceBoxArr.forEach(function (value) {
+      value.style.height = largestBoxHeight +'px';
     });
   }, []);
 
   return (
     <section className="text-center">
       <div className="mt-5 py-5 pb-2">
-        {!!title && <h2 className="mb-5">SERVICES</h2>}
-        <div className="">
+        <h2 className="mb-5">SERVICES</h2>
+
           <div className="row justify-content-center">
             <ServicesCard
               title={"Municipal Waste"}
@@ -103,7 +102,7 @@ const Services = ({ title }) => {
             />
           </div>
         </div>
-      </div>
+
     </section>
   );
 };
