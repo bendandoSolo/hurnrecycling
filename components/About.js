@@ -6,7 +6,7 @@ const About = () => {
       <div className="container my-5 p-5 mt-0 shadow-5">
         <h2 className="text-center mb-5">ABOUT</h2>
         <div className="row flex-row-reverse mb-4">
-          <div className="col-lg-6 mb-4 mb-lg-0 pb-2 pb-lg-0 pb-xl-2">
+          <div className="col-lg-6 mb-4 px-3 mb-lg-0 pb-2 pb-lg-0 pb-xl-2">
             <img
               src="/images/lorry-hurn.jpg"
               className="img-fluid"
@@ -39,7 +39,7 @@ const About = () => {
           </div>
         </div>
         <div className="row align-items-center">
-          <div className="col-lg-6 mb-4 mb-lg-0 pb-2 pb-lg-0 pb-xl-2">
+          <div className="col-lg-6 mb-4 px-3 mb-lg-0 pb-2 pb-lg-0 pb-xl-2">
             <img
               src="/images/card.png"
               className="img-fluid"

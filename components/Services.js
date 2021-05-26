@@ -17,7 +17,7 @@ const Services = ({ title }) => {
 
   return (
     <section className="text-center">
-      <div className=" mt-5 py-5 pb-2">
+      <div className="mt-5 py-5 pb-2">
         {!!title && <h2 className="mb-5">SERVICES</h2>}
         <div className="">
           <div className="row justify-content-center">

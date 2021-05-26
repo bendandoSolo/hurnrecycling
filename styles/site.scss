@@ -217,7 +217,7 @@ form {
     align-items: center;
     justify-content: center;
     transition: 0.5s;
-    font-size: 20px;
+    font-size: 16px;
     #close-nav-btn {
       display: block;
       position: absolute;
@@ -227,7 +227,7 @@ form {
       font-size: 2rem;
     }
     li {
-      margin-bottom: 2rem;
+      margin-bottom: 12px;
     }
   }
   .nav-full-menu.active {
@@ -246,6 +246,34 @@ form {
     &:focus {
       background-color: #50b849;
     }
+  }
+}
+
+@media screen and (max-width: 992px) {
+  .navbar-nav {
+    .dropdown-menu {
+      background-color: transparent;
+      display: block !important;
+      position: relative;
+      top: 0;
+      text-align: center;
+      box-shadow: none;
+      margin-bottom: 0;
+      .dropdown-item {
+        padding: 0;
+      }
+    }
+    .nav-full-menu {
+      li {
+        margin-bottom: 0;
+      }
+    }
+  }
+
+  .dropdown-menu {
+    background-color: transparent;
+    display: block !important;
+    position: relative;
   }
 }
 

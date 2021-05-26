@@ -141,9 +141,11 @@ const Navbar2 = () => {
                 className="nav-item"
                 style={{ marginLeft: "20px", marginTop: "1px" }}
               >
-                <button type="button" className="btn btn-success btn-lg">
-                  CALL 01202 257 530 <i className="fas fa-phone"></i>
-                </button>
+                <a href="tel:+14123815500">
+                  <button type="button" className="btn btn-success btn-lg">
+                    CALL 01202 257 530 <i className="fas fa-phone"></i>
+                  </button>
+                </a>
               </li>
             </ul>
           </div>
