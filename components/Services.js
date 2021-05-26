@@ -23,14 +23,14 @@ const Services = ({ title }) => {
           <div className="row justify-content-center">
             <ServicesCard
               title={"Municipal Waste"}
-              text={"Wheelie Bin Collections"}
+              text={"Wheelie Bin Collections AWAITING TEXT"}
               imageURL={"/images/services/electrical.jpg"}
               url="/municipal-waste"
             />
             <ServicesCard
               title={"Dry Mixed Recycling"}
               text={
-                "Recycle all of your Cardboard & Packaging with easy and cost effective recycling solutions for your business."
+                " AWAITING TEXT"
               }
               imageURL={"/images/services/office-recycle-2.jpg"}
               url="/dry-mixed"
