@@ -16,11 +16,13 @@ const ServicesCard = ({ title, text, imageURL, url }) => {
             />
           </div>
           <div className="card-body">
+            <div className="card-body-text mb-3">
             <h5 className="card-title text-center ">{title}</h5>
             <p className="small">{text}</p>
             {/*<hr className="mt-3 mb-4" />*/}
-            <a className="btn btn-success stretched-link mb-3" href={url}>
-              See More <i className="fas fa-arrow-circle-right"></i>
+            </div>
+            <a className="btn btn-success stretched-link mb-2" style={{fontSize: '13px'}} href={url}>
+              See More <i style={{marginLeft: '5px'}}className="fas fa-arrow-circle-right "></i>
             </a>
           </div>
         </div>
