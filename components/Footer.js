@@ -65,10 +65,13 @@ const Footer = () => {
           <div className="col-lg-4 col-md-6 mb-4 mb-md-0">
             <h5 className="text-uppercase mb-4">Contact</h5>
             <ul className="list-unstyled mb-0">
-              <li>Hurn Recycling Ltd</li>
-              <li>The Salterns, 2 Sandy Close</li>
-              <li>Poole</li>
-              <li>Dorset</li>
+            <li>Hurn Recycling Ltd</li>
+                <li>Unit 10-11</li>
+                <li>Stepnell Reach</li>
+                <li>541 Blandford Road</li>
+                <li>Poole</li>
+                <li>Dorset</li>
+                <li>BH16 5BW</li>
               <hr />
               <li>
                 <a href="#!">

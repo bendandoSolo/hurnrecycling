@@ -17,9 +17,12 @@ const contact = () => {
             <div className="lead contact">
               <ul className="list-unstyled my-4">
                 <li>Hurn Recycling Ltd</li>
-                <li>The Salterns, 2 Sandy Close</li>
+                <li>Unit 10-11</li>
+                <li>Stepnell Reach</li>
+                <li>541 Blandford Road</li>
                 <li>Poole</li>
                 <li>Dorset</li>
+                <li>BH16 5BW</li>
                 <hr />
                 <li>
                   <a href="#!">
