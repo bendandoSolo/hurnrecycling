@@ -2,13 +2,13 @@ import React from "react";
 import Header from "../components/Header";
 import Link from "next/link";
 
-const generalWaste = () => {
+const eventWasteManagement = () => {
   return (
     <>
-      <Header text="General Waste Disposal" smallText="Recycling Service" />
+      <Header text="Event Waste Mangage" smallText="Recycling Service" />
       <section>
         <div className="container mt-5 py-5">
-          <h2 className="mb-5 text-center">GENERAL WASTE DISPOSAL</h2>
+        <h2 className="mb-5 text-center">EVENT WASTE MANAGEMENT</h2>
           <div className="row mb-4">
             <div className="col-lg-6 mb-4 mb-lg-0 pb-2 pb-lg-0 pb-xl-2 mt-5">
               <img
@@ -20,19 +20,15 @@ const generalWaste = () => {
             <div className="col-lg-6 mt-5">
               <h4 className="mb-4">
                 <strong>
-                  Try as we might, not everything can be recycled.
+                  Lorem ipsum dolor sit amet, consectetur adipiscing elit.
+                  Nullam nec diam eu turpis faucibus dictum vitae in ante.
                 </strong>
               </h4>
               <p className="lead mb-4 pb-1">
-                Being able to provide you with a total waste management service
-                means that at Hurn Recycling we can remove all the waste your
-                business can produce, including general rubbish, polystyrene
-                packaging and food waste.
-              </p>
-              <p className="lead mb-4 pb-1">
-                Catering for any size business is what we do best and we have a
-                range of bin sizes – 240, 360, 660 and 1100 litre containers are
-                all available for you to fill and us to remove.
+                Curabitur mattis rhoncus dui, sed lacinia nulla feugiat non.
+                Nullam ultricies quam iaculis arcu interdum vulputate.
+                Pellentesque eu mollis purus. Integer eu tempus nisl. Nam et
+                suscipit odio. Maecenas fermentum sem quis dictum semper..
               </p>
               <p className="lead mb-4 pb-1">
                 To find out more, call free on 01202 257 530 or Request a
@@ -54,4 +50,4 @@ const generalWaste = () => {
   );
 };
 
-export default generalWaste;
+export default eventWasteManagement;

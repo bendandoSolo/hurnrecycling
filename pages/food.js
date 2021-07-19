@@ -2,13 +2,13 @@ import React from "react";
 import Header from "../components/Header";
 import Link from "next/link";
 
-const officeFurniture = () => {
+const food = () => {
   return (
     <>
-      <Header text="Office Furniture" smallText="Recycling Service" />
+      <Header text="General Waste Disposal" smallText="Recycling Service" />
       <section>
         <div className="container mt-5 py-5">
-          <h2 className="mb-5 text-center">OFFICE FURNITURE RECYCLING</h2>
+          <h2 className="mb-5 text-center">FOOD</h2>
           <div className="row mb-4">
             <div className="col-lg-6 mb-4 mb-lg-0 pb-2 pb-lg-0 pb-xl-2 mt-5">
               <img
@@ -20,18 +20,15 @@ const officeFurniture = () => {
             <div className="col-lg-6 mt-5">
               <h4 className="mb-4">
                 <strong>
-                  Whether it’s a complete office refurbishment or the collection
-                  of a single broken chair Hurn Recycling can help. Even the
-                  largest of office equipment can be collected and recycled,
-                  including desks, computer tables, and the most luxurious
-                  office swivel chairs.
+                  Lorem ipsum dolor sit amet, consectetur adipiscing elit.
+                  Nullam nec diam eu turpis faucibus dictum vitae in ante.
                 </strong>
               </h4>
               <p className="lead mb-4 pb-1">
-                Electrical equipment is also recyclable and can be collected.
-                All computer systems, monitors and peripherals, including toner
-                and printer cartridges, can be collected and recycled. We will
-                also remove and recycle all white and brown goods.
+                Curabitur mattis rhoncus dui, sed lacinia nulla feugiat non.
+                Nullam ultricies quam iaculis arcu interdum vulputate.
+                Pellentesque eu mollis purus. Integer eu tempus nisl. Nam et
+                suscipit odio. Maecenas fermentum sem quis dictum semper..
               </p>
               <p className="lead mb-4 pb-1">
                 To find out more, call free on 01202 257 530 or Request a
@@ -53,4 +50,4 @@ const officeFurniture = () => {
   );
 };
 
-export default officeFurniture;
+export default food;

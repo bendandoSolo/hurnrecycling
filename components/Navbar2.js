@@ -29,7 +29,7 @@ const Navbar2 = () => {
       <nav className="navbar navbar-expand-lg navbar-dark fixed-top scrolling-navbar">
         <div className="container">
           <Link href="/">
-            <img src="\images\logo-transparent.png"></img>
+            <img src="\images\logo.png"></img>
           </Link>
 
           <button
@@ -123,10 +123,15 @@ const Navbar2 = () => {
                 </ul>
               </li>
               <li className="nav-item">
+                <a className="nav-link" href="/about">
+                  About
+                </a>
+              </li>
+              {/* <li className="nav-item">
                 <a className="nav-link" href="/clients">
                   Clients
                 </a>
-              </li>
+              </li> */}
               <li className="nav-item">
                 <a className="nav-link" href="/environment">
                   Environment

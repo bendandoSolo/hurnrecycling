@@ -21,7 +21,7 @@ export default function Home() {
       />
       <main>
         <Services title />
-        <About />
+        {/* <About /> */}
         <Clients button />
       </main>
     </div>

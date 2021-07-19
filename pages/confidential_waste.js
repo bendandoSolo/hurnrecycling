@@ -6,7 +6,7 @@ const confidentialWaste = () => {
   return (
     <>
       <Header
-        text="Confidential Waste Disposal"
+        text="Confidential Waste Collection"
         smallText="Recycling Service"
       />
       <section>

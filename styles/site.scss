@@ -28,6 +28,11 @@ a {
   opacity: 0.7;
 }
 
+
+
+h2{
+  margin-top: 2rem!important;
+}
 /*Navbar */
 
 /*hover drop down*/
@@ -54,27 +59,27 @@ a {
 
 @media (min-width: 600px) {
   .navbar.scrolling-navbar {
-    padding-top: 12px;
-    padding-bottom: 12px;
+    padding-top: 6px;
+    padding-bottom: 6px;
     transition: background 0.5s ease-in-out, padding 0.5s ease-in-out;
   }
 }
 
 .navbar {
-  background-color: rgba(0, 0, 0, 0.2);
+  background-color: white;//rgba(0, 0, 0, 0.2);
 }
 
 @media (min-width: 600px) {
   .navbar.scrolling-navbar.top-nav-collapse {
-    padding-top: 5px;
-    padding-bottom: 5px;
+    padding-top: 0px;
+    padding-bottom: 0px;
   }
 }
 
 @media (min-width: 600px) {
   .navbar.scrolling-navbar {
-    padding-top: 12px;
-    padding-bottom: 12px;
+    padding-top: 6px;
+    padding-bottom: 6px;
     transition: background 0.5s ease-in-out, padding 0.5s ease-in-out;
   }
 }
@@ -135,7 +140,6 @@ header {
 }
 
 // Footer Component
-
 footer {
   background-color: rgba(0, 80, 24, 1);
   hr {
@@ -164,7 +168,8 @@ footer {
 }
 
 .mask {
-  background-color: rgba(0, 80, 24, 0.8);
+  background-color: rgba(10,49,16, 0.5);
+  //background-color: rgba(0, 80, 24, 0.8);
 }
 
 .card {
@@ -237,15 +242,19 @@ form {
 }
 
 .dropdown-menu {
-  background-color: rgba(0, 80, 24, 1);
+  background-color: white;//rgba(0, 80, 24, 1);
+  border-radius: 0 !important;
+  //BORDER RADIUS TOP A
   .dropdown-item {
-    color: whitesmoke;
-    &:hover {
-      background-color: #50b849;
-    }
-    &:focus {
-      background-color: #50b849;
-    }
+    color: $original-logo-color;
+    border-radius: 0 !important;
+    //  &:hover {
+        
+    //    //background-color: #50b849;
+    //  }
+    //  &:focus {
+    //    //background-color: #50b849;
+    //  }
   }
 }
 
@@ -299,3 +308,53 @@ form {
     text-align: center;
   }
 }
+
+
+//service cards 
+.flex-service-card{
+  width: 19vw;
+}
+
+@media screen and (max-width: 1200px) {
+  .flex-service-card{
+    display: none;
+  }
+}
+
+@media screen and (min-width: 1200px) {
+  .primary-large-service-card, .primary-services-row2
+  {
+    display: none;
+  }
+
+}
+// @media screen and (max-width: 1200px) {
+//   .primary-services-row2
+//   {
+//     display: none;
+//   }
+// }
+
+// .primary-services-row2{
+//  display: none;
+// }
+
+
+.primary-large-service-card-image{
+  width: 32vw;
+  height: 24vw;
+}
+@media screen and (max-width: 575px) {
+  .primary-large-service-card-image{
+    width: auto;
+    height: auto;
+  }
+}
+
+.center-cropped {
+  object-fit: none; /* Do not scale the image */
+  object-position: center; /* Center the image within the element */
+  height: 12vw;
+  width: 16vw;
+}
+
