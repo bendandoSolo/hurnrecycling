@@ -3,7 +3,7 @@ import Link from "next/link";
 
 const Header = ({ background, text, smallText, button }) => {
   return (
-    <header>
+    <header style={{marginTop: '100px'}}>
       <div id="intro" className="text-center bg-image">
         <div
           id="intro"

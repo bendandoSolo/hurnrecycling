@@ -27,6 +27,7 @@ const Navbar2 = () => {
   return (
     <header>
       <nav className="navbar navbar-expand-lg navbar-dark fixed-top scrolling-navbar">
+      {/* <nav className="navbar navbar-expand-lg navbar-dark scrolling-navbar"> */}
         <div className="container">
           <Link href="/">
             <img src="\images\logo.png"></img>
