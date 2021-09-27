@@ -1,7 +1,37 @@
 import React from "react";
 import Link from "next/link";
 
+
 const ServiceCard = ({ title, text, imageURL, url }) => {
+  return (
+    <>
+        <div className="col-xl-2 col-lg-2 col-md-4 col-sm-6 secondary-service-card " style={{display: 'block',}} >
+        <img className="hover"
+              src={imageURL}  
+              style={{ width: "100%", height: "auto", margin: "10px auto", display: "block" }}
+              alt="Sample image"
+      />
+
+
+        </div>
+
+      {/* <div style={{ backgroundColor: 'red'}} className="col-xl-2 col-lg-4 col-md-4 col-sm-4 my-4 mb-lg-0 pb-2 service-card">
+        
+      
+      <img
+              src={imageURL}  
+              style={{ width: "320px", height: "320px", margin: "0 auto", display: "block" }}
+              alt="Sample image"
+      />
+
+      
+      </div> */}
+    </>
+  );
+};
+
+
+const ServiceCard_Old= ({ title, text, imageURL, url }) => {
   return (
     <>
       <div className="col-xl-2 col-lg-4 col-md-4 col-sm-4 my-4 mb-lg-0 pb-2 service-card">
@@ -15,11 +45,11 @@ const ServiceCard = ({ title, text, imageURL, url }) => {
               alt="Sample image"
             />
           </div>
-          <div className="card-body">
+          {/* <div className="card-body">
             <div className="card-body-text mb-3">
               <h5 className="card-title text-center ">{title}</h5>
               <p className="small">{text}</p>
-              {/*<hr className="mt-3 mb-4" />*/}
+             
             </div>
             <a
               className="btn btn-success stretched-link mb-2"
@@ -32,7 +62,7 @@ const ServiceCard = ({ title, text, imageURL, url }) => {
                 className="fas fa-long-arrow-alt-right "
               ></i>
             </a>
-          </div>
+          </div> */}
         </div>
       </div>
     </>
@@ -41,7 +71,7 @@ const ServiceCard = ({ title, text, imageURL, url }) => {
 
 export default ServiceCard;
 
-export const FlexboxServiceCard  = ({ title, text, imageURL, url }) => {
+export const FlexboxServiceCard_Old  = ({ title, text, imageURL, url }) => {
   return (
     <>
       <div className="service-card flex-service-card">
@@ -78,6 +108,37 @@ export const FlexboxServiceCard  = ({ title, text, imageURL, url }) => {
     </>
   );
 };
+
+export const FlexboxServiceCard  = ({ title, text, imageURL, url }) => {
+  return (
+ 
+
+    <div style={{flexBasis: 'auto', margin: '10px', position: 'relative'}} className="mask">
+     <p style={{position: "absolute", color: "white", fontSize: '20px', bottom: '0'}}>{title}</p>
+     {/* <div style={{width: '100%', height: '100%', backgroundColor: "black"}}></div> */}
+    <img className="service-card flex-service-card hover"  src={imageURL} style={{ flexShrink: '1', width: '100%', height: 'auto'}}>
+      
+      </img> 
+    </div>
+  );
+};
+
+
+{/* <div className="service-card flex-service-card">
+<div className="card mx-2">
+  <div className="bg-image">
+    <img
+      src={imageURL}
+      className="card-img-top" not sure this class is necessary?
+      className="img-fluid mb-2 div-shadow card-img-top center-cropped"
+      // style={{ width: "320px", margin: "0 auto", display: "block" }}
+      alt="service image"
+    />
+  </div>
+  
+</div>
+</div> */}
+
 
 export const PrimaryLargeServiceCard = ({ title, text, imageURL, url }) => {
   return (

@@ -8,8 +8,8 @@ const municipalWaste = () => {
       <Header text="General Waste Disposal" smallText="Recycling Service" />
     <section>
       <div className="container mt-5 py-5">
-        <h2 className="mb-5 text-center">GENERAL WASTE DISPOSAL</h2>
-        <div className="row mb-4">
+      
+        <div className="row mb-4">  <h2 className="mb-5 text-center">General/Municipal Waste</h2>
           <div className="col-lg-6 mb-4 mb-lg-0 pb-2 pb-lg-0 pb-xl-2 mt-5">
             <img
               src="/images/it-disposal.png"
@@ -21,13 +21,11 @@ const municipalWaste = () => {
             <h4 className="mb-4">
               <strong>
                 Try as we might, not everything can be recycled.
+                For waste which cannot be recycled we offer our general waste collection services.
               </strong>
             </h4>
             <p className="lead mb-4 pb-1">
-              Being able to provide you with a total waste management service
-              means that at Hurn Recycling we can remove all the waste your
-              business can produce, including general rubbish, polystyrene
-              packaging and food waste.
+            Catering for any size business is what we do best and we have a range of bin sizes – 240, 360, 660 and 1100 litre containers are all available for you to fill and us to remove or if your business has not room for a bin, that’s not a problem, we can offer pre-paid bags service to collect your bagged general waste. 
             </p>
             <p className="lead mb-4 pb-1">
               Catering for any size business is what we do best and we have a

@@ -62,27 +62,28 @@ const Services = () => {
       <div className="mt-5 py-5 pb-2">
         <h2 className="mb-5">SERVICES</h2>
 
-        {/* <div className="row justify-content-center"> */}
+        <div style={{maxWidth: '1500px', display: 'block', margin: '0 auto', marginBottom: '100px' }}>
 
-        <div style={{display: 'flex', flexDirection: 'row', justifyContent: 'space-around'}}>
+        <div className="main-services-flex-container " >
           <FlexboxServiceCard
             title={"Municipal (General) Waste"}
             text={"Wheelie Bin Collections? AWAITING TEXT"}
-            imageURL={"/images/services/general-waste.jpg"}
+            imageURL={"/images/service_cards/General waste.png"}
             url="/municipal-waste"
             />
           <FlexboxServiceCard
             title={"Dry Mixed Recycling"}
             text={" AWAITING TEXT"}
-            imageURL={"/images/services/office-recycle-2.jpg"}
+            imageURL={"/images/service_cards/Dry mixed recycling.png"}
             url="/dry_mixed_recycling"
           />
+          <div className="cards-mid-break"></div>
           <FlexboxServiceCard
             title={"Cardboard & Paper Recycling"}
             text={
               "Recycle all of your cardboard and paper with easy and cost effective recycling solutions for your business."
             }
-            imageURL={"/images/services/cardboard.jpg"}
+            imageURL={"/images/service_cards/Cardboard and paper recycling.png"}
             url="/cardboard_and_paper"
           />
           <FlexboxServiceCard
@@ -90,7 +91,7 @@ const Services = () => {
             text={
               "Recycle all your glass with easy and cost effective recycling solutions for your business"
             }
-            imageURL={"/images/services/glass.jpg"}
+            imageURL={"/images/service_cards/Glass recycling.png"}
             url="/glass"
           />
           <FlexboxServiceCard
@@ -98,12 +99,117 @@ const Services = () => {
             text={
               "Recycle all your glass with easy and cost effective recycling solutions for your business"
             }
-            imageURL={"/images/services/glass.jpg"}
+            imageURL={"/images/service_cards/Food recycling.png"}
             url="/food"
-          />
+          /> 
           </div>
 
-          <div className="row justify-content-center">
+          <h2 className="mb-5 mt-5 pt-5">SECONDARY SERVICES</h2>
+
+        <div className="row justify-content-center">
+         
+              <ServiceCard
+            title={"Polystyrene collection"}
+            text={
+              "AWAITING TEXT"
+            }
+            imageURL={"/images/service_cards/Polystyrene collection.png"}
+            url="/polystyrene_collection"
+          />
+
+          <ServiceCard
+            title={"Man & van clearance"}
+            text={
+              "AWAITING TEXT"
+            }
+            imageURL={"/images/service_cards/Man and van clearance.png"}
+            url="/man_and_van_clearance"
+          />
+
+          <ServiceCard
+            title={"WEEE Waste Collection"}
+            text={
+              "AWAITING TEXT"
+            }
+            imageURL={"/images/service_cards/WEE waste collection.png"}
+            url="/waste_electrical_and_electronic_equipment"
+          />    
+
+          <ServiceCard
+            title={"Office Clearance"}
+            text={
+              "AWAITING TEXT"
+            }
+            imageURL={"/images/service_cards/Office clearance.png"}
+            url="/office_clearance"
+          />
+
+          <ServiceCard
+            title={"Confidential waste collection"}
+            text={
+              "Our Confidential Waste Disposal guarantees protection of sensitive company materials and a defence from fraud."
+            }
+            imageURL={"/images/service_cards/Confidential waste.png"}
+            url="/confidential_waste"
+          />
+
+          <ServiceCard
+            title={"Events Waste Management"}
+            text={
+              "AWAITING TEXT"
+            }
+            imageURL={"/images/service_cards/Events waste management.png"}
+            url="/event_waste_management"
+          />    
+         
+          </div>
+
+
+
+
+
+        </div>
+
+        {/* <div style={{display: 'flex', flexDirection: 'row', justifyContent: 'space-around', gap: '20px'}}>
+          <FlexboxServiceCard
+            title={"Municipal (General) Waste"}
+            text={"Wheelie Bin Collections? AWAITING TEXT"}
+            imageURL={"/images/service_cards/General waste.png"}
+            url="/municipal-waste"
+            />
+          <FlexboxServiceCard
+            title={"Dry Mixed Recycling"}
+            text={" AWAITING TEXT"}
+            imageURL={"/images/service_cards/Dry mixed recycling.png"}
+            url="/dry_mixed_recycling"
+          />
+          <FlexboxServiceCard
+            title={"Cardboard & Paper Recycling"}
+            text={
+              "Recycle all of your cardboard and paper with easy and cost effective recycling solutions for your business."
+            }
+            imageURL={"/images/service_cards/Cardboard and paper recycling.png"}
+            url="/cardboard_and_paper"
+          />
+          <FlexboxServiceCard
+            title={"Glass Recycling"}
+            text={
+              "Recycle all your glass with easy and cost effective recycling solutions for your business"
+            }
+            imageURL={"/images/service_cards/Glass recycling.png"}
+            url="/glass"
+          />
+          <FlexboxServiceCard
+            title={"Food Recycling"}
+            text={
+              "Recycle all your glass with easy and cost effective recycling solutions for your business"
+            }
+            imageURL={"/images/service_cards/Food recycling.png"}
+            url="/food"
+          /> 
+          </div> */}
+
+          {/* <div className="row justify-content-center">
           <PrimaryLargeServiceCard
             title={"Municipal (General) Waste"}
             text={"Wheelie Bin Collections? AWAITING TEXT"}
@@ -143,7 +249,7 @@ const Services = () => {
             imageURL={"/images/services/glass.jpg"}
             url="/food"
           />
-         </div>
+         </div> */}
 
 
 
@@ -187,64 +293,7 @@ const Services = () => {
           />
           </div>*/}
 
-          <h2 className="mb-5">SECONDARY SERVICES</h2>
-        <div className="row justify-content-center">
-         
-              <ServiceCard
-            title={"Polystyrene collection"}
-            text={
-              "AWAITING TEXT"
-            }
-            imageURL={"/images/services/office-recycle-2.jpg"}
-            url="/polystyrene_collection"
-          />
-
-          <ServiceCard
-            title={"Man & van clearance"}
-            text={
-              "AWAITING TEXT"
-            }
-            imageURL={"/images/services/office-recycle-2.jpg"}
-            url="/man_and_van_clearance"
-          />
-
-          <ServiceCard
-            title={"WEEE Waste Collection"}
-            text={
-              "AWAITING TEXT"
-            }
-            imageURL={"/images/services/office-recycle-2.jpg"}
-            url="/waste_electrical_and_electronic_equipment"
-          />    
-
-          <ServiceCard
-            title={"Office Clearance"}
-            text={
-              "AWAITING TEXT"
-            }
-            imageURL={"/images/services/office-recycle-2.jpg"}
-            url="/office_clearance"
-          />
-
-          <ServiceCard
-            title={"Confidential waste collection"}
-            text={
-              "Our Confidential Waste Disposal guarantees protection of sensitive company materials and a defence from fraud."
-            }
-            imageURL={"/images/services/confidential-waste.jpg"}
-            url="/confidential_waste"
-          />
-
-          <ServiceCard
-            title={"Event Waste Management"}
-            text={
-              "AWAITING TEXT"
-            }
-            imageURL={"/images/services/office-recycle-2.jpg"}
-            url="/event_waste_management"
-          />    
-         
-          </div>
+    
       </div>
     </section>
   );
