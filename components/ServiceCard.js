@@ -3,17 +3,41 @@ import Link from "next/link";
 
 
 const ServiceCard = ({ title, text, imageURL, url }) => {
+  
+  //const name = 'services';
+
+  const link =  `/${url}`;
+
   return (
     <>
-        <div className="col-xl-2 col-lg-2 col-md-4 col-sm-6 secondary-service-card " style={{display: 'block',}} >
-        <img className="hover"
+        {/* className="service-card flex-service-card hover"> */}
+        <div className="col-xl-2 col-lg-2 col-md-4 col-sm-6 secondary-service-card hover" style={{display: 'block'}} >
+        <Link href={link}> 
+        {/* <Link href={`/${url}`}> */}
+        <div style={{ margin: '10px', position: 'relative', width: '100%', height: '300px',backgroundImage: `url(${imageURL})`, backgroundPosition: 'top center'}} >
+        {/* className="service-card flex-service-card hover"> */}
+        <p style={{position: "absolute", color: "white", fontSize: '20px', bottom: '0',textAlign: 'left', padding: '10px', fontWeight: 'bold', margin: 0,lineHeight: '24px', opacity: 1, zIndex: 100}}>{title}</p>
+        <div style={{width: '100%', height: '100%', backgroundColor: "black", opacity:0.2}} className="no-padding" />
+      </div>
+      </Link>
+   
+       
+       {/* <div
+          className="text-center service-bg-image"
+          style={{ backgroundImage: `url(${imageURL})` }}
+        ></div> */}
+         {/* <img className="hover"
               src={imageURL}  
-              style={{ width: "100%", height: "auto", margin: "10px auto", display: "block" }}
+
+              style={{ width: "100%", height: "auto", margin: "10px auto", display: "block" , }}
               alt="Sample image"
-      />
+      />  */}
 
 
         </div>
+        </>
+  );
+};
 
       {/* <div style={{ backgroundColor: 'red'}} className="col-xl-2 col-lg-4 col-md-4 col-sm-4 my-4 mb-lg-0 pb-2 service-card">
         
@@ -26,9 +50,6 @@ const ServiceCard = ({ title, text, imageURL, url }) => {
 
       
       </div> */}
-    </>
-  );
-};
 
 
 const ServiceCard_Old= ({ title, text, imageURL, url }) => {
@@ -110,16 +131,19 @@ export const FlexboxServiceCard_Old  = ({ title, text, imageURL, url }) => {
 };
 
 export const FlexboxServiceCard  = ({ title, text, imageURL, url }) => {
-  return (
- 
 
-    <div style={{flexBasis: 'auto', margin: '10px', position: 'relative'}} className="mask">
-     <p style={{position: "absolute", color: "white", fontSize: '20px', bottom: '0'}}>{title}</p>
-     {/* <div style={{width: '100%', height: '100%', backgroundColor: "black"}}></div> */}
-    <img className="service-card flex-service-card hover"  src={imageURL} style={{ flexShrink: '1', width: '100%', height: 'auto'}}>
-      
-      </img> 
+  const link =  `/${url}`;
+
+
+  return (
+     <Link href={`/${url}`}> 
+    
+    <div style={{flexBasis: 'auto', margin: '10px', position: 'relative', width: '100%', height: '300px',backgroundImage: `url(${imageURL})`}} className="service-card flex-service-card hover">
+        <p style={{position: "absolute", color: "white", fontSize: '20px', bottom: '0',textAlign: 'left', padding: '10px', fontWeight: 'bold', margin: 0,lineHeight: '24px', opacity: 1, zIndex: 100}}>{title}</p>
+   
+      <div style={{width: '100%', height: '100%', backgroundColor: "black", opacity:0.2}} className="no-padding" />
     </div>
+    </Link>
   );
 };
 

@@ -73,52 +73,63 @@ const Navbar2 = () => {
                     </Link>
                   </li>
                   <li>
-                    <Link href="/dry-mixed">
+                    <Link href="/dry_mixed_recycling">
                       <a className="dropdown-item">Dry Mixed Recycling</a>
                     </Link>
                   </li>
+
+                  <li>
+                    <Link href="/cardboard_and_paper">
+                      <a className="dropdown-item">Cardboard & Paper Recycling</a>
+                    </Link>
+                  </li>
+
+
                   <li>
                     <Link href="/glass">
-                      <a className="dropdown-item">Glass</a>
+                      <a className="dropdown-item">Glass Recycling</a>
+                    </Link>
+                  </li>
+
+                  <li>
+                    <Link href="/food">
+                      <a className="dropdown-item">Food Recycling</a>
+                    </Link>
+                  </li>
+
+
+                  <li>
+                    <Link href="/polystyrene_collection">
+                      <a className="dropdown-item">Polystyrene Collection</a>
                     </Link>
                   </li>
                   <li>
-                    <Link href="/office-paper">
-                      <a className="dropdown-item">Office Paper Recycling</a>
+                    <Link href="/man_and_van_clearance">
+                      <a className="dropdown-item">Man & Van Clearance</a>
                     </Link>
                   </li>
                   <li>
-                    <Link href="/bottle-cans">
-                      <a className="dropdown-item">Plastic Bottles & Cans</a>
-                    </Link>
-                  </li>
-                  <li>
-                    <Link href="/card-packaging">
+                    <Link href="/waste_electrical_and_electronic_equipment">
                       <a className="dropdown-item">
-                        Cardboard & Packaging Recycling
+                        WEE Waste Collection
                       </a>
                     </Link>
                   </li>
                   <li>
-                    <Link href="/confidential-waste">
-                      <a className="dropdown-item">Confidential Waste</a>
+                    <Link href="/office_clearance">
+                      <a className="dropdown-item">Office Clearance</a>
                     </Link>
                   </li>
                   <li>
-                    <Link href="/electrical">
+                    <Link href="/confidential_waste">
                       <a className="dropdown-item">
-                        Electrical Equipment Disposal
+                        Confidential Waste Collection
                       </a>
                     </Link>
                   </li>
                   <li>
-                    <Link href="/office-furniture">
-                      <a className="dropdown-item">Office Furniture</a>
-                    </Link>
-                  </li>
-                  <li>
-                    <Link href="/general-waste">
-                      <a className="dropdown-item">General Waste Disposal</a>
+                    <Link href="/event_waste_management">
+                      <a className="dropdown-item">Events Waste Management</a>
                     </Link>
                   </li>
                 </ul>

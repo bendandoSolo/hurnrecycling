@@ -5,7 +5,7 @@ import Link from "next/link";
 const municipalWaste = () => {
   return (
       <> 
-      <Header text="General Waste Disposal" smallText="Recycling Service" />
+<Header text="General Waste Disposal" smallText="Recycling Service" background="/images/Desktop/General_waste.png"/>
     <section>
       <div className="container mt-5 py-5">
       

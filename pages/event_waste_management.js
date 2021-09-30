@@ -5,7 +5,9 @@ import Link from "next/link";
 const eventWasteManagement = () => {
   return (
     <>
-      <Header text="Event Waste Mangage" smallText="Recycling Service" />
+      <Header text="Event Waste Mangagement" smallText="Recycling Service" 
+      background="/images/Desktop/Events_waste_management.png"
+      />
       <section>
         <div className="container mt-5 py-5">
         <h2 className="mb-5 text-center">EVENT WASTE MANAGEMENT</h2>

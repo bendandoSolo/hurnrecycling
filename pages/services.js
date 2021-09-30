@@ -4,7 +4,7 @@ import Services from "../components/Services";
 const services = () => {
   return (
     <>
-      <Header text="Services" smallText="Total waste management solutions" />
+      <Header text="Services" smallText="Total waste management solutions" background="/images/Desktop/Services.png"/>
       <div className="container text-center mt-5 py-5 pb-2">
         <h2 className="mb-5">SERVICES</h2>
         <p className=" lead mx-auto w-responsive">

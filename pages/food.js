@@ -5,7 +5,7 @@ import Link from "next/link";
 const food = () => {
   return (
     <>
-      <Header text="General Waste Disposal" smallText="Recycling Service" />
+      <Header text="Food Recycling" smallText="" background="/images/Desktop/Food_recycling.png"/>
       <section>
         <div className="container mt-5 py-5">
           <h2 className="mb-5 text-center">FOOD</h2>

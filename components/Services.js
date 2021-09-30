@@ -68,14 +68,14 @@ const Services = () => {
           <FlexboxServiceCard
             title={"Municipal (General) Waste"}
             text={"Wheelie Bin Collections? AWAITING TEXT"}
-            imageURL={"/images/service_cards/General waste.png"}
-            url="/municipal-waste"
+            imageURL={"/images/service_cards/General_waste.png"}
+            url='municipal-waste'
             />
           <FlexboxServiceCard
             title={"Dry Mixed Recycling"}
             text={" AWAITING TEXT"}
-            imageURL={"/images/service_cards/Dry mixed recycling.png"}
-            url="/dry_mixed_recycling"
+            imageURL={"/images/service_cards/Dry_mixed_recycling.png"}
+            url='dry_mixed_recycling'
           />
           <div className="cards-mid-break"></div>
           <FlexboxServiceCard
@@ -83,24 +83,24 @@ const Services = () => {
             text={
               "Recycle all of your cardboard and paper with easy and cost effective recycling solutions for your business."
             }
-            imageURL={"/images/service_cards/Cardboard and paper recycling.png"}
-            url="/cardboard_and_paper"
+            imageURL={"/images/service_cards/Cardboard_and_paper_recycling.png"}
+            url='cardboard_and_paper'
           />
           <FlexboxServiceCard
             title={"Glass Recycling"}
             text={
               "Recycle all your glass with easy and cost effective recycling solutions for your business"
             }
-            imageURL={"/images/service_cards/Glass recycling.png"}
-            url="/glass"
+            imageURL={"/images/service_cards/Glass_recycling.png"}
+            url='glass'
           />
           <FlexboxServiceCard
             title={"Food Recycling"}
             text={
               "Recycle all your glass with easy and cost effective recycling solutions for your business"
             }
-            imageURL={"/images/service_cards/Food recycling.png"}
-            url="/food"
+            imageURL={"/images/service_cards/Food_recycling.png"}
+            url='food'
           /> 
           </div>
 
@@ -113,8 +113,8 @@ const Services = () => {
             text={
               "AWAITING TEXT"
             }
-            imageURL={"/images/service_cards/Polystyrene collection.png"}
-            url="/polystyrene_collection"
+            imageURL={"/images/service_cards/Polystyrene_collection.png"}
+            url='polystyrene_collection'
           />
 
           <ServiceCard
@@ -122,8 +122,8 @@ const Services = () => {
             text={
               "AWAITING TEXT"
             }
-            imageURL={"/images/service_cards/Man and van clearance.png"}
-            url="/man_and_van_clearance"
+            imageURL={"/images/service_cards/Man_and_van_clearance.png"}
+            url='man_and_van_clearance'
           />
 
           <ServiceCard
@@ -131,8 +131,8 @@ const Services = () => {
             text={
               "AWAITING TEXT"
             }
-            imageURL={"/images/service_cards/WEE waste collection.png"}
-            url="/waste_electrical_and_electronic_equipment"
+            imageURL={"/images/service_cards/WEE_waste_collection.png"}
+            url='waste_electrical_and_electronic_equipment'
           />    
 
           <ServiceCard
@@ -140,8 +140,8 @@ const Services = () => {
             text={
               "AWAITING TEXT"
             }
-            imageURL={"/images/service_cards/Office clearance.png"}
-            url="/office_clearance"
+            imageURL={"/images/service_cards/Office_clearance.png"}
+            url='office_clearance'
           />
 
           <ServiceCard
@@ -149,8 +149,8 @@ const Services = () => {
             text={
               "Our Confidential Waste Disposal guarantees protection of sensitive company materials and a defence from fraud."
             }
-            imageURL={"/images/service_cards/Confidential waste.png"}
-            url="/confidential_waste"
+            imageURL={"/images/service_cards/Confidential_waste.png"}
+            url='confidential_waste'
           />
 
           <ServiceCard
@@ -158,8 +158,8 @@ const Services = () => {
             text={
               "AWAITING TEXT"
             }
-            imageURL={"/images/service_cards/Events waste management.png"}
-            url="/event_waste_management"
+            imageURL={"/images/service_cards/Events_waste_management.png"}
+            url='event_waste_management'
           />    
          
           </div>

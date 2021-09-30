@@ -5,7 +5,7 @@ import Link from "next/link";
 const polystyreneCollection = () => {
   return (
     <>
-      <Header text="Polystyrene collection" smallText="Recycling Service" />
+      <Header text="Polystyrene collection" smallText="" background="/images/Desktop/Polystyrene_collection.png" />
       <section>
         <div className="container mt-5 py-5">
           <h2 className="mb-5 text-center">POLYSTYRENE COLLECTION</h2>

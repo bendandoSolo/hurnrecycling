@@ -5,7 +5,7 @@ import Link from "next/link";
 const officeClearance = () => {
   return (
     <>
-      <Header text="Office Furniture" smallText="Recycling Service" />
+      <Header text="Office Clearance" smallText="Recycling Service" background="/images/Desktop/Office_clearance.png"/>
       <section>
         <div className="container mt-5 py-5">
           <h2 className="mb-5 text-center">OFFICE FURNITURE RECYCLING</h2>
