@@ -129,7 +129,7 @@ const Navbar2 = () => {
                   </li>
                   <li>
                     <Link href="/services/event_waste_management">
-                      <a className="dropdown-item">Events Waste Management</a>
+                      <a className="dropdown-item">Event Waste Management</a>
                     </Link>
                   </li>
                 </ul>

@@ -31,34 +31,37 @@ const Footer = () => {
             <h5 className="text-uppercase mb-4">Services</h5>
             <ul className="list-unstyled mb-0">
               <li>
-                <Link href="/municipal-waste">Municipal Waste</Link>
+                <Link href="/services/municipal-waste">Municipal Waste</Link>
               </li>
               <li>
-                <Link href="/dry-mixed">Dry Mixed Recycling</Link>
+                <Link href="/services/dry_mixed_recycling">Dry Mixed Recycling</Link>
               </li>
               <li>
-                <Link href="/glass">Glass</Link>
+                <Link href="/services/cardboard_and_paper">Cardboard & Paper Recycling</Link>
               </li>
               <li>
-                <Link href="/office-paper">Office Paper Recycling</Link>
+                <Link href="/services/glass">Glass Recycling</Link>
               </li>
               <li>
-                <Link href="/bottle-cans">Plastic Bottles & Cans</Link>
+                <Link href="/services/food">Food Recycling</Link>
               </li>
               <li>
-                <Link href="/card-packaging">Cardboard & Packaging</Link>
+                <Link href="/services/polystyrene_collection">Polystyrene Collection</Link>
               </li>
               <li>
-                <Link href="/confidential-waste">Confidential Waste</Link>
+                <Link href="/services/man_and_van_clearance">Man & Van Clearance</Link>
               </li>
               <li>
-                <Link href="/electrical">Electrical Equipment</Link>
+                <Link href="/services/waste_electrical_and_electronic_equipment">WEE Waste Collection</Link>
               </li>
               <li>
-                <Link href="/office-furniture">Office Furniture</Link>
+                <Link href="/services/office_clearance">Office Clearance</Link>
               </li>
               <li>
-                <Link href="/general-waste">General Waste Disposal</Link>
+                <Link href="/services/confidential_waste">Confidential Waste Collection</Link>
+              </li>
+              <li>
+                <Link href="/services/event_waste_management">Event Waste Management</Link>
               </li>
             </ul>
           </div>
