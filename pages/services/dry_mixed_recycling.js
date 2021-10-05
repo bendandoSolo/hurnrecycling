@@ -12,9 +12,9 @@ const dryMixed = () => {
           <div className="row mb-4">
             <div className="col-lg-6 mb-4 mb-lg-0 pb-2 pb-lg-0 pb-xl-2 mt-5">
               <img
-                src="/images/it-disposal.png"
+                src="/images/DMR poster.jpg"
                 className="img-fluid"
-                alt="Sample image"
+                alt="DMR poster"
               />
             </div>
             <div className="col-lg-6 mt-5">

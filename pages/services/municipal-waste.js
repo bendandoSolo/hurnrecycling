@@ -12,9 +12,9 @@ const municipalWaste = () => {
         <div className="row mb-4">  <h2 className="mb-5 text-center">General/Municipal Waste</h2>
           <div className="col-lg-6 mb-4 mb-lg-0 pb-2 pb-lg-0 pb-xl-2 mt-5">
             <img
-              src="/images/it-disposal.png"
+              src="/images/general waste poster.jpg"
               className="img-fluid"
-              alt="Sample image"
+              alt="general waste poster"
             />
           </div>
           <div className="col-lg-6 mt-5">

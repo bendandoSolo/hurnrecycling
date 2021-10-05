@@ -11,11 +11,11 @@ const polystyreneCollection = () => {
         <h2 className="mb-5 text-center">Man and van services</h2>
         <div className="row mb-4">
           <div className="col-lg-6 mb-4 mb-lg-0 pb-2 pb-lg-0 pb-xl-2 mt-5">
-            <img
-              src="/images/it-disposal.png"
-              className="img-fluid"
-              alt="Sample image"
-            />
+          <img
+                src="/images/service_cards/man_and_van_clearance.png"
+                className="img-fluid service-page-small-image"
+                alt="Sample image"
+              />
           </div>
           <div className="col-lg-6 mt-5">
               <h4 className="mb-4">

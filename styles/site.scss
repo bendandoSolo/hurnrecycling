@@ -428,7 +428,15 @@ element.style {
   .secondary-service-card{
     width:  80% !important;
   }
-
 }
 
+.service-page-small-image{
+padding: 40px;
+padding-top: 0;
+}
 
+@media(max-width: 980px){
+.service-page-small-image{
+  display: none;
+}
+}

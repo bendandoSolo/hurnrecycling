@@ -12,8 +12,8 @@ const cardPackaging = () => {
           <div className="row mb-4">
             <div className="col-lg-6 mb-4 mb-lg-0 pb-2 pb-lg-0 pb-xl-2 mt-5">
               <img
-                src="/images/it-disposal.png"
-                className="img-fluid"
+                src="/images/service_cards/Cardboard_and_paper_recycling.png"
+                className="img-fluid service-page-small-image"
                 alt="Sample image"
               />
             </div>
