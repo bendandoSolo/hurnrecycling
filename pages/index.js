@@ -14,7 +14,8 @@ export default function Home() {
         <link rel="icon" href="/favicon.ico" />
       </Head>
       <Header
-        background="/images/lorry-hurn.jpg"
+        full
+        background="/images/Desktop/home.png"
         text="Total Waste Management Solutions"
         smallText="Helping local businesses since 1995"
         button

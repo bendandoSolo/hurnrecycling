@@ -68,67 +68,67 @@ const Navbar2 = () => {
                 </a>
                 <ul className="dropdown-menu">
                   <li>
-                    <Link href="/municipal-waste">
+                    <Link href="/services/municipal-waste">
                       <a className="dropdown-item">Municipal Waste</a>
                     </Link>
                   </li>
                   <li>
-                    <Link href="/dry_mixed_recycling">
+                    <Link href="/services/dry_mixed_recycling">
                       <a className="dropdown-item">Dry Mixed Recycling</a>
                     </Link>
                   </li>
 
                   <li>
-                    <Link href="/cardboard_and_paper">
+                    <Link href="/services/cardboard_and_paper">
                       <a className="dropdown-item">Cardboard & Paper Recycling</a>
                     </Link>
                   </li>
 
 
                   <li>
-                    <Link href="/glass">
+                    <Link href="/services/glass">
                       <a className="dropdown-item">Glass Recycling</a>
                     </Link>
                   </li>
 
                   <li>
-                    <Link href="/food">
+                    <Link href="/services/food">
                       <a className="dropdown-item">Food Recycling</a>
                     </Link>
                   </li>
 
 
                   <li>
-                    <Link href="/polystyrene_collection">
+                    <Link href="/services/polystyrene_collection">
                       <a className="dropdown-item">Polystyrene Collection</a>
                     </Link>
                   </li>
                   <li>
-                    <Link href="/man_and_van_clearance">
+                    <Link href="/services/man_and_van_clearance">
                       <a className="dropdown-item">Man & Van Clearance</a>
                     </Link>
                   </li>
                   <li>
-                    <Link href="/waste_electrical_and_electronic_equipment">
+                    <Link href="/services/waste_electrical_and_electronic_equipment">
                       <a className="dropdown-item">
                         WEE Waste Collection
                       </a>
                     </Link>
                   </li>
                   <li>
-                    <Link href="/office_clearance">
+                    <Link href="/services/office_clearance">
                       <a className="dropdown-item">Office Clearance</a>
                     </Link>
                   </li>
                   <li>
-                    <Link href="/confidential_waste">
+                    <Link href="/services/confidential_waste">
                       <a className="dropdown-item">
                         Confidential Waste Collection
                       </a>
                     </Link>
                   </li>
                   <li>
-                    <Link href="/event_waste_management">
+                    <Link href="/services/event_waste_management">
                       <a className="dropdown-item">Events Waste Management</a>
                     </Link>
                   </li>

@@ -1,5 +1,5 @@
 import React from "react";
-import Header from "../components/Header";
+import Header from "../../components/Header";
 import Link from "next/link";
 
 const confidentialWaste = () => {
@@ -7,12 +7,12 @@ const confidentialWaste = () => {
     <>
       <Header
         text="Confidential Waste Collection"
-        smallText="Recycling Service"
+        smallText=""
         background="/images/Desktop/Confidential_Waste.png"
       />
       <section>
         <div className="container mt-5 py-5">
-          <h2 className="mb-5 text-center">CONFIDENTIAL WASTE DISPOSAL</h2>
+          <h2 className="mb-5 text-center">Confidential waste collection</h2>
           <div className="row mb-4">
             <div className="col-lg-6 mb-4 mb-lg-0 pb-2 pb-lg-0 pb-xl-2 mt-5">
               <img
@@ -23,34 +23,19 @@ const confidentialWaste = () => {
             </div>
             <div className="col-lg-6 mt-5">
               <h4 className="mb-4">
-                <strong>Security within any company is paramount.</strong>
+                <strong>We offer both pre-paid sacks or secure bin hire to dispose of any confidential waste.</strong>
               </h4>
               <p className="lead mb-4 pb-1">
-                Confidential waste destruction means guaranteed protection of
-                sensitive company materials and a defence from potential
-                fraudsters.
+              For large jobs we recommend that we inspect the site and assess the best way to dispose of your confidential waste.
               </p>
               <p className="lead mb-4 pb-1">
-                Our service means you are provided with everything you need
-                including zip tied sacks, secure bins and a certificate of
-                “Confidential destruction” signed off by directors.
+              This service can be arranged as either a one off collection or on a scheduled collection whatever suites your needs.
               </p>
-              <h4 className="mb-4">
-                <strong>
-                  The team are fully trained and have security clearance to
-                  ensure:
-                </strong>
-              </h4>
-              <li className="lead mb-4 pb-1">
-                Secure disposal of documents and sensitive materials
-              </li>
-              <li className="lead mb-4 pb-1">
-                Secure destruction of all computer storage media
-              </li>
-              <li className="lead mb-4 pb-1">
-                All documents are shredded, baled and taken directly to the mill
-                for recycling
-              </li>
+              
+              <p className="lead mb-4 pb-1">
+              All waste papers taken are shredded to DIN level 66399, this is also backed up with a confidential waste destruction certificate from us to make sure you are complying with GDPR requirements.
+              </p>
+
               <p className="lead mb-4 pb-1">
                 To find out more, call free on 01202 257 530 or Request a
                 Callback.

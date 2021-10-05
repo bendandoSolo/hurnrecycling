@@ -1,11 +1,11 @@
 import React from "react";
-import Header from "../components/Header";
+import Header from "../../components/Header";
 import Link from "next/link";
 
 const municipalWaste = () => {
   return (
       <> 
-<Header text="General Waste Disposal" smallText="Recycling Service" background="/images/Desktop/General_waste.png"/>
+<Header text="General/Municipal Waste" smallText="" background="/images/Desktop/General_waste.png"/>
     <section>
       <div className="container mt-5 py-5">
       
@@ -25,15 +25,13 @@ const municipalWaste = () => {
               </strong>
             </h4>
             <p className="lead mb-4 pb-1">
-            Catering for any size business is what we do best and we have a range of bin sizes – 240, 360, 660 and 1100 litre containers are all available for you to fill and us to remove or if your business has not room for a bin, that’s not a problem, we can offer pre-paid bags service to collect your bagged general waste. 
+            Catering for any size business is what we do best and we have a range of bin sizes – 240, 360, 660 and 1100 litre containers are all available for you to fill and us to remove or if your business has not room for a bin, that’s not a problem, we can offer pre-paid bags service to collect your bagged general waste.
             </p>
             <p className="lead mb-4 pb-1">
-              Catering for any size business is what we do best and we have a
-              range of bin sizes – 240, 360, 660 and 1100 litre containers are
-              all available for you to fill and us to remove.
-            </p>
+            Please note that the following items are not considered general waste: construction materials, wood, hazardous waste . For more details about what can and cannot go into your general waste container please see the poster below. Please get in touch for more information. 
+                        </p>
             <p className="lead mb-4 pb-1">
-              To find out more, call free on 01202 257 530 or Request a
+              To find out more, call free on 01202 257 530 or request a
               Callback.
             </p>
             <Link href="/contact">

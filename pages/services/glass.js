@@ -1,14 +1,14 @@
 import React from "react";
-import Header from "../components/Header";
+import Header from "../../components/Header";
 import Link from "next/link";
 
-const polystyreneCollection = () => {
+const glass = () => {
   return (
     <>
-      <Header text="Polystyrene collection" smallText="" background="/images/Desktop/Polystyrene_collection.png" />
+      <Header text="Glass recycling" smallText="" background="/images/Desktop/Glass_recycling.png"/>
       <section>
         <div className="container mt-5 py-5">
-          <h2 className="mb-5 text-center">POLYSTYRENE COLLECTION</h2>
+          <h2 className="mb-5 text-center">Glass recycling</h2>
           <div className="row mb-4">
             <div className="col-lg-6 mb-4 mb-lg-0 pb-2 pb-lg-0 pb-xl-2 mt-5">
               <img
@@ -20,15 +20,11 @@ const polystyreneCollection = () => {
             <div className="col-lg-6 mt-5">
               <h4 className="mb-4">
                 <strong>
-                  Lorem ipsum dolor sit amet, consectetur adipiscing elit.
-                  Nullam nec diam eu turpis faucibus dictum vitae in ante.
+                Recycle all your glass with our easy and cost-effective recycling solutions for your business. Time is money in business; therefore, our glass bins take all colours of glass, leaving the sorting to us so you can turn a profit.
                 </strong>
               </h4>
               <p className="lead mb-4 pb-1">
-                Curabitur mattis rhoncus dui, sed lacinia nulla feugiat non.
-                Nullam ultricies quam iaculis arcu interdum vulputate.
-                Pellentesque eu mollis purus. Integer eu tempus nisl. Nam et
-                suscipit odio. Maecenas fermentum sem quis dictum semper..
+              We have both 240 and 660 litre containers available which are ideal for pubs, restaurants, hotels, holiday parks, leisure centres, schools, the list is endless.
               </p>
               <p className="lead mb-4 pb-1">
                 To find out more, call free on 01202 257 530 or Request a
@@ -50,4 +46,4 @@ const polystyreneCollection = () => {
   );
 };
 
-export default polystyreneCollection;
+export default glass;

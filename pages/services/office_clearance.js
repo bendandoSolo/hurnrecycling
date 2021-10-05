@@ -1,14 +1,14 @@
 import React from "react";
-import Header from "../components/Header";
+import Header from "../../components/Header";
 import Link from "next/link";
 
-const dryMixed = () => {
+const officeClearance = () => {
   return (
     <>
-      <Header text="Dry Mixed Recycling" smallText="Recycling Service" background="/images/Desktop/Dry_mixed_recycling.png"/>
+      <Header text="Office clearance and relocation" smallText="" background="/images/Desktop/Office_clearance.png"/>
       <section>
         <div className="container mt-5 py-5">
-          <h2 className="mb-5 text-center">DRY MIXED RECYCLING</h2>
+          <h2 className="mb-5 text-center">Office clearance and relocation </h2>
           <div className="row mb-4">
             <div className="col-lg-6 mb-4 mb-lg-0 pb-2 pb-lg-0 pb-xl-2 mt-5">
               <img
@@ -20,15 +20,18 @@ const dryMixed = () => {
             <div className="col-lg-6 mt-5">
               <h4 className="mb-4">
                 <strong>
-                  Lorem ipsum dolor sit amet, consectetur adipiscing elit.
-                  Nullam nec diam eu turpis faucibus dictum vitae in ante.
+                We  offer a fully comprehensive office clearance /or nationwide relocation service should you be moving offices. 
                 </strong>
               </h4>
               <p className="lead mb-4 pb-1">
-                Curabitur mattis rhoncus dui, sed lacinia nulla feugiat non.
-                Nullam ultricies quam iaculis arcu interdum vulputate.
-                Pellentesque eu mollis purus. Integer eu tempus nisl. Nam et
-                suscipit odio. Maecenas fermentum sem quis dictum semper..
+              For a quote either get in touch with us by phone or email or we can send a member of our team to the site to help determine how best to organise your office clearance or relocation.
+              </p>
+              <p className="lead mb-4 pb-1">
+              We will organise on site skips for general and recycling waste disposal and 
+              Should it be required we can send our team in to dismantle  your office furniture and transport it to a new location.
+              </p>
+              <p className="lead mb-4 pb-1">
+              Any old or unwanted furniture is either reconditioned and sold or fully recycled.
               </p>
               <p className="lead mb-4 pb-1">
                 To find out more, call free on 01202 257 530 or Request a
@@ -50,4 +53,4 @@ const dryMixed = () => {
   );
 };
 
-export default dryMixed;
+export default officeClearance;

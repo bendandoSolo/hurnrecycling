@@ -1,14 +1,14 @@
 import React from "react";
-import Header from "../components/Header";
+import Header from "../../components/Header";
 import Link from "next/link";
 
-const cardPackaging = () => {
+const dryMixed = () => {
   return (
     <>
-      <Header text="Card & Packaging" smallText="Recycling Service" background="/images/Desktop/Cardboard_and_paper_recycling.png"/>
+      <Header text="Dry Mixed Recycling or DMR" smallText="" background="/images/Desktop/Dry_mixed_recycling.png"/>
       <section>
         <div className="container mt-5 py-5">
-          <h2 className="mb-5 text-center">CARD & PACKAGING RECYCLING</h2>
+          <h2 className="mb-5 text-center">Dry Mixed Recycling or DMR</h2>
           <div className="row mb-4">
             <div className="col-lg-6 mb-4 mb-lg-0 pb-2 pb-lg-0 pb-xl-2 mt-5">
               <img
@@ -20,24 +20,14 @@ const cardPackaging = () => {
             <div className="col-lg-6 mt-5">
               <h4 className="mb-4">
                 <strong>
-                  The UK produces over 8 million tons of cardboard packaging
-                  every year, equating to 140 large cardboard boxes per person.
+                We offer a wide range of recycling services, including DMR services, which are suitable for businesses where there is no option for further segregation. 
                 </strong>
               </h4>
               <p className="lead mb-4 pb-1">
-                At Hurn Recycling we know that cardboard is the largest single
-                constituent of municipal waste worldwide. 80-90% of the material
-                we collect is made up of cardboard, so we have every kind of
-                solution to help you recycle yours.
+              With our DMR services you can still reduce your impact on the environment in a cost-effective way. We can accept clean and dry recyclables including plastic bottles, pots, tubs, trays, cardboard, paper and metal drink cans in our DMR bins.
               </p>
               <p className="lead mb-4 pb-1">
-                We can provide you with 1100 litre containers in order to keep
-                the large volumes under control.
-              </p>
-              <p className="lead mb-4 pb-1">
-                We also provide compaction units or “Balers” to reduce the space
-                the card takes up. The Balers are entirely recyclable, of
-                course!
+              Liquid bottles need to be rinsed, and the following materials should be avoided when sorting your waste, as they can contaminate your DMR bin: black bags, crisp and sweet packaging, polystyrene, glass, wood, food, containers with residue of food or liquids and hard plastics. Please see the poster below, or contact us for more information.
               </p>
               <p className="lead mb-4 pb-1">
                 To find out more, call free on 01202 257 530 or Request a
@@ -59,4 +49,4 @@ const cardPackaging = () => {
   );
 };
 
-export default cardPackaging;
+export default dryMixed;

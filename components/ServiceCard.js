@@ -3,10 +3,8 @@ import Link from "next/link";
 
 
 const ServiceCard = ({ title, text, imageURL, url }) => {
-  
-  //const name = 'services';
 
-  const link =  `/${url}`;
+  const link =  `/services/${url}`;
 
   return (
     <>
@@ -20,36 +18,11 @@ const ServiceCard = ({ title, text, imageURL, url }) => {
         <div style={{width: '100%', height: '100%', backgroundColor: "black", opacity:0.2}} className="no-padding" />
       </div>
       </Link>
-   
-       
-       {/* <div
-          className="text-center service-bg-image"
-          style={{ backgroundImage: `url(${imageURL})` }}
-        ></div> */}
-         {/* <img className="hover"
-              src={imageURL}  
-
-              style={{ width: "100%", height: "auto", margin: "10px auto", display: "block" , }}
-              alt="Sample image"
-      />  */}
-
 
         </div>
         </>
   );
 };
-
-      {/* <div style={{ backgroundColor: 'red'}} className="col-xl-2 col-lg-4 col-md-4 col-sm-4 my-4 mb-lg-0 pb-2 service-card">
-        
-      
-      <img
-              src={imageURL}  
-              style={{ width: "320px", height: "320px", margin: "0 auto", display: "block" }}
-              alt="Sample image"
-      />
-
-      
-      </div> */}
 
 
 const ServiceCard_Old= ({ title, text, imageURL, url }) => {
@@ -136,7 +109,7 @@ export const FlexboxServiceCard  = ({ title, text, imageURL, url }) => {
 
 
   return (
-     <Link href={`/${url}`}> 
+     <Link href={`/services/${url}`}> 
     
     <div style={{flexBasis: 'auto', margin: '10px', position: 'relative', width: '100%', height: '300px',backgroundImage: `url(${imageURL})`}} className="service-card flex-service-card hover">
         <p style={{position: "absolute", color: "white", fontSize: '20px', bottom: '0',textAlign: 'left', padding: '10px', fontWeight: 'bold', margin: 0,lineHeight: '24px', opacity: 1, zIndex: 100}}>{title}</p>

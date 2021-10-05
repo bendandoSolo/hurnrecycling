@@ -1,16 +1,22 @@
 import React from "react";
 import Link from "next/link";
 
-const Header = ({ background, text, smallText, button }) => {
+const Header = ({ background, text, smallText, button, mask, full }) => {
+
+const showMask = !mask ? "mask" : "";
+
+const size =  full ? "70vh" : "35vh";
+
   return (
     <header style={{marginTop: '100px'}}>
-      <div id="intro" className="text-center bg-image">
+      <div /*id="intro"*/ className="text-center bg-image" style={{height: size }}>
         <div
-          id="intro"
+
+          /*id="intro"*/
           className="text-center bg-image"
-          style={{ backgroundImage: `url(${background})` }}
+          style={{ backgroundImage: `url(${background})`, height: size }}
         >
-          <div className="mask">
+          <div className={showMask}>
             <div className="d-flex justify-content-center align-items-center h-100 ">
               <div>
                 <h1
