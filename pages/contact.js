@@ -3,20 +3,19 @@ import Header from "../components/Header";
 const contact = () => {
   return (
     <>
-      <Header text="Contact Us" smallText="Total waste management solutions" background="/images/Desktop/Contact_us.jpeg"/>
+      <Header text="Contact Us" smallText="" background="/images/Desktop/Contact_us.jpeg"/>
       <div className="container mt-5 py-5 pb-2">
-        <h2 className="mb-5 text-center">CONTACT</h2>
+        <h2 className="mb-5 text-center">CONTACT US</h2>
         <div className="row">
           <div className="col-md-6 p-4">
-            <p className="lead">
-              We look forward to hearing from you by phone or email; or
-              alternatively you can complete our Enquiry Form by filling in the
-              form displayed below.
+            <p className="lead pb-4">
+              We look forward to hearing from you by phone or email.
+              Alternatively you can complete our enquiry form and we will get right back to you.
             </p>
             <img src="/images/map.jpg" id="map" />
             <div className="lead contact">
-              <ul className="list-unstyled my-4">
-                <li>Hurn Recycling Ltd</li>
+              <ul className="list-unstyled my-4 pt-2">
+                <li><b>Hurn Recycling Ltd</b></li>
                 <li>Unit 10-11</li>
                 <li>Stepnell Reach</li>
                 <li>541 Blandford Road</li>
