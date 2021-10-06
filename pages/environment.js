@@ -35,7 +35,9 @@ const environment = () => {
           </p>
         </div>
       </section>
-      <Header background="/images/Desktop/Home.jpg" />
+
+     <div className="parallax" style= {{backgroundImage: 'url("/images/forrest_large.jpg")'}} ></div>
+
       <section className="text-center">
         <div className="container my-5 p-5">
           <h2 className="mb-5">EC LANDFILL DIRECTIVE</h2>
