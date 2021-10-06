@@ -6,7 +6,7 @@ const environment = () => {
       <Header
         text="The Environment"
         smallText="Recycling doesn’t have to cost the Earth..."
-        background="/images/Desktop/Environment.png"
+        background="/images/Desktop/Environment.jpg"
       />
       <section className="text-center">
         <div className="container my-5 p-5">
@@ -35,7 +35,7 @@ const environment = () => {
           </p>
         </div>
       </section>
-      <Header background="/images/Desktop/Home.png" />
+      <Header background="/images/Desktop/Home.jpg" />
       <section className="text-center">
         <div className="container my-5 p-5">
           <h2 className="mb-5">EC LANDFILL DIRECTIVE</h2>

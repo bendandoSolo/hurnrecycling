@@ -4,7 +4,7 @@ import About from "../components/About";
 const about = () => {
   return (
     <>
-      <Header text="About" smallText="Total waste management solutions" background="/images/Desktop/About.png" />
+      <Header text="About" smallText="" background="/images/Desktop/About.jpg" />
       <About />
       </>
   );

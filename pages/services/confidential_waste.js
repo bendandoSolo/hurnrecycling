@@ -8,7 +8,7 @@ const confidentialWaste = () => {
       <Header
         text="Confidential Waste Collection"
         smallText=""
-        background="/images/Desktop/Confidential_Waste.png"
+        background="/images/Desktop/Confidential_Waste.jpg"
       />
       <section>
         <div className="container mt-5 py-5">

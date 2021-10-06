@@ -6,7 +6,7 @@ const eventWasteManagement = () => {
   return (
     <>
       <Header text="Event Waste Mangagement" smallText="" 
-      background="/images/Desktop/Events_waste_management.png"
+      background="/images/Desktop/Events_waste_management.jpg"
       />
       <section>
         <div className="container mt-5 py-5">

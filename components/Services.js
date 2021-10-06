@@ -62,19 +62,19 @@ const Services = () => {
       <div className="mt-5 py-5 pb-2">
         <h2 className="mb-5">SERVICES</h2>
 
-        <div style={{maxWidth: '1500px', display: 'block', margin: '0 auto', marginBottom: '100px' }}>
+        <div style={{maxWidth: '1500px', display: 'block', margin: '0 auto', marginBottom: '60px' }}>
 
-        <div className="main-services-flex-container " >
+        <div className="main-services-flex-container pb-4"  >
           <FlexboxServiceCard
             title={"Municipal (General) Waste"}
             text={"Wheelie Bin Collections? AWAITING TEXT"}
-            imageURL={"/images/service_cards/General_waste.png"}
+            imageURL={"/images/service_cards/General_waste.jpg"}
             url='municipal-waste'
             />
           <FlexboxServiceCard
             title={"Dry Mixed Recycling"}
             text={" AWAITING TEXT"}
-            imageURL={"/images/service_cards/Dry_mixed_recycling.png"}
+            imageURL={"/images/service_cards/Dry_mixed_recycling.jpg"}
             url='dry_mixed_recycling'
           />
           <div className="cards-mid-break"></div>
@@ -83,7 +83,7 @@ const Services = () => {
             text={
               "Recycle all of your cardboard and paper with easy and cost effective recycling solutions for your business."
             }
-            imageURL={"/images/service_cards/Cardboard_and_paper_recycling.png"}
+            imageURL={"/images/service_cards/Cardboard_and_paper_recycling.jpg"}
             url='cardboard_and_paper'
           />
           <FlexboxServiceCard
@@ -91,7 +91,7 @@ const Services = () => {
             text={
               "Recycle all your glass with easy and cost effective recycling solutions for your business"
             }
-            imageURL={"/images/service_cards/Glass_recycling.png"}
+            imageURL={"/images/service_cards/Glass_recycling.jpg"}
             url='glass'
           />
           <FlexboxServiceCard
@@ -99,21 +99,21 @@ const Services = () => {
             text={
               "Recycle all your glass with easy and cost effective recycling solutions for your business"
             }
-            imageURL={"/images/service_cards/Food_recycling.png"}
+            imageURL={"/images/service_cards/Food_recycling.jpg"}
             url='food'
           /> 
           </div>
 
-          <h2 className="mb-5 mt-5 pt-5">SECONDARY SERVICES</h2>
+          {/* <h2 className="mb-5 mt-5 pt-5">SECONDARY SERVICES</h2> */}
 
-        <div className="row justify-content-center">
+        <div className="row justify-content-center no-padding" >
          
               <ServiceCard
             title={"Polystyrene collection"}
             text={
               "AWAITING TEXT"
             }
-            imageURL={"/images/service_cards/Polystyrene_collection.png"}
+            imageURL={"/images/service_cards/Polystyrene_collection.jpg"}
             url='polystyrene_collection'
           />
 
@@ -122,7 +122,7 @@ const Services = () => {
             text={
               "AWAITING TEXT"
             }
-            imageURL={"/images/service_cards/Man_and_van_clearance.png"}
+            imageURL={"/images/service_cards/Man_and_van_clearance.jpg"}
             url='man_and_van_clearance'
           />
 
@@ -131,7 +131,7 @@ const Services = () => {
             text={
               "AWAITING TEXT"
             }
-            imageURL={"/images/service_cards/WEE_waste_collection.png"}
+            imageURL={"/images/service_cards/WEE_waste_collection.jpg"}
             url='waste_electrical_and_electronic_equipment'
           />    
 
@@ -140,7 +140,7 @@ const Services = () => {
             text={
               "AWAITING TEXT"
             }
-            imageURL={"/images/service_cards/Office_clearance.png"}
+            imageURL={"/images/service_cards/Office_clearance.jpg"}
             url='office_clearance'
           />
 
@@ -149,7 +149,7 @@ const Services = () => {
             text={
               "Our Confidential Waste Disposal guarantees protection of sensitive company materials and a defence from fraud."
             }
-            imageURL={"/images/service_cards/Confidential_waste.png"}
+            imageURL={"/images/service_cards/Confidential_waste.jpg"}
             url='confidential_waste'
           />
 
@@ -158,7 +158,7 @@ const Services = () => {
             text={
               "AWAITING TEXT"
             }
-            imageURL={"/images/service_cards/Events_waste_management.png"}
+            imageURL={"/images/service_cards/Events_waste_management.jpg"}
             url='event_waste_management'
           />    
          
@@ -174,13 +174,13 @@ const Services = () => {
           <FlexboxServiceCard
             title={"Municipal (General) Waste"}
             text={"Wheelie Bin Collections? AWAITING TEXT"}
-            imageURL={"/images/service_cards/General waste.png"}
+            imageURL={"/images/service_cards/General waste.jpg"}
             url="/municipal-waste"
             />
           <FlexboxServiceCard
             title={"Dry Mixed Recycling"}
             text={" AWAITING TEXT"}
-            imageURL={"/images/service_cards/Dry mixed recycling.png"}
+            imageURL={"/images/service_cards/Dry mixed recycling.jpg"}
             url="/dry_mixed_recycling"
           />
           <FlexboxServiceCard
@@ -188,7 +188,7 @@ const Services = () => {
             text={
               "Recycle all of your cardboard and paper with easy and cost effective recycling solutions for your business."
             }
-            imageURL={"/images/service_cards/Cardboard and paper recycling.png"}
+            imageURL={"/images/service_cards/Cardboard and paper recycling.jpg"}
             url="/cardboard_and_paper"
           />
           <FlexboxServiceCard
@@ -196,7 +196,7 @@ const Services = () => {
             text={
               "Recycle all your glass with easy and cost effective recycling solutions for your business"
             }
-            imageURL={"/images/service_cards/Glass recycling.png"}
+            imageURL={"/images/service_cards/Glass recycling.jpg"}
             url="/glass"
           />
           <FlexboxServiceCard
@@ -204,7 +204,7 @@ const Services = () => {
             text={
               "Recycle all your glass with easy and cost effective recycling solutions for your business"
             }
-            imageURL={"/images/service_cards/Food recycling.png"}
+            imageURL={"/images/service_cards/Food recycling.jpg"}
             url="/food"
           /> 
           </div> */}

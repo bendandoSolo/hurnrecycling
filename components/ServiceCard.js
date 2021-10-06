@@ -7,20 +7,15 @@ const ServiceCard = ({ title, text, imageURL, url }) => {
   const link =  `/services/${url}`;
 
   return (
-    <>
-        {/* className="service-card flex-service-card hover"> */}
         <div className="col-xl-2 col-lg-2 col-md-4 col-sm-6 secondary-service-card hover" style={{display: 'block'}} >
         <Link href={link}> 
-        {/* <Link href={`/${url}`}> */}
-        <div style={{ margin: '10px', position: 'relative', width: '100%', height: '300px',backgroundImage: `url(${imageURL})`, backgroundPosition: 'top center'}} >
-        {/* className="service-card flex-service-card hover"> */}
+        <div style={{ position: 'relative', width: '100%', height: '300px',backgroundImage: `url(${imageURL})`, backgroundPosition: 'top center'}} >
         <p style={{position: "absolute", color: "white", fontSize: '20px', bottom: '0',textAlign: 'left', padding: '10px', fontWeight: 'bold', margin: 0,lineHeight: '24px', opacity: 1, zIndex: 100}}>{title}</p>
         <div style={{width: '100%', height: '100%', backgroundColor: "black", opacity:0.2}} className="no-padding" />
       </div>
       </Link>
 
         </div>
-        </>
   );
 };
 
