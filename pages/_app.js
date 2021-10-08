@@ -31,7 +31,7 @@ const MyApp = ({ Component, pageProps }) => {
       ></script> */}
         <script type="text/javascript" src="mdb.min.js"></script>
       </Head>
-      <Navbar2 />
+      <Navbar3 />
       <Component {...pageProps} />
       <Footer />
     </>

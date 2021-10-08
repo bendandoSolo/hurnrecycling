@@ -27,9 +27,9 @@ const Navbar2 = () => {
   return (
     <header>
       <nav className="navbar navbar-expand-lg navbar-dark fixed-top scrolling-navbar">
-      {/* <nav className="navbar navbar-expand-lg navbar-dark scrolling-navbar"> */}
+     
         <div className="container">
-          <Link href="/">
+          <Link href="/" >
             <img src="\images\logo.png"></img>
           </Link>
 
@@ -67,71 +67,39 @@ const Navbar2 = () => {
                   Services
                 </a>
                 <ul className="dropdown-menu">
-                  <li>
-                    <Link href="/services/municipal-waste">
-                      <a className="dropdown-item">Municipal Waste</a>
-                    </Link>
-                  </li>
-                  <li>
-                    <Link href="/services/dry_mixed_recycling">
+                  <li><Link href="/services/municipal-waste">
+                    <a className="dropdown-item">Municipal Waste</a>
+                    </Link></li> 
+                  <li><Link href="/services/dry_mixed_recycling">
                       <a className="dropdown-item">Dry Mixed Recycling</a>
-                    </Link>
-                  </li>
-
+                  </Link></li>
+                  <li><Link href="/services/cardboard_and_paper">
+                    <a className="dropdown-item">Cardboard & Paper Recycling</a>
+                  </Link></li>
+                  <li><Link href="/services/glass">
+                    <a className="dropdown-item">Glass Recycling</a>
+                  </Link></li>
+                  <li><Link href="/services/food">
+                    <a className="dropdown-item">Food Recycling</a>
+                  </Link></li>
                   <li>
-                    <Link href="/services/cardboard_and_paper">
-                      <a className="dropdown-item">Cardboard & Paper Recycling</a>
-                    </Link>
+                    <Link href="/services/polystyrene_collection"><a className="dropdown-item">Polystyrene Collection</a></Link>
                   </li>
-
-
-                  <li>
-                    <Link href="/services/glass">
-                      <a className="dropdown-item">Glass Recycling</a>
-                    </Link>
-                  </li>
-
-                  <li>
-                    <Link href="/services/food">
-                      <a className="dropdown-item">Food Recycling</a>
-                    </Link>
-                  </li>
-
-
-                  <li>
-                    <Link href="/services/polystyrene_collection">
-                      <a className="dropdown-item">Polystyrene Collection</a>
-                    </Link>
-                  </li>
-                  <li>
-                    <Link href="/services/man_and_van_clearance">
-                      <a className="dropdown-item">Man & Van Clearance</a>
-                    </Link>
-                  </li>
-                  <li>
-                    <Link href="/services/waste_electrical_and_electronic_equipment">
-                      <a className="dropdown-item">
-                        WEE Waste Collection
-                      </a>
-                    </Link>
-                  </li>
-                  <li>
-                    <Link href="/services/office_clearance">
+                  <li><Link href="/services/man_and_van_clearance">
+                    <a className="dropdown-item">Man & Van Clearance</a>
+                  </Link></li>
+                  <li><Link href="/services/waste_electrical_and_electronic_equipment">
+                    <a className="dropdown-item">WEE Waste Collection</a>
+                  </Link></li>
+                  <li><Link href="/services/office_clearance">
                       <a className="dropdown-item">Office Clearance</a>
-                    </Link>
-                  </li>
-                  <li>
-                    <Link href="/services/confidential_waste">
-                      <a className="dropdown-item">
-                        Confidential Waste Collection
-                      </a>
-                    </Link>
-                  </li>
-                  <li>
-                    <Link href="/services/event_waste_management">
+                  </Link></li>
+                  <li><Link href="/services/confidential_waste">
+                      <a className="dropdown-item">Confidential Waste Collection</a>
+                  </Link></li>
+                  <li><Link href="/services/event_waste_management">
                       <a className="dropdown-item">Event Waste Management</a>
-                    </Link>
-                  </li>
+                  </Link></li>
                 </ul>
               </li>
               <li className="nav-item">
@@ -139,11 +107,6 @@ const Navbar2 = () => {
                   About
                 </a>
               </li>
-              {/* <li className="nav-item">
-                <a className="nav-link" href="/clients">
-                  Clients
-                </a>
-              </li> */}
               <li className="nav-item">
                 <a className="nav-link" href="/environment">
                   Environment

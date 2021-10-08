@@ -8,7 +8,7 @@ const showMask = !mask ? "mask" : "";
 const size =  full ? "70vh" : "35vh";
 
   return (
-    <header style={{marginTop: '100px'}}>
+    <header style={{/*marginTop: '100px'*/}}>
       <div className="text-center bg-image" style={{height: size }}>
         <div
           className="text-center bg-image"
@@ -56,7 +56,7 @@ export const HomeHeader = ({ background, text, smallText, button, mask, full }) 
   const size =  full ? "70vh" : "35vh";
   
     return (
-      <header style={{marginTop: '100px'}}>
+      <header style={{/*marginTop: '100px'*/}}>
         <div className="text-center bg-image" style={{height: size }}>
           <div
             className="text-center bg-image"

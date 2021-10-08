@@ -16,7 +16,11 @@ body {
   overflow-x: hidden;
 }
 
-
+@media (min-width: 992px){
+header{
+  margin-top: 100px;
+}
+}
 
 @media (min-width: 1200px){
 .display-1 {

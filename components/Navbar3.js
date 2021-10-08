@@ -22,7 +22,7 @@ const Navbar3 = () => {
     <nav className="navbar navbar-expand-lg navbar-dark fixed-top scrolling-navbar">
       <div class="container">
         <Link href="/">
-          <img src="\images\logo-transparent.png"></img>
+          <img src="\images\logo.png"></img>
         </Link>
         <button
           class="navbar-toggler"
@@ -38,9 +38,9 @@ const Navbar3 = () => {
         <div class="collapse navbar-collapse" id="navbarNav">
           <ul class="navbar-nav">
             <li class="nav-item">
-              <a class="nav-link active" aria-current="page" href="#">
-                Home
-              </a>
+              
+                <a class="nav-link active" aria-current="page" href="/">Home</a>
+              
             </li>
             <li className="nav-item dropdown">
               <a
@@ -51,67 +51,49 @@ const Navbar3 = () => {
                 Services
               </a>
               <ul className="dropdown-menu">
-                <li>
-                  <a className="dropdown-item" href="#">
-                    Office Recycling
-                  </a>
-                </li>
-                <li>
-                  <a className="dropdown-item" href="#">
-                    Plastic Bottles & Cans
-                  </a>
-                </li>
-                <li>
-                  <a className="dropdown-item" href="#">
-                    Cardboard & Packaging Recycling
-                  </a>
-                </li>
-                <li>
-                  <a className="dropdown-item" href="#">
-                    Confidential Waste
-                  </a>
-                </li>
-                <li>
-                  <a className="dropdown-item" href="/electrical">
-                    Electrical Equipment Disposal
-                  </a>
-                </li>
-                <li>
-                  <a className="dropdown-item" href="#">
-                    Glass
-                  </a>
-                </li>
-                <li>
-                  <a className="dropdown-item" href="#">
-                    Office Furniture
-                  </a>
-                </li>
-                <li>
-                  <a className="dropdown-item" href="#">
-                    General Waste Disposal
-                  </a>
-                </li>
-                <li>
-                  <a className="dropdown-item" href="#">
-                    Cardboard & Packaging Recycling
-                  </a>
-                </li>
-              </ul>
+                  <li><Link href="/services/municipal-waste">
+                    <a className="dropdown-item">Municipal Waste</a>
+                  </Link></li> 
+                  <li><Link href="/services/dry_mixed_recycling">
+                      <a className="dropdown-item">Dry Mixed Recycling</a>
+                  </Link></li>
+                  <li><Link href="/services/cardboard_and_paper">
+                    <a className="dropdown-item">Cardboard & Paper Recycling</a>
+                  </Link></li>
+                  <li><Link href="/services/glass">
+                    <a className="dropdown-item">Glass Recycling</a>
+                  </Link></li>
+                  <li><Link href="/services/food">
+                    <a className="dropdown-item">Food Recycling</a>
+                  </Link></li>
+                  <li>
+                    <Link href="/services/polystyrene_collection"><a className="dropdown-item">Polystyrene Collection</a></Link>
+                  </li>
+                  <li><Link href="/services/man_and_van_clearance">
+                    <a className="dropdown-item">Man & Van Clearance</a>
+                  </Link></li>
+                  <li><Link href="/services/waste_electrical_and_electronic_equipment">
+                    <a className="dropdown-item">WEE Waste Collection</a>
+                  </Link></li>
+                  <li><Link href="/services/office_clearance">
+                      <a className="dropdown-item">Office Clearance</a>
+                  </Link></li>
+                  <li><Link href="/services/confidential_waste">
+                      <a className="dropdown-item">Confidential Waste Collection</a>
+                  </Link></li>
+                  <li><Link href="/services/event_waste_management">
+                      <a className="dropdown-item">Event Waste Management</a>
+                  </Link></li>
+                </ul>
             </li>
             <li class="nav-item">
-              <a class="nav-link" href="#">
-                Clients
-              </a>
+                <a class="nav-link" href="/about">About</a>
             </li>
             <li class="nav-item">
-              <a class="nav-link" href="#">
-                Environment
-              </a>
+                <a class="nav-link"  href="/environment">Environment</a>
             </li>
             <li class="nav-item">
-              <a class="nav-link" href="#">
-                Contact
-              </a>
+                <a class="nav-link" href="/contact">Contact</a>
             </li>
           </ul>
         </div>

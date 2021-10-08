@@ -1,20 +1,37 @@
 /*Navbar */
 
+.navbar{
+  background-color: #ffffff;
+}
+
+nav img {
+  width: 180px;
+  cursor: pointer;
+}
+@media all and (max-width: 992px) {
+  nav img {
+    width: 110px;
+    cursor: pointer;
+  }
+}
+
+
+
+
+
 /*hover drop down*/
 @media all and (min-width: 992px) {
     .navbar .nav-item .dropdown-menu {
       display: none;
     }
-    /* .navbar .nav-item:hover .nav-link{   } */
+
     .navbar .nav-item:hover .dropdown-menu {
       display: block;
     }
     .navbar .nav-item .dropdown-menu {
       margin-top: 0;
     }
-  }
-  
-  @media (min-width: 992px) {
+
     .navbar-expand-lg .navbar-collapse {
       display: flex !important;
       flex-basis: auto;
@@ -29,10 +46,7 @@
       transition: background 0.5s ease-in-out, padding 0.5s ease-in-out;
     }
   }
-  
-  .navbar {
-    background-color: white;//rgba(0, 0, 0, 0.2);
-  }
+
   
   @media (min-width: 600px) {
     .navbar.scrolling-navbar.top-nav-collapse {
@@ -77,10 +91,7 @@
     color: $original-logo-color !important;
   }
   
-  nav img {
-    width: 200px;
-    cursor: pointer;
-  }
+ 
   
   .dropdown-menu {
     background-color: white;//rgba(0, 80, 24, 1);
@@ -99,76 +110,86 @@
     }
   }
   
-  @media screen and (max-width: 992px) {
+  @media (min-width: 992px) {
     .navbar-nav {
-      .dropdown-menu {
-        background-color: transparent;
-        display: block !important;
-        position: relative;
-        top: 0;
-        text-align: center;
-        box-shadow: none;
-        margin-bottom: 0;
-        .dropdown-item {
-          padding: 0;
-        }
+      .dropdown-menu{
+          display: block ;
+          position: relative;
+    
       }
-      .nav-full-menu {
-        li {
-          margin-bottom: 0;
-        }
-      }
-    }
-    .dropdown-menu {
-      background-color: transparent;
-      display: block !important;
-      position: relative;
     }
   }
 
-  .contact ul li a:hover {
-    color: $original-logo-color;
-  }
+  // @media screen and (max-width: 992px) {
+  //   .navbar-nav {
+  //     .dropdown-menu {
+  //       background-color: transparent;
+  //       display: block !important;
+  //       position: relative;
+  //       top: 0;
+  //       text-align: center;
+  //       box-shadow: none;
+  //       margin-bottom: 0;
+  //       .dropdown-item {
+  //         padding: 0;
+  //       }
+  //     }
+  //     .nav-full-menu {
+  //       li {
+  //         margin-bottom: 0;
+  //       }
+  //     }
+  //   }
+  //   .dropdown-menu {
+  //     background-color: transparent;
+  //     display: block !important;
+  //     position: relative;
+  //   }
+  // }
+
+//   .contact ul li a:hover {
+//     color: $original-logo-color;
+//   }
   
-  #close-nav-btn {
-    display: none;
-  }
+//   #close-nav-btn {
+//     display: none;
+//   }
   
-  .navbar {
-    z-index: 1000;
-  }
+//   .navbar {
+//     z-index: 1000;
+//   }
   
-  @media (max-width: 992px) {
-    .nav-full-menu {
-      position: fixed;
-      z-index: -1;
-      background-color: #ffffff;//rgba(0, 80, 24, 1);
-      display: flex;
-      right: -100%;
-      top: 0;
-      height: 100vh;
-      min-width: 100%;
-      text-align: center;
-      flex-direction: column;
-      align-items: center;
-      justify-content: center;
-      transition: 0.5s;
-      font-size: 16px;
-      #close-nav-btn {
-        display: block;
-        position: absolute;
-        top: 28px;
-        right: 15px;
-        color: $original-logo-color;
-        font-size: 2rem;
-      }
-      li {
-        margin-bottom: 12px;
-      }
-    }
-    .nav-full-menu.active {
-      right: 0%;
-      transition: 0.5s;
-    }
-  }
+  // @media (max-width: 992px) {
+  //   .nav-full-menu {
+  //     position: fixed;
+  //     z-index: -1;
+  //     background-color: #ffffff;//rgba(0, 80, 24, 1);
+  //     display: flex;
+  //     right: -100%;
+  //     top: 0;
+  //     height: 100vh;
+  //     min-width: 100%;
+  //     text-align: center;
+  //     flex-direction: column;
+  //     align-items: center;
+  //     justify-content: center;
+  //     transition: 0.5s;
+  //     font-size: 16px;
+  //     #close-nav-btn {
+  //       display: block;
+  //       position: absolute;
+  //       top: 28px;
+  //       right: 15px;
+  //       color: $original-logo-color;
+  //       font-size: 2rem;
+  //     }
+  //     li {
+  //       margin-bottom: 12px;
+  //     }
+  //   }
+  //   .nav-full-menu.active {
+  //     right: 0%;
+  //     transition: 0.5s;
+  //   }
+  // }
   
