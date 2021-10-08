@@ -5,7 +5,7 @@ import Link from "next/link";
 const cardPackaging = () => {
   return (
     <>
-      <Header text="Cardboard and paper recycling" smallText="" background="/images/Desktop/Cardboard_and_paper_recycling.png"/>
+      <Header text="Cardboard and paper recycling" smallText="" background="/images/service_cards/Cardboard_and_paper_recycling.jpg"/>
       <section>
         <div className="container mt-5 py-5">
           <h2 className="mb-5 text-center">Cardboard and paper recycling</h2>

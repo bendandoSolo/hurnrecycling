@@ -12,7 +12,7 @@ const WEEErecycling = () => {
           <div className="row mb-4">
             <div className="col-lg-6 mb-4 mb-lg-0 pb-2 pb-lg-0 pb-xl-2 mt-5">
             <img
-                src="/images/service_cards/WEE_waste_collection.png"
+                src="/images/Desktop/WEE_waste_collection.jpg"
                 className="img-fluid service-page-small-image"
                 alt="Sample image"
               />
