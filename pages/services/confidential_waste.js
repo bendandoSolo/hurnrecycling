@@ -16,7 +16,7 @@ const confidentialWaste = () => {
           <div className="row mb-4">
             <div className="col-lg-6 mb-4 mb-lg-0 pb-2 pb-lg-0 pb-xl-2 mt-5">
             <img
-                src="/images/Desktop/Confidential_waste.jpg"
+                src="/images/service_cards/Confidential_waste.jpg"
                 className="img-fluid service-page-small-image"
                 alt="Sample image"
               />
