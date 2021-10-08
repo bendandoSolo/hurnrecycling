@@ -3,9 +3,9 @@ import Header from "../components/Header";
 const contact = () => {
   return (
     <>
-      <Header text="Contact Us" smallText="" background="/images/Desktop/Contact_us.jpeg"/>
+      <Header text="Contact" smallText="" background="/images/Desktop/Contact_us.jpeg"/>
       <div className="container mt-5 py-5 pb-2">
-        <h2 className="mb-5 text-center">CONTACT US</h2>
+        <h2 className="mb-5 text-center">CONTACT</h2>
         <div className="row">
           <div className="col-md-6 p-4">
             <p className="lead pb-4">

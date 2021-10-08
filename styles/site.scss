@@ -16,6 +16,15 @@ body {
   overflow-x: hidden;
 }
 
+
+
+@media (min-width: 1200px){
+.display-1 {
+    font-size: 4rem;
+}
+}
+
+
 .no-padding{
   margin: 0 !important;
   padding: 0 o !important;
@@ -36,10 +45,10 @@ a {
   cursor: pointer;
 }
 
-
-
 h2{
   margin-top: 2rem!important;
+  margin-bottom: 4rem!important;
+  
 }
 
 .page-footer,

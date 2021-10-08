@@ -18,9 +18,9 @@ const size =  full ? "70vh" : "35vh";
             <div className="d-flex justify-content-center align-items-center h-100 ">
               <div>
                 <h1
-                  className="display-1"
+                  className="display-1 mt-5 pt-2"
                   style={{
-                    marginBottom: "36px",
+                    marginBottom: "36px" ,
                   }}
                 >
                   <strong>{text}</strong>
@@ -74,7 +74,7 @@ export const HomeHeader = ({ background, text, smallText, button, mask, full }) 
                     <strong>{text}</strong>
                   </h1>
                   {/* <hr className="my-4" /> */}
-                  <h4 className="font-weight-light mb-4 px-2">{smallText}</h4>
+                  <h4 className="font-weight-light mb-4 px-2"><strong>{smallText}</strong></h4>
                   {!!button && (
                     <Link href="/contact">
                       <button

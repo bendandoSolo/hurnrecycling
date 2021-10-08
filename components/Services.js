@@ -60,7 +60,7 @@ const Services = () => {
   return (
     <section className="text-center">
       <div className="mt-5 py-5 pb-2">
-        <h2 className="mb-5">SERVICES</h2>
+        <h2 className="">SERVICES</h2>
 
         <div style={{maxWidth: '1500px', display: 'block', margin: '0 auto', marginBottom: '60px' }}>
 
