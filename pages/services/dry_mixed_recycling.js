@@ -7,16 +7,10 @@ const dryMixed = () => {
     <>
       <Header text="Dry Mixed Recycling or DMR" smallText="" background="Dry_mixed_recycling.jpg"/>
       <section>
-        <div className="container mt-5 py-5">
+        <div className="container mt-5 py-5" >
           <h2 className="mb-5 text-center">Dry Mixed Recycling or DMR</h2>
-          <div className="row mb-4">
-            <div className="col-lg-6 mb-4 mb-lg-0 pb-2 pb-lg-0 pb-xl-2 mt-5">
-              <img
-                src="/images/DMR poster.jpg"
-                className="img-fluid"
-                alt="DMR poster"
-              />
-            </div>
+          <div className="row mb-4" /*style={{display: 'flex', flexDirection: "row-reverse" }}*/ >
+           
             <div className="col-lg-6 mt-5">
               <h4 className="mb-4">
                 <strong>
@@ -42,6 +36,16 @@ const dryMixed = () => {
                 </button>
               </Link>
             </div>
+
+            <div className="col-lg-6 mb-4 mb-lg-0 pb-2 pb-lg-0 pb-xl-2 mt-5">
+              <img
+                src="/images/DMR poster.jpg"
+                className="img-fluid"
+                alt="DMR poster"
+              />
+            </div>
+
+
           </div>
         </div>
       </section>
