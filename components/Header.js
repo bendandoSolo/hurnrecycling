@@ -3,11 +3,21 @@ import Link from "next/link";
 
 
 const Header = ({ background, text, smallText, button, mask, full }) => {
+  
+  //const [screenWidth, setScreenWidth] = useState(window.innerWidth);
 
   useEffect(() => {
+
+    console.log("use effect called");
+    //console.log(screenWidth);
+    
     const pageresized = () => {
-        console.log(window.innerWidth);
+      //  console.log(window.innerWidth);
+      //  setScreenWidth(window.innerWidth);
     }
+
+
+
     window.addEventListener("resize", pageresized);
     return () => window.removeEventListener("resize", pageresized);
 });
@@ -61,16 +71,43 @@ export default Header;
 
 export const HomeHeader = ({ background, text, smallText, button, mask, full }) => {
 
+   const [bgImage, setBgImage] = useState("");
+
+  useEffect(() => {
+
+    const pageresized = () => {
+      //console.log(window.innerWidth);
+      if (window.innerWidth > 992)
+      setBgImage("/images/Desktop/");
+      else
+      setBgImage("/images/Phone/");
+    }
+    pageresized();
+
+    window.addEventListener("resize", pageresized);
+    return () => window.removeEventListener("resize", pageresized);
+});
+
+  // const desktopOrMobile = () => {
+    
+  //   if (window.innerWidth > 992) 
+  //   return "desktop";
+  //   else return "mobile"; 
+  // } 
+
+
+
   const showMask = !mask ? "mask" : "";
   
   const size =  full ? "70vh" : "35vh";
   
     return (
       <header style={{/*marginTop: '100px'*/}}>
-        <div className="text-center bg-image" style={{height: size }}>
+        <div id="intro" className="text-center bg-image homeheader" /*style={{height: size }}*/ >
           <div
-            className="text-center bg-image"
-            style={{ backgroundImage: `url(${background})`, height: size, backgroundPosition: 'bottom center' }}
+            className="text-center bg-image homeheader" id="intro2y
+            yy" 
+            style={{ backgroundImage: `url(${bgImage}${background})`, /*height: size,*/ backgroundPosition: 'bottom center' }}
           >
 
             <div className={showMask}>
@@ -79,7 +116,7 @@ export const HomeHeader = ({ background, text, smallText, button, mask, full }) 
                   <h1
                     className="display-1"
                     style={{
-                      marginBottom: "24px",
+                      marginBottom: "12px",
                     }}
                   >
                     <strong>{text}</strong>
@@ -92,6 +129,7 @@ export const HomeHeader = ({ background, text, smallText, button, mask, full }) 
                         className="btn btn-lg btn-success my-2 mb-4"
                         id="green-btn"
                       >
+                        
                         Get A Quote
                       </button>
                     </Link>
