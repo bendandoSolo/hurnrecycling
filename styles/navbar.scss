@@ -13,11 +13,8 @@ nav img {
     width: 110px;
     cursor: pointer;
   }
+  
 }
-
-
-
-
 
 /*hover drop down*/
 @media all and (min-width: 992px) {
@@ -37,6 +34,17 @@ nav img {
       flex-basis: auto;
       flex-direction: row-reverse;
     }
+
+    // .navbar-expand-lg.navbar{
+    //   padding-bottom: 20px;
+      
+    // }
+
+    .call-now-navbar-button{
+      margin-left: 20px;
+      margin-bottom: 20px;
+    }
+
   }
   
   @media (min-width: 600px) {
