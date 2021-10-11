@@ -10,7 +10,7 @@ const environment = () => {
       />
       <section className="text-center">
         <div className="container my-5 p-5">
-          <h2 className="mb-5">THE ENVIRONMENT</h2>
+          {/* <h2 className="mb-5">THE ENVIRONMENT</h2> */}
           <p className=" lead mb-5 mx-auto w-responsive">
             The South West thrives on its natural beauty and picturesque charm,
             tens of thousands of people flock here for their summer holidays and

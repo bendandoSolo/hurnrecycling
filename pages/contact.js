@@ -5,7 +5,7 @@ const contact = () => {
     <>
       <Header text="Contact" smallText="" background="/images/Desktop/Contact_us.jpeg"/>
       <div className="container mt-5 py-5 pb-2">
-        <h2 className="mb-5 text-center">CONTACT</h2>
+        {/* <h2 className="mb-5 text-center">CONTACT</h2> */}
         <div className="row">
           <div className="col-md-6 p-4">
             <p className="lead pb-4">
@@ -25,12 +25,17 @@ const contact = () => {
                 <hr />
                 <li>
                   <a href="#!">
-                    01202 257 530 <i className="fas fa-phone"></i>
+                    01202 257 530 (option 2 sales)<i className="fas fa-phone"></i>
                   </a>
                 </li>
                 <li>
                   <a href="#!">
-                    info@hurnrecycling.com <i className="fas fa-envelope"></i>
+                    01202 257 530 (option 4 general enquiries)<i className="fas fa-phone"></i>
+                  </a>
+                </li>
+                <li>
+                  <a href="#!">
+                    sales@hurnrecycling.com <i className="fas fa-envelope"></i>
                   </a>
                 </li>
                 <li>

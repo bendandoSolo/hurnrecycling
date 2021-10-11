@@ -67,25 +67,33 @@ header {
   background-color: rgba(0, 80, 24, 0.8);
   color: whitesmoke;
 }
-#intro {
-  height: 70vh;
+// #intro {
+//   height: 70vh;
+// }
+
+// @media (max-width: 992px) {
+//   #intro {
+//     height: 90vh;
+//   }
+// }
+
+// @media (max-width: 767px) {
+//   #intro {
+//     height: 100vh;
+//   }
+// }
+
+.header-text-hightlight-box{
+    background-color: #000000;
+    opacity: 0.8;
+    padding: 0 12px;
 }
 
-@media (max-width: 992px) {
-  #intro {
-    height: 90vh;
-  }
-}
 
-@media (max-width: 767px) {
-  #intro {
-    height: 100vh;
-  }
-}
 
 // Footer Component
 footer {
-  background-color: rgba(0, 80, 24, 1);
+  background-color: $original-logo-color; //rgba(0, 80, 24, 1);
   hr {
     background-color: whitesmoke;
   }

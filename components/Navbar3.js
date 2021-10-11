@@ -20,12 +20,12 @@ const Navbar3 = () => {
 
   return (
     <nav className="navbar navbar-expand-lg navbar-dark fixed-top scrolling-navbar">
-      <div class="container">
+      <div className="container">
         <Link href="/">
           <img src="\images\logo.png"></img>
         </Link>
         <button
-          class="navbar-toggler"
+          className="navbar-toggler"
           type="button"
           data-mdb-toggle="collapse"
           data-mdb-target="#navbarNav"
@@ -33,13 +33,13 @@ const Navbar3 = () => {
           aria-expanded="false"
           aria-label="Toggle navigation"
         >
-          <i class="fas fa-bars"></i>
+          <i className="fas fa-bars"></i>
         </button>
-        <div class="collapse navbar-collapse" id="navbarNav">
-          <ul class="navbar-nav">
-            <li class="nav-item">
+        <div className="collapse navbar-collapse" id="navbarNav">
+          <ul className="navbar-nav">
+            <li className="nav-item">
               
-                <a class="nav-link active" aria-current="page" href="/">Home</a>
+                <a className="nav-link active" aria-current="page" href="/">Home</a>
               
             </li>
             <li className="nav-item dropdown">
@@ -86,14 +86,14 @@ const Navbar3 = () => {
                   </Link></li>
                 </ul>
             </li>
-            <li class="nav-item">
-                <a class="nav-link" href="/about">About</a>
+            <li className="nav-item">
+                <a className="nav-link" href="/about">About</a>
             </li>
-            <li class="nav-item">
-                <a class="nav-link"  href="/environment">Environment</a>
+            <li className="nav-item">
+                <a className="nav-link"  href="/environment">Environment</a>
             </li>
-            <li class="nav-item">
-                <a class="nav-link" href="/contact">Contact</a>
+            <li className="nav-item">
+                <a className="nav-link" href="/contact">Contact</a>
             </li>
           </ul>
         </div>

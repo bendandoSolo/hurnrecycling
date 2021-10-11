@@ -1,7 +1,17 @@
-import React from "react";
+import React ,{useEffect, useState} from "react";
 import Link from "next/link";
 
+
 const Header = ({ background, text, smallText, button, mask, full }) => {
+
+  useEffect(() => {
+    const pageresized = () => {
+        console.log(window.innerWidth);
+    }
+    window.addEventListener("resize", pageresized);
+    return () => window.removeEventListener("resize", pageresized);
+});
+
 
 const showMask = !mask ? "mask" : "";
 
@@ -16,17 +26,17 @@ const size =  full ? "70vh" : "35vh";
         >
           <div className={showMask}>
             <div className="d-flex justify-content-center align-items-center h-100 ">
-              <div>
+              <div className="header-text-hightlight-box">
                 <h1
-                  className="display-1 mt-5 pt-2"
+                  className="display-1 py-2"
                   style={{
-                    marginBottom: "36px" ,
+                    marginBottom: 0
                   }}
                 >
                   <strong>{text}</strong>
                 </h1>
-                {/* <hr className="my-4" /> */}
-                <h4 className="font-weight-light mb-4 px-2">{smallText}</h4>
+    
+                {!!smallText && <h4 className="font-weight-light px-2">{smallText}</h4>}
                 {!!button && (
                   <Link href="/contact">
                     <button
@@ -62,9 +72,10 @@ export const HomeHeader = ({ background, text, smallText, button, mask, full }) 
             className="text-center bg-image"
             style={{ backgroundImage: `url(${background})`, height: size, backgroundPosition: 'bottom center' }}
           >
+
             <div className={showMask}>
               <div className="d-flex justify-content-center align-items-center h-100 ">
-                <div style={{position: 'absolute', bottom: '30px'}}>
+                <div className="header-text-hightlight-box" style={{position: "absolute", bottom: '0'}}>
                   <h1
                     className="display-1"
                     style={{
@@ -74,11 +85,11 @@ export const HomeHeader = ({ background, text, smallText, button, mask, full }) 
                     <strong>{text}</strong>
                   </h1>
                   {/* <hr className="my-4" /> */}
-                  <h4 className="font-weight-light mb-4 px-2"><strong>{smallText}</strong></h4>
+                  <h4 className="font-weight-light mb-2 px-2"><strong>{smallText}</strong></h4>
                   {!!button && (
                     <Link href="/contact">
                       <button
-                        className="btn btn-lg btn-success mt-2"
+                        className="btn btn-lg btn-success my-2 mb-4"
                         id="green-btn"
                       >
                         Get A Quote

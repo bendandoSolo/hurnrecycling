@@ -60,7 +60,7 @@ const Services = () => {
   return (
     <section className="text-center">
       <div className="mt-5 py-5 pb-2">
-        <h2 className="">SERVICES</h2>
+        <h2 className="">WHEELIE BIN SERVICES</h2>
 
         <div style={{maxWidth: '1500px', display: 'block', margin: '0 auto', marginBottom: '60px' }}>
 
@@ -104,7 +104,7 @@ const Services = () => {
           /> 
           </div>
 
-          {/* <h2 className="mb-5 mt-5 pt-5">SECONDARY SERVICES</h2> */}
+          <h2 className="mb-5 mt-5 pt-5">SPECIAL SERVICES</h2>
 
         <div className="row justify-content-center no-padding" >
          
