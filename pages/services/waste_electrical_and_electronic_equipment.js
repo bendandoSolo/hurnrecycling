@@ -5,7 +5,7 @@ import Link from "next/link";
 const WEEErecycling = () => {
   return (
     <>
-      <Header text="WEEE Waste collection" smallText="" background="/images/Desktop/WEE_waste_collection.jpg"/>
+      <Header text="WEEE Waste collection" smallText="" background="WEE_waste_collection.jpg"/>
       <section>
         <div className="container mt-5 py-5">
           <h2 className="mb-5 text-center">WEEE Waste collection</h2>

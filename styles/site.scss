@@ -75,6 +75,18 @@ header {
     height: 100vh;
   }
 }
+
+#intro-sm,#intro2-sm  {
+  height: 35vh;
+}
+@media (max-width: 767px) {
+  #intro-sm,#intro2-sm  {
+    height: 100vh;
+  }
+}
+
+
+
 // #intro2 {
 //   height: 70vh;
 // }

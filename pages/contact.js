@@ -3,7 +3,7 @@ import Header from "../components/Header";
 const contact = () => {
   return (
     <>
-      <Header text="Contact" smallText="" background="/images/Desktop/Contact_us.jpeg"/>
+      <Header text="Contact" smallText="" background="Contact_us.jpeg"/>
       <div className="container mt-5 py-5 pb-2">
         {/* <h2 className="mb-5 text-center">CONTACT</h2> */}
         <div className="row">

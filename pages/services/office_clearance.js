@@ -5,7 +5,7 @@ import Link from "next/link";
 const officeClearance = () => {
   return (
     <>
-      <Header text="Office clearance and relocation" smallText="" background="/images/Desktop/Office_clearance.jpg"/>
+      <Header text="Office clearance and relocation" smallText="" background="Office_clearance.jpg"/>
       <section>
         <div className="container mt-5 py-5">
           <h2 className="mb-5 text-center">Office clearance and relocation </h2>

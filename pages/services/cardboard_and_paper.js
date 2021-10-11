@@ -3,9 +3,14 @@ import Header from "../../components/Header";
 import Link from "next/link";
 
 const cardPackaging = () => {
+
+
+
+
+
   return (
     <>
-      <Header text="Cardboard and paper recycling" smallText="" background="/images/service_cards/Cardboard_and_paper_recycling.jpg"/>
+      <Header text="Cardboard and paper recycling" smallText="" background="Cardboard_and_paper_recycling.jpg"/>
       <section>
         <div className="container mt-5 py-5">
           <h2 className="mb-5 text-center">Cardboard and paper recycling</h2>

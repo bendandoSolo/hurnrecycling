@@ -5,7 +5,7 @@ import Link from "next/link";
 const dryMixed = () => {
   return (
     <>
-      <Header text="Dry Mixed Recycling or DMR" smallText="" background="/images/Desktop/Dry_mixed_recycling.jpg"/>
+      <Header text="Dry Mixed Recycling or DMR" smallText="" background="Dry_mixed_recycling.jpg"/>
       <section>
         <div className="container mt-5 py-5">
           <h2 className="mb-5 text-center">Dry Mixed Recycling or DMR</h2>
