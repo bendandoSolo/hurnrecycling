@@ -77,13 +77,13 @@ const Footer = () => {
                 <li>BH16 5BW</li>
               <hr />
               <li>
-                <a href="#!">
-                  01202 257 530 (option 2 sales) <i className="fas fa-phone"></i>
+                <a href="tel:+441202257530"><i className="fas fa-phone" style={{paddingRight: '6px'}}/>
+                  01202 257 530 (option 2 sales) 
                 </a>
               </li>
               <li>
-                <a href="#!">
-                  sales@hurnrecycling.com <i className="fas fa-envelope"></i>
+                <a href="mailto:sales@hurnrecycling.com?subject=Enquiry from Hurn Recycling Website" ><i className="fas fa-envelope" style={{paddingRight: '6px'}}/>
+                  sales@hurnrecycling.com 
                 </a>
               </li>
               <li>
@@ -91,12 +91,14 @@ const Footer = () => {
                   href="https://www.facebook.com/Hurnrecycling"
                   target="_blank"
                   alt="Hurne Recycling Facebook Page"
+                  style={{marginLeft: '-6px'}}
                 >
                   <img
                     src="/images/facebook.png"
                     className="hover"
-                    style={{ width: "32px", height: "32px", marginTop: "6px" }}
+                    style={{ width: "26px", height: "26px", marginRight: "4px" }}
                   />
+                  Follow us on facebook
                 </a>
               </li>
             </ul>
