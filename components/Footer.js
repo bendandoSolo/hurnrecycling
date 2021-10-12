@@ -91,14 +91,14 @@ const Footer = () => {
                   href="https://www.facebook.com/Hurnrecycling"
                   target="_blank"
                   alt="Hurne Recycling Facebook Page"
-                  style={{marginLeft: '-6px'}}
+                  style={{marginLeft: '-5px'}}
                 >
                   <img
                     src="/images/facebook.png"
                     className="hover"
                     style={{ width: "26px", height: "26px", marginRight: "4px" }}
                   />
-                  Follow us on facebook
+                  Follow us on Facebook
                 </a>
               </li>
             </ul>

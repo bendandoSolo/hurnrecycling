@@ -14,10 +14,17 @@ nav img {
     cursor: pointer;
   }
   
+
 }
 
 /*hover drop down*/
 @media all and (min-width: 992px) {
+
+  #navbarNav{
+    margin-top: 14px;
+  }
+ 
+
     .navbar .nav-item .dropdown-menu {
       display: none;
     }
@@ -26,7 +33,7 @@ nav img {
       display: block;
     }
     .navbar .nav-item .dropdown-menu {
-      margin-top: 0;
+      margin-top: -24px;
     }
 
     .navbar-expand-lg .navbar-collapse {

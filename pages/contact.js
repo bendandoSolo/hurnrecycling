@@ -24,26 +24,27 @@ const contact = () => {
                 <li>BH16 5BW</li>
                 <hr />
                 <li>
-                  <a href="#!">
-                    01202 257 530 (option 2 sales)<i className="fas fa-phone"></i>
+                  <a href="tel:+441202257530">
+                  <i className="fas fa-phone" /> Sales: 01202 257 530 (option 2)
                   </a>
                 </li>
                 <li>
-                  <a href="#!">
-                    01202 257 530 (option 4 general enquiries)<i className="fas fa-phone"></i>
+                  <a href="tel:+441202257530">
+                  <i className="fas fa-phone" /> General Enquiries: 01202 257 530 (option 4)
                   </a>
                 </li>
                 <li>
-                  <a href="#!">
-                    sales@hurnrecycling.com <i className="fas fa-envelope"></i>
+                  <a href="mailto:sales@hurnrecycling.com?subject=Enquiry from Hurn Recycling Website">
+                    <i className="fas fa-envelope"/> sales@hurnrecycling.com 
                   </a>
                 </li>
-                <li>
-                  <a href="#!">
-                    Follow us on Facebook
-                    <i className="fab fa-facebook-square"></i>
-                  </a>
-                </li>
+                <a
+                  href="https://www.facebook.com/Hurnrecycling"
+                  target="_blank"
+                  alt="Hurne Recycling Facebook Page"
+                >
+                  <i className="fab fa-facebook-square" style={{fontSize: '24px !important'}} /> Follow us on Facebook
+                </a>
               </ul>
             </div>
           </div>

@@ -99,8 +99,9 @@ header {
 
 
 .header-text-hightlight-box{
-    background-color: #000000;
-    opacity: 0.8;
+    background:rgba(0,0,0,0.7);
+    //background-color: #000000;
+    //opacity: 0.7;
     padding: 0 12px;
 }
 
@@ -298,7 +299,6 @@ padding-top: 0;
 }
 }
 
-
 .parallax {
   height: 500px;
   width: 100%;
@@ -315,3 +315,9 @@ padding-top: 0;
   }
 }
 
+.contact a{
+  color: $original-logo-color;
+}
+.contact a:hover{
+  color: $original-light;
+}
