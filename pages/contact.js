@@ -84,7 +84,7 @@ const contact = () => {
 
   return (
     <>
-      <Header text="Contact" smallText="" background="Contact_us.jpg"/>
+      <Header text="Contact" smallText="" background="Contact_Us.jpg"/>
       <div className="container mt-5 py-5 pb-2">
         {/* <h2 className="mb-5 text-center">CONTACT</h2> */}
         <div className="row">
