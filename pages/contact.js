@@ -1,9 +1,90 @@
 import Header from "../components/Header";
 
+import { Formik, Form, Field } from "formik";
+import * as Yup from "yup";
+
 const contact = () => {
+
+  const SignupSchema = Yup.object().shape({
+    name: Yup.string().required("Name is required"),
+    email: Yup.string().email("Invalid email").required("Email is required"),
+    message: Yup.string().required("Message is required"),
+  });
+
+  const sendEmail = async (props) => {
+    const contactFormBtn = document.getElementById("contact-form-btn");
+    contactFormBtn.classList.add("disable-click");
+    sending();
+    props["to"] = "enquiries@bendando.com";
+    props["website"] = "bendando.com";
+    const response = await fetch(
+      "https://sendgridcsharp.azurewebsites.net/api/sendemail",
+      {
+        method: "POST",
+        contentType: "application/json",
+        body: JSON.stringify(props),
+      }
+    );
+    try {
+      let bodyresponse = await response.json();
+      if (
+        response.status === 200 &&
+        bodyresponse.message != null &&
+        bodyresponse.message == "Email Sent"
+      ) {
+        responseSuccess();
+      } else {
+        responseError();
+      }
+    } catch (err) {
+      responseError();
+    }
+  };
+
+  function sending() {
+    const feedback = document.getElementById("feedback");
+    let feedbackText = document.getElementById("feedback-text");
+    feedback.classList.add("pop-down");
+    feedbackText.classList.add("fade-in");
+    setTimeout(function () {
+      feedback.classList.remove("pop-down");
+      feedbackText.classList.add("fade-out");
+      feedback.classList.add("pop-up");
+    }, 1500);
+    setTimeout(function () {
+      feedback.classList.remove("pop-up");
+      feedbackText.classList.remove("fade-out", "fade-in");
+    }, 2500);
+  }
+
+  function responseSuccess() {
+    setTimeout(function () {
+      const contactFormBtn = document.getElementById("contact-form-btn");
+      const response = document.getElementById("response");
+      let responseText = document.getElementById("response-text");
+      response.classList.add("pop-down", "message-sent");
+      responseText.classList.add("fade-in");
+      responseText.innerHTML = `Message Sent Successfully <i class="fas fa-check ms-2"></i>`;
+      contactFormBtn.classList.remove("disable-click");
+    }, 2500);
+  }
+
+  function responseError() {
+    setTimeout(function () {
+      const contactFormBtn = document.getElementById("contact-form-btn");
+      const response = document.getElementById("response");
+      let responseText = document.getElementById("response-text");
+      response.classList.add("pop-down", "message-error");
+      responseText.classList.add("fade-in");
+      responseText.innerHTML = `Error - Please Try Again <i class="fas fa-undo ms-2"></i>`;
+      contactFormBtn.classList.remove("disable-click");
+    }, 2500);
+  }
+
+
   return (
     <>
-      <Header text="Contact" smallText="" background="Contact_us.jpeg"/>
+      <Header text="Contact" smallText="" background="Contact_us.jpg"/>
       <div className="container mt-5 py-5 pb-2">
         {/* <h2 className="mb-5 text-center">CONTACT</h2> */}
         <div className="row">
@@ -48,6 +129,96 @@ const contact = () => {
               </ul>
             </div>
           </div>
+
+          {/*<div className="col-md-6 p-3 mb-5" data-aos="zoom-in" data-aos-delay="250">
+              {
+                <Formik
+                  initialValues={{
+                    name: "",
+                    email: "",
+                    message: "",
+                  }}
+                  validationSchema={SignupSchema}
+                  onSubmit={(values) => {
+                    sendEmail(values);
+                  }}
+                >
+                  {({ errors, touched }) => (
+                    <Form id="contact_form" className="p-4 connect-form">
+                      <label className="mb-2">Name:</label>
+                      <div className="mb-4">
+                        <Field
+                          type="text"
+                          name="name"
+                          placeholder="Your Name"
+                          className="form-input"
+                        />
+                        {errors.name && touched.name ? (
+                          <div className="error-validation">*{errors.name}</div>
+                        ) : null}
+                      </div>
+                      <label className="mb-2">Email:</label>
+                      <div className="mb-4">
+                        <Field
+                          name="email"
+                          type="email"
+                          id="email"
+                          placeholder="Your Email"
+                          className="form-input"
+                        />
+                        {errors.email && touched.email ? (
+                          <div className="error-validation">
+                            *{errors.email}
+                          </div>
+                        ) : null}
+                      </div>
+
+                      <label className="mb-3">Message:</label>
+                      <div className="mb-4">      
+                        <Field
+                          type="textarea"
+                          as="textarea"
+                          name="message"
+                          type="message"
+                          id="message"
+                          placeholder="Your Message"
+                          cols="30"
+                          rows="10"
+                          className="form-input"
+                        />
+                        {errors.message && touched.message ? (
+                          <div className="error-validation">
+                            *{errors.message}
+                          </div>
+                        ) : null}
+                      </div>
+                      <div id="feedback">
+                        <p id="feedback-text">Sending...</p>
+                      </div>
+                      <div id="response">
+                        <p id="response-text"></p>
+                      </div>
+                      <div className="text-end">
+                        <button
+                          className="global-btn btn mt-4 px-5"
+                          type="submit"
+                          id="contact-form-btn"
+                        >
+                          Send
+                          <span className="mt_load">
+                            <span></span>
+                          </span>
+                        </button>
+                      </div>
+                      <div id="msg"></div>
+                    </Form>
+                  )}
+                </Formik>
+              }
+            </div>*/}
+
+
+
           <div className="col-md-6 p-3 mb-5">
             <form className="p-4">
               <label className="mb-2">Name:</label>

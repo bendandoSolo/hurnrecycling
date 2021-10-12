@@ -154,11 +154,11 @@ const Services = () => {
           />
 
           <ServiceCard
-            title={"Events Waste Management"}
+            title={"Event Waste Management"}
             text={
               "AWAITING TEXT"
             }
-            imageURL={"/images/service_cards/Events_waste_management.jpg"}
+            imageURL={"/images/service_cards/Event_waste_management.jpg"}
             url='event_waste_management'
           />    
          
