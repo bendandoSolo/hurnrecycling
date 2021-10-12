@@ -54,7 +54,7 @@ const contact = () => {
               <input type="text" name="name" className="mb-4 p-2" />
               <label className="mb-2">Email:</label>
               <input type="text" name="name" className="mb-4 p-2" />
-              <label className="mb-2">Number:</label>
+              <label className="mb-2">Phone Number:</label>
               <input type="text" name="name" className="mb-4 p-2" />
               <label className="mb-3">Message:</label>
               <textarea
