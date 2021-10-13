@@ -66,13 +66,13 @@ const Services = () => {
 
         <div className="main-services-flex-container pb-4"  >
           <FlexboxServiceCard
-            title={"Municipal (General) Waste"}
+            title={"General Waste"}
             text={"Wheelie Bin Collections? AWAITING TEXT"}
             imageURL={"/images/service_cards/General_waste.jpg"}
             url='municipal-waste'
             />
           <FlexboxServiceCard
-            title={"Dry Mixed Recycling"}
+            title={"Mixed Recycling"}
             text={" AWAITING TEXT"}
             imageURL={"/images/service_cards/Dry_mixed_recycling.jpg"}
             url='dry_mixed_recycling'

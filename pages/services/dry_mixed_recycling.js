@@ -5,20 +5,20 @@ import Link from "next/link";
 const dryMixed = () => {
   return (
     <>
-      <Header text="Dry Mixed Recycling or DMR" smallText="" background="Dry_mixed_recycling.jpg"/>
+      <Header text="Mixed Recycling" smallText="" background="Dry_mixed_recycling.jpg"/>
       <section>
         <div className="container mt-5 py-5" >
-          <h2 className="mb-5 text-center">Dry Mixed Recycling or DMR</h2>
+          <h2 className="mb-5 text-center">Mixed Recycling</h2>
           <div className="row mb-4" /*style={{display: 'flex', flexDirection: "row-reverse" }}*/ >
            
             <div className="col-lg-6 mt-5">
               <h4 className="mb-4">
                 <strong>
-                We offer a wide range of recycling services, including DMR services, which are suitable for businesses where there is no option for further segregation. 
+                We offer a wide range of recycling services, including mixed recycling services, which are suitable for businesses where there is no option for further segregation. 
                 </strong>
               </h4>
               <p className="lead mb-4 pb-1">
-              With our DMR services you can still reduce your impact on the environment in a cost-effective way. We can accept clean and dry recyclables including plastic bottles, pots, tubs, trays, cardboard, paper and metal drink cans in our DMR bins.
+              With our mixed recycling services you can still reduce your impact on the environment in a cost-effective way. We can accept clean and dry recyclables including plastic bottles, pots, tubs, trays, cardboard, paper and metal drink cans in our mixed recycling bins.
               </p>
               <p className="lead mb-4 pb-1">
               Liquid bottles need to be rinsed, and the following materials should be avoided when sorting your waste, as they can contaminate your DMR bin: black bags, crisp and sweet packaging, polystyrene, glass, wood, food, containers with residue of food or liquids and hard plastics. Please see the poster below, or contact us for more information.

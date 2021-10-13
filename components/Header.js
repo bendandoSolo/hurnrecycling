@@ -4,7 +4,7 @@ import Link from "next/link";
 
 const Header = ({ background, text, smallText, button, mask, full }) => {
   
-  const [bgImage, setBgImage] = useState("");
+  const [bgImage, setBgImage] = useState("/images/Phone/");
 
   useEffect(() => {
     const pageresized = () => {
@@ -35,6 +35,7 @@ const showMask = !mask ? "mask" : "";
                     marginBottom: 0
                   }}
                 >
+                  
                   <strong>{text}</strong>
                 </h1>
     
@@ -62,7 +63,7 @@ export default Header;
 
 
 export const HomeHeader = ({ background, text, smallText, button, mask, full }) => {
-   const [bgImage, setBgImage] = useState("");
+   const [bgImage, setBgImage] = useState("/images/Phone/");
 
   useEffect(() => {
     const pageresized = () => {
@@ -82,16 +83,18 @@ export const HomeHeader = ({ background, text, smallText, button, mask, full }) 
     return (
       <header style={{/*marginTop: '100px'*/}}>
         <div id="intro" className="text-center bg-image homeheader" >
+
           <div className="text-center bg-image homeheader" id="intro2" 
             style={{ backgroundImage: `url(${bgImage}${background})`, backgroundPosition: 'bottom center' }}
           >
             <div className={showMask}>
               <div className="d-flex justify-content-center align-items-center h-100 ">
-                <div className="header-text-hightlight-box" style={{position: "absolute", bottom: '0'}}>
-                  <h1 className="display-1"style={{marginBottom: "12px",}}>
-                    <strong>{text}</strong>
+                <div  style={{position: "absolute", bottom: '0'}}>
+                  <h1 className="display-4"style={{marginBottom: "12px"}}>
+                  {text}
+                    {/* <strong>{text}</strong> */}
                   </h1>
-                  <h4 className="font-weight-light mb-2 px-2"><strong>{smallText}</strong></h4>
+                  <h4 className="font-weight-light mb-3 px-2"><strong>{smallText}</strong></h4>
                   {!!button && (
                     <Link href="/contact">
                       <button
