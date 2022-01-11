@@ -25,6 +25,9 @@ const Footer = () => {
               <li>
                 <Link href="/contact">Contact</Link>
               </li>
+              <li>
+                <Link href="/privacy-policy">Privacy Policy</Link>
+              </li>
             </ul>
           </div>
           <div className="col-lg-4 col-md-6 mb-4 mb-md-0">
