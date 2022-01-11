@@ -1,12 +1,18 @@
 import React from "react";
-import Header from "../../components/Header";
+import Head from "next/head";
 import Link from "next/link";
+import Header from "../../components/Header";
 
 const municipalWaste = () => {
   return (
       <> 
-<Header text="General Waste" smallText="" background="General_waste.jpg"/>
-    <section>
+      <Head>
+       <title>General Waste Recycling in Bournemouth, Poole &amp; Dorset - Hurn Recycling</title>
+       <meta name="description" content="Hurn Recycling offer General Waste Recycling Services throughout Bournemouth, Poole, Dorset and the South West"></meta>
+       <meta name="keywords" content="General Waste, Cardboard Recycling, Packaging Recycling, Office Paper Recycling, Waste Management, Confidential Waste Disposal, Glass Recycling, Cardboard Recycling, Plastic Recycling, Electrical Equipment Recycling, Waste Disposal, Office Furniture Disposal"/>  
+      </Head>
+      <Header text="General Waste" smallText="" background="General_waste.jpg"/>
+      <section>
       <div className="container mt-5 py-5">
       
         <div className="row mb-4">  <h2 className="mb-5 text-center">General Waste</h2>

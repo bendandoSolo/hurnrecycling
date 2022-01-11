@@ -1,9 +1,15 @@
+import Head from "next/head";
 import Header from "../components/Header";
 import Clients from "../components/Clients";
 
 const clients = () => {
   return (
     <>
+      <Head>
+      <title>Clients - Hurn Recycling</title>
+      <meta name="description" content="Offering our Clients Specialist Recycling &amp; Waste Management Services throughout Bournemouth, Poole, Dorset and the South West"/>
+      <meta name="keywords" content="Office Paper Recycling, Waste Management, Confidential Waste Disposal, Glass Recycling, Cardboard Recycling, Plastic Recycling, Electrical Equipment Recycling, Waste Disposal, Office Furniture Disposal" />        {/* <link rel="icon" href="/favicon.ico" /> */}
+      </Head>
       <Header text="Clients" smallText="Total waste management solutions" />
       <Clients />
       <section className="text-center">

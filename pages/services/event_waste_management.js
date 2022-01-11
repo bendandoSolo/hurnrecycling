@@ -1,12 +1,18 @@
 import React from "react";
-import Header from "../../components/Header";
+import Head from "next/head";
 import Link from "next/link";
+import Header from "../../components/Header";
 
 const eventWasteManagement = () => {
   return (
-    <>
+    <> 
+    <Head>
+    <title>Event Waste Mangagement Recycling in Bournemouth, Poole &amp; Dorset - Hurn Recycling</title>
+    <meta name="description" content="Hurn Recycling offer Event Waste Mangagement Services throughout Bournemouth, Poole, Dorset and the South West"></meta>
+    <meta name="keywords" content="Event Waste Mangagement,Cardboard Recycling, Packaging Recycling, Office Paper Recycling, Waste Management, Confidential Waste Disposal, Glass Recycling, Cardboard Recycling, Plastic Recycling, Electrical Equipment Recycling, Waste Disposal, Office Furniture Disposal"/>  
+   </Head>
       <Header text="Event Waste Mangagement" smallText="" 
-      background="Event_waste_management.jpg"
+      background="Events_waste_management.jpg"
       />
       <section>
         <div className="container mt-5 py-5">
@@ -14,7 +20,7 @@ const eventWasteManagement = () => {
           <div className="row mb-4">
             <div className="col-lg-6 mb-4 mb-lg-0 pb-2 pb-lg-0 pb-xl-2 mt-5">
             <img
-                src="/images/service_cards/Events_waste_management.jpg"
+                src="/images/service_cards/Event_waste_management.jpg"
                 className="img-fluid service-page-small-image"
                 alt="Event Waste Management"
               />

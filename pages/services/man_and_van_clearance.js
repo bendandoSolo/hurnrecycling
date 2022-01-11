@@ -1,10 +1,16 @@
 import React from "react";
-import Header from "../../components/Header";
+import Head from "next/head";
 import Link from "next/link";
+import Header from "../../components/Header";
 
 const polystyreneCollection = () => {
   return (
     <>
+     <Head>
+       <title>Man and van services in Bournemouth, Poole &amp; Dorset - Hurn Recycling</title>
+       <meta name="description" content="Hurn Recycling offer Man and van Services throughout Bournemouth, Poole, Dorset and the South West"></meta>
+       <meta name="keywords" content="Man and van services, Cardboard Recycling, Packaging Recycling, Office Paper Recycling, Waste Management, Confidential Waste Disposal, Glass Recycling, Cardboard Recycling, Plastic Recycling, Electrical Equipment Recycling, Waste Disposal, Office Furniture Disposal"/>  
+      </Head>
       <Header text="Man and van services" smallText="" background="Man_and_van_clearance.jpg" />
       <section>
       <div className="container mt-5 py-5">

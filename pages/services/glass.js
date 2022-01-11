@@ -1,10 +1,16 @@
 import React from "react";
-import Header from "../../components/Header";
+import Head from "next/head";
 import Link from "next/link";
+import Header from "../../components/Header";
 
 const glass = () => {
   return (
     <>
+       <Head>
+       <title>Cardboard &amp; Packaging Recycling in Bournemouth, Poole &amp; Dorset - Hurn Recycling</title>
+       <meta name="description" content="Hurn Recycling offer Glass recycling Recycling Services throughout Bournemouth, Poole, Dorset and the South West"></meta>
+       <meta name="keywords" content="Cardboard Recycling, Packaging Recycling, Office Paper Recycling, Waste Management, Confidential Waste Disposal, Glass Recycling, Cardboard Recycling, Plastic Recycling, Electrical Equipment Recycling, Waste Disposal, Office Furniture Disposal"/>  
+      </Head>
       <Header text="Glass recycling" smallText="" background="Glass_recycling.jpg"/>
       <section>
         <div className="container mt-5 py-5">

@@ -1,8 +1,14 @@
+import Head from "next/head";
 import Header from "../components/Header";
 
 const environment = () => {
   return (
     <>
+    <Head>
+    <title>Protecting the Environment - Hurn Recycling</title>
+    <meta name="description" content="Help your business protect the Environment - partner with Hurn Recycling to make your business greener"/>
+    <meta name="keywords" content="Office Paper Recycling, Waste Management, Confidential Waste Disposal, Glass Recycling, Cardboard Recycling, Plastic Recycling, Electrical Equipment Recycling, Waste Disposal, Office Furniture Disposal"/>  {/* <link rel="icon" href="/favicon.ico" /> */}
+      </Head>
       <Header
         text="The Environment"
         smallText="Recycling doesn’t have to cost the Earth..."
