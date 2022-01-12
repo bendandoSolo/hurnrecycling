@@ -90,7 +90,7 @@ const contact = () => {
         <meta name="description" content="Contact Hurn Recycling for Recycling &amp; Waste Management Services throughout Bournemouth, Dorset and the South West" />
         <meta name="keywords" content="Office Paper Recycling, Waste Management, Confidential Waste Disposal, Glass Recycling, Cardboard Recycling, Plastic Recycling, Electrical Equipment Recycling, Waste Disposal, Office Furniture Disposal"/>        {/* <link rel="icon" href="/favicon.ico" /> */}
       </Head>
-      <Header text="Contact" smallText="" background="Contact_Us.jpg"/>
+      <Header text="Contact" smallText="" background="Hurn_Recycling_Contact.jpg"/>
       <div className="container mt-5 py-5 pb-2">
         {/* <h2 className="mb-5 text-center">CONTACT</h2> */}
         <div className="row">

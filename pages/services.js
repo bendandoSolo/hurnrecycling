@@ -10,7 +10,7 @@ const services = () => {
        <meta name="description" content="Specialising in Recycling &amp; Waste Management Services throughout Bournemouth, Poole, Dorset and the South West" />       <meta name="keywords" content="Office Paper Recycling, Waste Management, Confidential Waste Disposal, Glass Recycling, Cardboard Recycling, Plastic Recycling, Electrical Equipment Recycling, Waste Disposal, Office Furniture Disposal"></meta>
        <meta name="keywords" content="Office Paper Recycling, Waste Management, Confidential Waste Disposal, Glass Recycling, Cardboard Recycling, Plastic Recycling, Electrical Equipment Recycling, Waste Disposal, Office Furniture Disposal" />
       </Head>
-      <Header text="Services" smallText="" background="Services.jpg"/>
+      <Header text="Services" smallText="" background="Hurn_Recycling_Services.jpg"/>
       <div className="container text-center mt-5 py-5 pb-2">
       {/* <h2 className="">SERVICES</h2> */}
         <p className=" lead mx-auto w-responsive">

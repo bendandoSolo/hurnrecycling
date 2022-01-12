@@ -115,9 +115,9 @@ const Footer = () => {
           target="_blank"
           alt="bendando website creaters"
           className="hover"
-          style={{fontSize: '12px'}}
+          style={{fontSize: '16px'}}
         >
-          created by Bendando
+          Website by Bendando
         </a>
       </div>
     </footer>

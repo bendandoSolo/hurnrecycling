@@ -16,7 +16,7 @@ export default function Home() {
       </Head>
       <HomeHeader
         full
-        background="Home.jpg"
+        background="Hurn_Recycling_Lorry.jpg"
         text="Total Waste Management Solutions"
         smallText="Helping local businesses since 1995"
         button

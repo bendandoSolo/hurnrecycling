@@ -321,3 +321,13 @@ padding-top: 0;
 .contact a:hover{
   color: $original-light;
 }
+
+.bendando-link a {
+  color: #ffffff !important;
+  transition: 1.5s;
+}
+
+.bendando-link:hover a {
+  text-decoration: underline;
+  color: $danger-color !important;
+}

@@ -5,10 +5,7 @@ const About = () => {
     <section className="about">
       <div className="container my-5 p-5 mt-2 /*shadow-5*/">
         {/* <h2 className="text-center pb-5">ABOUT</h2> */}
-        <div className="row flex-row-reverse mb-4 mt-5">
-          <div className="col-lg-6 mb-4 px-3 mb-lg-0 pb-2 pb-lg-0 pb-xl-2">
-            <img src="/images/lorry-hurn.jpg" className="img-fluid"alt="Hurn Recycling Lorry"/>
-          </div>
+        <div className="row flex-row mb-4 mt-5">
           <div className="col-lg-6">
             <h4 className="mb-4"><strong>Recycling & Waste Management throughout England and the UK</strong>
             </h4>
@@ -24,6 +21,9 @@ const About = () => {
             <p className="lead mb-4 pb-1">
             This success is due to our effective motivated team inspired by Peri, and our keen interest in the use of the latest technologies to deliver a level of service that is second to none.  
             </p>
+          </div>
+          <div className="col-lg-6 mb-4 px-3 mb-lg-0 pb-2 pb-lg-0 pb-xl-2">
+            <img src="/images/lorry-hurn.jpg" className="img-fluid"alt="Hurn Recycling Lorry"/>
           </div>
         </div>
 
