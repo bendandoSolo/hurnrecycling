@@ -25,7 +25,7 @@ const showMask = !mask ? "mask" : "";
     <header style={{/*marginTop: '100px'*/}}>
       <div className="text-center bg-image" id="intro-sm" >
         <div className="text-center bg-image"
-          style={{ backgroundImage: `url(${bgImage}${background})` }} id="intro2-sm" >
+          style={{ backgroundImage: `url(${bgImage}${background})`,backgroundPosition: 'center top' }} id="intro2-sm" >
           <div className={showMask}>
             <div className="d-flex justify-content-center align-items-center h-100 ">
               <div className="header-text-hightlight-box">
@@ -85,12 +85,12 @@ export const HomeHeader = ({ background, text, smallText, button, mask, full }) 
         <div id="intro" className="text-center bg-image homeheader" >
 
           <div className="text-center bg-image homeheader" id="intro2" 
-            style={{ backgroundImage: `url(${bgImage}${background})`, backgroundPosition: 'bottom center' }}
+            style={{ backgroundImage: `url(${bgImage}${background})`, backgroundPosition: 'center' }}
           >
             <div className={showMask}>
               <div className="d-flex justify-content-center align-items-center h-100 ">
-                <div  style={{position: "absolute", bottom: '0'}}>
-                  <h1 className="display-4"style={{marginBottom: "12px"}}>
+                <div  style={{position: "absolute", bottom: '0', padding: '12px 12px 0 12px'}} className="header-text-hightlight-box">
+                  <h1 className="display-4"style={{marginBottom: "12px", fontWeight: '400'}}>
                   {text}
                     {/* <strong>{text}</strong> */}
                   </h1>

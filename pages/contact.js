@@ -95,6 +95,7 @@ const contact = () => {
         {/* <h2 className="mb-5 text-center">CONTACT</h2> */}
         <div className="row">
           <div className="col-md-6 p-4">
+          <h2 className="mb-4">CONTACT HURN RECYCLING</h2>
             <p className="lead pb-4">
               We look forward to hearing from you by phone or email.
               Alternatively you can complete our enquiry form and we will get right back to you.
