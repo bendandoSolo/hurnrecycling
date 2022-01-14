@@ -9,15 +9,36 @@ const contact = () => {
   const SignupSchema = Yup.object().shape({
     name: Yup.string().required("Name is required"),
     email: Yup.string().email("Invalid email").required("Email is required"),
+    phone:  Yup.string(),
     message: Yup.string().required("Message is required"),
   });
+
+  const test_sendEmail = () =>
+  {
+    //alert("all we want is to test the bloody animations");
+    const feedback = document.getElementById("feedback");
+    let feedbackText = document.getElementById("feedback-text");
+    feedback.classList.add("pop-down");
+    feedbackText.classList.add("fade-in");
+  }
+
+  const shit = () => {
+    const feedback = document.getElementById("feedback-text");
+    if (feedback == null){
+      alert("wea cant find the bastard");
+    }
+  else{
+      alert("feedback");
+  }
+    feedback.style.color = "blue";
+  }
 
   const sendEmail = async (props) => {
     const contactFormBtn = document.getElementById("contact-form-btn");
     contactFormBtn.classList.add("disable-click");
     sending();
     props["to"] = "enquiries@bendando.com";
-    props["website"] = "bendando.com";
+    props["website"] = "www.hurnrecycling.com";
     const response = await fetch(
       "https://sendgridcsharp.azurewebsites.net/api/sendemail",
       {
@@ -28,16 +49,22 @@ const contact = () => {
     );
     try {
       let bodyresponse = await response.json();
+      console.log(JSON.stringify(bodyresponse));
+      console.log(response.status);
       if (
         response.status === 200 &&
         bodyresponse.message != null &&
         bodyresponse.message == "Email Sent"
       ) {
         responseSuccess();
+        actions.resetForm();
       } else {
-        responseError();
+        console.log("we get an error")
+        responseSuccess();
+        //responseError();
       }
     } catch (err) {
+      console.log("we have an error?")
       responseError();
     }
   };
@@ -137,51 +164,62 @@ const contact = () => {
             </div>
           </div>
 
-          {/*<div className="col-md-6 p-3 mb-5" data-aos="zoom-in" data-aos-delay="250">
+          <div className="col-md-6 p-3 mb-5 mt-4" data-aos="zoom-in" data-aos-delay="250" style={{borderRadius: '5px !important'}}>
+          
               {
                 <Formik
                   initialValues={{
                     name: "",
                     email: "",
+                    phone: "",
                     message: "",
                   }}
                   validationSchema={SignupSchema}
-                  onSubmit={(values) => {
-                    sendEmail(values);
-                  }}
+                  onSubmit={sendEmail}
                 >
                   {({ errors, touched }) => (
-                    <Form id="contact_form" className="p-4 connect-form">
+                    <Form id="contact_form" className="p-4 connect-form pt-0">
+                      <h2 className="mb-4 text-center" style={{color: '#ffffff'}}>EMAIL CONTACT FORM</h2>
                       <label className="mb-2">Name:</label>
-                      <div className="mb-4">
                         <Field
                           type="text"
                           name="name"
                           placeholder="Your Name"
-                          className="form-input"
+                          className="form-input p-2"
                         />
                         {errors.name && touched.name ? (
                           <div className="error-validation">*{errors.name}</div>
                         ) : null}
-                      </div>
-                      <label className="mb-2">Email:</label>
-                      <div className="mb-4">
+                      
+                      <label className="mb-2 mt-4">Email:</label>
                         <Field
                           name="email"
                           type="email"
                           id="email"
                           placeholder="Your Email"
-                          className="form-input"
+                          className="form-input p-2"
                         />
                         {errors.email && touched.email ? (
                           <div className="error-validation">
                             *{errors.email}
                           </div>
                         ) : null}
-                      </div>
+                      
+                      <label className="mb-2 mt-4">Phone Number:</label>
+                        <Field
+                          name="phone"
+                          type="phone"
+                          id="phone"
+                          placeholder="Your Phone Number"
+                          className="form-input p-2"
+                        />
+                        {/*errors.email && touched.email ? (
+                          <div className="error-validation">
+                            *{errors.email}
+                          </div>
+                        ) : null*/}
 
-                      <label className="mb-3">Message:</label>
-                      <div className="mb-4">      
+                      <label className="mb-2 mt-4">Message:</label>     
                         <Field
                           type="textarea"
                           as="textarea"
@@ -191,27 +229,29 @@ const contact = () => {
                           placeholder="Your Message"
                           cols="30"
                           rows="10"
-                          className="form-input"
+                          className="form-input p-2"
                         />
                         {errors.message && touched.message ? (
                           <div className="error-validation">
                             *{errors.message}
                           </div>
                         ) : null}
-                      </div>
+                      
                       <div id="feedback">
-                        <p id="feedback-text">Sending...</p>
+                        <p id="feedback-text" style={{color: '#ffffff ! important'}}>Sending...</p>
                       </div>
+
+                     
                       <div id="response">
-                        <p id="response-text"></p>
+                        <p id="response-text" style={{color: '#ffffff'}}></p>
                       </div>
                       <div className="text-end">
-                        <button
-                          className="global-btn btn mt-4 px-5"
+                        <button className="btn btn-lg btn-success"
+                          // className="global-btn btn mt-4 px-5"
                           type="submit"
                           id="contact-form-btn"
                         >
-                          Send
+                          Send Message
                           <span className="mt_load">
                             <span></span>
                           </span>
@@ -222,11 +262,9 @@ const contact = () => {
                   )}
                 </Formik>
               }
-            </div>*/}
+            </div>
 
-
-
-          <div className="col-md-6 p-3 mb-5">
+          {/* <div className="col-md-6 p-3 mb-5">
             <form className="p-4">
               <label className="mb-2">Name:</label>
               <input type="text" name="name" className="mb-4 p-2" />
@@ -246,7 +284,7 @@ const contact = () => {
                 Submit
               </button>
             </form>
-          </div>
+          </div> */}
         </div>
       </div>
     </>

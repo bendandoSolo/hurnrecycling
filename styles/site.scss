@@ -2,6 +2,7 @@
 @import "buttons";
 @import "navbar";
 
+
 @import url("https://fonts.googleapis.com/css2?family=Exo:wght@300;400;700&display=swap");
 @import url("https://fonts.googleapis.com/css2?family=Roboto:wght@300;400;500&display=swap");
 
@@ -331,3 +332,9 @@ padding-top: 0;
   text-decoration: underline;
   color: $danger-color !important;
 }
+
+.error-validation {
+  color: $danger-color;
+  padding-top: 5px;
+  }
+  

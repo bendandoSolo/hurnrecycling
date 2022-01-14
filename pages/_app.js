@@ -1,6 +1,7 @@
 import "../styles/mdb.min.css";
 //import '../styles/globals.css';
 import "../styles/site.scss";
+import "../styles/feedback-styles.scss";
 ////import '../public/mdb.min.js'; //cannot import?
 
 import Head from "next/head";
@@ -20,7 +21,7 @@ const MyApp = ({ Component, pageProps }) => {
           href="https://fonts.googleapis.com/css?family=Roboto:300,400,500,700&display=swap"
           rel="stylesheet"
         />
-        <link rel="icon" href="img/mdb-favicon.ico" type="image/x-icon" />
+        <link rel="icon" href="favicon.ico" type="image/x-icon" />
         <link
           rel="stylesheet"
           href="https://use.fontawesome.com/releases/v5.15.2/css/all.css"
