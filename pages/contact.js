@@ -13,31 +13,11 @@ const contact = () => {
     message: Yup.string().required("Message is required"),
   });
 
-  const test_sendEmail = () =>
-  {
-    //alert("all we want is to test the bloody animations");
-    const feedback = document.getElementById("feedback");
-    let feedbackText = document.getElementById("feedback-text");
-    feedback.classList.add("pop-down");
-    feedbackText.classList.add("fade-in");
-  }
-
-  const shit = () => {
-    const feedback = document.getElementById("feedback-text");
-    if (feedback == null){
-      alert("wea cant find the bastard");
-    }
-  else{
-      alert("feedback");
-  }
-    feedback.style.color = "blue";
-  }
-
-  const sendEmail = async (props) => {
+  const sendEmail = async (props,actions) => {
     const contactFormBtn = document.getElementById("contact-form-btn");
     contactFormBtn.classList.add("disable-click");
     sending();
-    props["to"] = "enquiries@bendando.com";
+    props["to"] = "sales@hurnrecycling.com";
     props["website"] = "www.hurnrecycling.com";
     const response = await fetch(
       "https://sendgridcsharp.azurewebsites.net/api/sendemail",
@@ -59,12 +39,9 @@ const contact = () => {
         responseSuccess();
         actions.resetForm();
       } else {
-        console.log("we get an error")
-        responseSuccess();
-        //responseError();
+        responseError();
       }
     } catch (err) {
-      console.log("we have an error?")
       responseError();
     }
   };
@@ -90,7 +67,7 @@ const contact = () => {
       const contactFormBtn = document.getElementById("contact-form-btn");
       const response = document.getElementById("response");
       let responseText = document.getElementById("response-text");
-      response.classList.add("pop-down", "message-sent");
+      response.classList.add("pop-down", "background-success");
       responseText.classList.add("fade-in");
       responseText.innerHTML = `Message Sent Successfully <i class="fas fa-check ms-2"></i>`;
       contactFormBtn.classList.remove("disable-click");
@@ -102,7 +79,7 @@ const contact = () => {
       const contactFormBtn = document.getElementById("contact-form-btn");
       const response = document.getElementById("response");
       let responseText = document.getElementById("response-text");
-      response.classList.add("pop-down", "message-error");
+      response.classList.add("pop-down", "background-danger");
       responseText.classList.add("fade-in");
       responseText.innerHTML = `Error - Please Try Again <i class="fas fa-undo ms-2"></i>`;
       contactFormBtn.classList.remove("disable-click");

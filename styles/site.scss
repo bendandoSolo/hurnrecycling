@@ -60,6 +60,19 @@ h2{
   background-color: #ffffff;
 }
 
+.success{
+  color: $success-color;
+}
+
+.background-success{
+  background-color: $success-color !important;
+}
+
+.background-danger{
+  background-color: $danger-color !important;
+}
+
+
 
 // Header Component
 
