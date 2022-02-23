@@ -55,7 +55,7 @@ const Footer = () => {
                 <Link href="/services/man_and_van_clearance">Man & Van Clearance</Link>
               </li>
               <li>
-                <Link href="/services/waste_electrical_and_electronic_equipment">WEE Waste Collection</Link>
+                <Link href="/services/waste_electrical_and_electronic_equipment">WEEE Waste Collection</Link>
               </li>
               <li>
                 <Link href="/services/office_clearance">Office Clearance</Link>

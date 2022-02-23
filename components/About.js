@@ -10,7 +10,7 @@ const About = () => {
             <h4 className="mb-4"><strong>Recycling & Waste Management throughout England and the UK</strong>
             </h4>
             <p className="lead mb-4 pb-1">
-            Hurn Recycling was established in 1998 by the now owner Mr Peri Cascarino. Peri’s background in the waste paper recycling sector began with Sevenside (now St Regis) Waste Paper. He started working within the Company at the Company’s Hurn site in Christchurch. He rapidly rose through the ranks and ultimately took the role of general Manger, obtained his O-licence in 5 years.
+            Hurn Recycling was established in 1998 by the now owner Mr Peri Cascarino. Peri’s background in the waste paper recycling sector began with Sevenside (now St Regis) Waste Paper. He started working within the Company at the Company’s Hurn site in Christchurch. He rapidly rose through the ranks and ultimately took the role of general manger, obtained his O-licence in 5 years.
             </p>
             <p className="lead mb-4 pb-1">
             Unfortunately due to a national decline in recycled material markets the site at Hurn was closed however Peri took over the site and founded Hurn Recycling Ltd.

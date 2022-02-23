@@ -1,19 +1,30 @@
+import { useEffect } from "react";
+import { useRouter } from "next/router";
+import * as gtag from "../lib/gtag";
+
 import "../styles/mdb.min.css";
-//import '../styles/globals.css';
 import "../styles/site.scss";
 import "../styles/feedback-styles.scss";
-////import '../public/mdb.min.js'; //cannot import?
-
 import Head from "next/head";
-
-import Navbar from "../components/Navbar";
-import Navbar2 from "../components/Navbar2";
 import Navbar3 from "../components/Navbar3";
-import NavbarAnimated from "../components/NavbarAnimated";
-import NavbarAnimated2 from "../components/NavbarAnimated2";
 import Footer from "../components/Footer";
 
 const MyApp = ({ Component, pageProps }) => {
+
+  const nextRouter = useRouter();
+
+  useEffect(() => {
+    const handleRouteChange = (url) => {
+      gtag.pageview(url);
+    };
+    //unimplement analytics boilerplate code
+    nextRouter.events.on("routeChangeComplete", handleRouteChange);
+    return () => {
+      nextRouter.events.off("routeChangeComplete", handleRouteChange);
+    };
+  }, [nextRouter.events]);
+
+
   return (
     <>
       <Head>

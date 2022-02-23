@@ -1,5 +1,6 @@
 import Head from "next/head";
 import Header from "../components/Header";
+import GoogleMapsSection from "../components/GoogleMapsSection";
 
 import { Formik, Form, Field } from "formik";
 import * as Yup from "yup";
@@ -96,24 +97,25 @@ const contact = () => {
       </Head>
       <Header text="Contact" smallText="" background="Hurn_Recycling_Contact.jpg"/>
       <div className="container mt-5 py-5 pb-2">
+
         {/* <h2 className="mb-5 text-center">CONTACT</h2> */}
         <div className="row">
-          <div className="col-md-6 p-4">
+          <div className="col-lg-6 p-4">
           <h2 className="mb-4">CONTACT HURN RECYCLING</h2>
             <p className="lead pb-4">
               We look forward to hearing from you by phone or email.
               Alternatively you can complete our enquiry form and we will get right back to you.
             </p>
-            <img src="/images/map.jpg" id="map" />
+
+            <GoogleMapsSection/>
+            {/* <img src="/images/map.jpg" id="map" /> */}
             <div className="lead contact">
               <ul className="list-unstyled my-4 pt-2">
                 <li><b>Hurn Recycling Ltd</b></li>
-                <li>Unit 10-11</li>
-                <li>Stepnell Reach</li>
-                <li>541 Blandford Road</li>
-                <li>Poole</li>
+                <li>452 Bournemouth International Airport</li>
+                <li>Christchurch</li>
                 <li>Dorset</li>
-                <li>BH16 5BW</li>
+                <li>BH23 6NW</li>
                 <hr />
                 <li>
                   <a href="tel:+441202257530">
@@ -141,7 +143,7 @@ const contact = () => {
             </div>
           </div>
 
-          <div className="col-md-6 p-3 mb-5 mt-4" data-aos="zoom-in" data-aos-delay="250" style={{borderRadius: '5px !important'}}>
+          <div className="col-lg-6 p-3 mb-5 mt-4" data-aos="zoom-in" data-aos-delay="250" style={{borderRadius: '5px !important'}}>
           
               {
                 <Formik
