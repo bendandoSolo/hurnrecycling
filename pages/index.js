@@ -2,7 +2,7 @@ import Head from "next/head";
 import Services from "../components/Services";
 import About from "../components/About";
 import Clients from "../components/Clients";
-import {HomeHeader} from "../components/Header";
+import Header, {HomeHeader} from "../components/Header";
 
 
 export default function Home() {
@@ -23,6 +23,8 @@ export default function Home() {
       />
       <main>
         <Services title />
+        <Header text="About" smallText="" background="About_Hurn_Recycling.jpg" />
+        <About />
         {/* <About /> */}
         <Clients />
       </main>

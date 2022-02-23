@@ -60,8 +60,8 @@ const Services = () => {
   return (
     <section className="text-center">
       <div className="mt-5 py-5 pb-2">
-        <h2 className="">WHEELIE BIN SERVICES</h2>
-
+        {/* <h2 className="">WHEELIE BIN SERVICES</h2> */}
+        <h2 className="">BIN COLLECTION SERVICES</h2>
         <div style={{maxWidth: '1500px', display: 'block', margin: '0 auto', marginBottom: '60px' }}>
 
         <div className="main-services-flex-container pb-4"  >
