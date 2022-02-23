@@ -89,7 +89,7 @@ const Footer = () => {
                   sales@hurnrecycling.com 
                 </a>
               </li>
-              <li>
+              {/* <li>
                 <a
                   href="https://www.facebook.com/Hurnrecycling"
                   target="_blank"
@@ -103,7 +103,7 @@ const Footer = () => {
                   />
                   Follow us on Facebook
                 </a>
-              </li>
+              </li> */}
             </ul>
           </div>
           <div className="col-lg-3 col-md-6 mb-4 mb-md-0"></div>

@@ -17,8 +17,8 @@ export default function Home() {
       <HomeHeader
         full
         background="Hurn_Recycling_Lorry.jpg"
-        text="Total Waste Management Solutions"
-        smallText="Helping local businesses since 1995"
+        text="Waste Management &amp; Recycling"
+        smallText="Helping businesses reduce landfill"
         button
       />
       <main>

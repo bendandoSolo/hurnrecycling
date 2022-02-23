@@ -132,6 +132,7 @@ const contact = () => {
                     <i className="fas fa-envelope"/> sales@hurnrecycling.com 
                   </a>
                 </li>
+                {/* <li>
                 <a
                   href="https://www.facebook.com/Hurnrecycling"
                   target="_blank"
@@ -139,6 +140,8 @@ const contact = () => {
                 >
                   <i className="fab fa-facebook-square" style={{fontSize: '24px !important'}} /> Follow us on Facebook
                 </a>
+                </li> */}
+
               </ul>
             </div>
           </div>
