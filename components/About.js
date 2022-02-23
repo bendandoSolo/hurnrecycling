@@ -4,8 +4,37 @@ const About = () => {
   return (
     <section className="about">
       <div className="container my-5 p-5 mt-2 /*shadow-5*/">
+
         {/* <h2 className="text-center pb-5">ABOUT</h2> */}
         <div className="row flex-row mb-4 mt-5">
+        <h4 className="mb-4 text-center" ><strong>Hurn Recycling and Waste Management</strong></h4>
+            <div style={{ paddingBottom: '40px'}}>
+                <p className="lead mb-4 pb-1">
+                If you're looking for reliable and professional recycling services, you can trust in the team at Hurn Recycling. We offer a wide range of recycling and waste management services to businesses and households throughout the UK, so whatever your recycling needs, we can help.
+                </p>
+                <p className="lead mb-4 pb-1">
+                We understand that recycling and waste management can be confusing and overwhelming, so our team are on hand to provide advice and support every step of the way. We offer a range of recycling services, from paper and cardboard recycling to metal and electronic recycling, whatever you need, we can help.
+                Give us a call today so we can discuss how we can help you manage your waste most effectively.
+                </p>
+
+                <div className="nav-item call-now-navbar-button horizontal-center-singleitem">
+                <a href="tel:+441202257530">
+                  <button type="button" className="btn btn-success btn-lg">
+                    CALL 01202 257 530 <i className="fas fa-phone ps-2"></i>
+                  </button>
+                </a>
+              </div>
+
+
+                {/* <p className="lead mb-4 pb-1">
+                We also provide a free collection service for large quantities of recyclable materials, so if you have a lot of recycling to dispose of, we can help. All you need to do is call us and we'll arrange to collect your recyclables free of charge.
+                </p> */}
+                {/* <p className="lead mb-4 pb-1">
+                If you're looking for a reliable and professional recycling company, call us today. We offer a wide range of recycling services to businesses and households throughout the UK, so whatever your recycling needs, we can help.
+                </p> */}
+            </div>
+          
+          
           <div className="col-lg-6">
             <h4 className="mb-4"><strong>Recycling & Waste Management throughout England and the UK</strong>
             </h4>
@@ -31,7 +60,9 @@ const About = () => {
         <h4 className="mb-4" ><strong>Our Vision and the Environment</strong>
             </h4>
             <p className="lead mb-4 pb-1">
-            We are committed to continuing to providing Dorset and the surrounding counties with the highest level of waste collection services for businesses. We are passionate about the beautiful county of  Dorset and our proud to be working towards creating a cleaner greener Dorset , for our children and children’s children.
+            We are committed to continuing to providing Dorset and the surrounding counties with the highest level of waste collection services for businesses. We are passionate about the beautiful county of Dorset and our proud to be working towards creating a cleaner greener Dorset for posterity.
+             {/* our children and children’s children. */}
+             We work hard to recycle as much as possible to minimize any waste needing to be sent to landfill to help protect the environment. 
             </p>
         </div>
 

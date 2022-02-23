@@ -2,7 +2,7 @@ import Head from "next/head";
 import Services from "../components/Services";
 import About from "../components/About";
 import Clients from "../components/Clients";
-import Header, {HomeHeader} from "../components/Header";
+import {HomeHeader} from "../components/Header";
 
 
 export default function Home() {
