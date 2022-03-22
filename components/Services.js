@@ -72,7 +72,7 @@ const Services = () => {
             url='municipal-waste'
             />
           <FlexboxServiceCard
-            title={"Mixed Recycling"}
+            title={"Dry Mixed Recycling"}
             text={" AWAITING TEXT"}
             imageURL={"/images/service_cards/Dry_mixed_recycling.jpg"}
             url='dry_mixed_recycling'

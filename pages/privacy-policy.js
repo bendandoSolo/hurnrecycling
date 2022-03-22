@@ -6,8 +6,8 @@ const Privacy_Policy = () => {
   return (
     <>
     <Head>
-      <title>Hurn Recycling | Privacy Policy</title>
-      <meta name="description" content="Hurn Recycling | Privacy Policy Waste Management Services throughout Bournemouth, Poole, Dorset and the South West"/>
+      <title>Privacy Policy | Recycling and Waste Management Bournemouth</title>
+      <meta name="description" content="Hurn Recycling Privacy Policy. General, DMR, Food, Glass, Paper Recycling and Waste Management Services in Hurn, Bournemouth, Poole, Dorset and the South West."/>
       <meta name="keywords" content="Hurn Recycling, Privacy Policy, Office Paper Recycling, Waste Management, Confidential Waste Disposal, Glass Recycling, Cardboard Recycling, Plastic Recycling, Electrical Equipment Recycling, Waste Disposal, Office Furniture Disposal" />        {/* <link rel="icon" href="/favicon.ico" /> */}
       </Head>
     <div style={{marginTop: '120px'}}></div>

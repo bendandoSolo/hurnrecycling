@@ -5,8 +5,8 @@ const environment = () => {
   return (
     <>
     <Head>
-    <title>Protecting the Environment - Hurn Recycling</title>
-    <meta name="description" content="Help your business protect the Environment - partner with Hurn Recycling to make your business greener"/>
+    <title>The Environment | Recycling and Waste Management Bournemouth</title>
+    <meta name="description" content="We are passionate about protecting the environment and reducing landfill. Make your business greener and protect Bournemouth, Poole, Dorset and the South West."/>
     <meta name="keywords" content="Office Paper Recycling, Waste Management, Confidential Waste Disposal, Glass Recycling, Cardboard Recycling, Plastic Recycling, Electrical Equipment Recycling, Waste Disposal, Office Furniture Disposal"/>  {/* <link rel="icon" href="/favicon.ico" /> */}
       </Head>
       <Header

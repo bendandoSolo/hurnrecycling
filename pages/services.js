@@ -6,8 +6,8 @@ const services = () => {
   return (
     <>
        <Head>
-       <title>Recycling Services in Bournemouth, Poole &amp; Dorset - Hurn Recycling</title>
-       <meta name="description" content="Specialising in Recycling &amp; Waste Management Services throughout Bournemouth, Poole, Dorset and the South West" />       <meta name="keywords" content="Office Paper Recycling, Waste Management, Confidential Waste Disposal, Glass Recycling, Cardboard Recycling, Plastic Recycling, Electrical Equipment Recycling, Waste Disposal, Office Furniture Disposal"></meta>
+       <title>Services | Hurn Recycling and Waste Management Bournemouth</title>
+       <meta name="description" content="General Municipal Waste, Dry Mixed Recycling, Cardboard and Paper, Glass, Food, Polystyrene, WEEE Recycling in Bournemouth, Poole, Dorset and the South West." /> 
        <meta name="keywords" content="Office Paper Recycling, Waste Management, Confidential Waste Disposal, Glass Recycling, Cardboard Recycling, Plastic Recycling, Electrical Equipment Recycling, Waste Disposal, Office Furniture Disposal" />
       </Head>
       <Header text="Services" smallText="" background="Hurn_Recycling_Services.jpg"/>

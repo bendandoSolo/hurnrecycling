@@ -9,8 +9,8 @@ export default function Home() {
   return (
     <div>
       <Head>
-        <title>Hurn Recycling - Recycling &amp; Waste Management Services</title>
-        <meta name="description" content="Specialising in Recycling &amp; Waste Management Services throughout Bournemouth, Poole, Dorset and the South West"></meta>
+        <title>Hurn Recycling | Recycling and Waste Management Bournemouth</title>
+        <meta name="description" content="Recycling and Waste Management Services: General Waste, Food, Glass, Paper and Dry Mixed Recycling. Bournemouth, Poole, Dorset and the South West of England."></meta>
         <meta name="keywords" content="Office Paper Recycling, Waste Management, Confidential Waste Disposal, Glass Recycling, Cardboard Recycling, Plastic Recycling, Electrical Equipment Recycling, Waste Disposal, Office Furniture Disposal"></meta>
         {/* <link rel="icon" href="/favicon.ico" /> */}
       </Head>
