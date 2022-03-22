@@ -135,6 +135,37 @@ nav img {
     }
   }
 
+   @media screen and (max-width: 992px) {
+    .navbar-nav {
+      .dropdown-menu {
+        background-color: transparent;
+        display: block !important;
+        position: relative;
+        top: 0;
+        text-align: center;
+        box-shadow: none;
+        margin-bottom: 0;
+        .dropdown-item {
+          padding: 0;
+        }
+      }
+      .nav-full-menu {
+        li {
+          margin-bottom: 0;
+        }
+      }
+    }
+    .dropdown-menu {
+      background-color: transparent;
+      display: block !important;
+      position: relative;
+    }
+  }
+
+
+  
+
+
   // @media screen and (max-width: 992px) {
   //   .navbar-nav {
   //     .dropdown-menu {
