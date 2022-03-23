@@ -62,7 +62,7 @@ const Navbar3 = () => {
                     <a className="dropdown-item">Glass Recycling</a>
                   </Link></li>
                   <li><Link href="/services/food">
-                    <a className="dropdown-item">Food Recycling</a>
+                    <a className="dropdown-item">Food Waste</a>
                   </Link></li>
                   <li>
                     <Link href="/services/polystyrene_collection"><a className="dropdown-item">Polystyrene Collection</a></Link>

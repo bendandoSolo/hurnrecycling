@@ -5,14 +5,8 @@ import ServiceCard,  {FlexboxServiceCard, PrimaryLargeServiceCard} from "./Servi
 const Services = () => {
   useEffect(() => {
     normalizeCardsHeightByRows();
-
-    function handleResize() {
-      //console.log('resized to: ', window.innerWidth, 'x', window.innerHeight)
-      normalizeCardsHeightByRows();    
-    }
-
+    function handleResize() {normalizeCardsHeightByRows();    }
     window.addEventListener('resize', handleResize)
-
     return _ => {window.removeEventListener('resize', handleResize)}
   }, []);
 
@@ -55,15 +49,12 @@ const Services = () => {
     }
   }
 
-
-
   return (
     <section className="text-center">
       <div className="mt-5 py-5 pb-2">
         {/* <h2 className="">WHEELIE BIN SERVICES</h2> */}
-        <h2 className="">BIN COLLECTION SERVICES</h2>
+        <h2 className="">RECYCLING AND WASTE BIN COLLECTION SERVICES</h2>
         <div style={{maxWidth: '1500px', display: 'block', margin: '0 auto', marginBottom: '60px' }}>
-
         <div className="main-services-flex-container pb-4"  >
           <FlexboxServiceCard
             title={"General Waste"}
@@ -95,80 +86,74 @@ const Services = () => {
             url='glass'
           />
           <FlexboxServiceCard
-            title={"Food Recycling"}
+            title={"Food Waste"}
             text={
               "Recycle all your glass with easy and cost effective recycling solutions for your business"
             }
             imageURL={"/images/service_cards/Food_recycling.jpg"}
             url='food'
           /> 
-          </div>
-
-          <h2 className="mb-5 mt-5 pt-5">SPECIAL SERVICES</h2>
-
-        <div className="row justify-content-center no-padding" >
-         
-              <ServiceCard
-            title={"Polystyrene collection"}
-            text={
-              "AWAITING TEXT"
-            }
-            imageURL={"/images/service_cards/Polystyrene_collection.jpg"}
-            url='polystyrene_collection'
-          />
-
-          <ServiceCard
-            title={"Man & van clearance"}
-            text={
-              "AWAITING TEXT"
-            }
-            imageURL={"/images/service_cards/Man_and_van_clearance.jpg"}
-            url='man_and_van_clearance'
-          />
-
-          <ServiceCard
-            title={"WEEE Waste Collection"}
-            text={
-              "AWAITING TEXT"
-            }
-            imageURL={"/images/service_cards/WEE_waste_collection.jpg"}
-            url='waste_electrical_and_electronic_equipment'
-          />    
-
-          <ServiceCard
-            title={"Office Clearance"}
-            text={
-              "AWAITING TEXT"
-            }
-            imageURL={"/images/service_cards/Office_clearance.jpg"}
-            url='office_clearance'
-          />
-
-          <ServiceCard
-            title={"Confidential waste collection"}
-            text={
-              "Our Confidential Waste Disposal guarantees protection of sensitive company materials and a defence from fraud."
-            }
-            imageURL={"/images/service_cards/Confidential_waste.jpg"}
-            url='confidential_waste'
-          />
-
-          <ServiceCard
-            title={"Event Waste Management"}
-            text={
-              "AWAITING TEXT"
-            }
-            imageURL={"/images/service_cards/Event_waste_management.jpg"}
-            url='event_waste_management'
-          />    
-         
-          </div>
-
-
-
-
-
         </div>
+        <h2 className="mb-5 mt-5 pt-5">SPECIALIST RECYCLING SERVICES</h2>
+        <div className="row justify-content-center no-padding" >
+            <ServiceCard
+              title={"Polystyrene collection"}
+              text={
+                "AWAITING TEXT"
+              }
+              imageURL={"/images/service_cards/Polystyrene_collection.jpg"}
+              url='polystyrene_collection'
+            />
+            <ServiceCard
+              title={"Man & van clearance"}
+              text={
+                "AWAITING TEXT"
+              }
+              imageURL={"/images/service_cards/Man_and_van_clearance.jpg"}
+              url='man_and_van_clearance'
+            />
+            <ServiceCard
+              title={"WEEE Waste Collection"}
+              text={
+                "AWAITING TEXT"
+              }
+              imageURL={"/images/service_cards/WEE_waste_collection.jpg"}
+              url='waste_electrical_and_electronic_equipment'
+            />    
+            <ServiceCard
+              title={"Office Clearance"}
+              text={
+                "AWAITING TEXT"
+              }
+              imageURL={"/images/service_cards/Office_clearance.jpg"}
+              url='office_clearance'
+            />
+            <ServiceCard
+              title={"Confidential waste collection"}
+              text={
+                "Our Confidential Waste Disposal guarantees protection of sensitive company materials and a defence from fraud."
+              }
+              imageURL={"/images/service_cards/Confidential_waste.jpg"}
+              url='confidential_waste'
+            />
+            <ServiceCard
+              title={"Event Waste Management"}
+              text={
+                "AWAITING TEXT"
+              }
+              imageURL={"/images/service_cards/Event_waste_management.jpg"}
+              url='event_waste_management'
+            />    
+          </div>
+        </div>
+
+      </div>
+    </section>
+  );
+};
+
+export default Services;
+
 
         {/* <div style={{display: 'flex', flexDirection: 'row', justifyContent: 'space-around', gap: '20px'}}>
           <FlexboxServiceCard
@@ -291,12 +276,4 @@ const Services = () => {
             imageURL={"/images/services/glass.jpg"}
             url="/food"
           />
-          </div>*/}
-
-    
-      </div>
-    </section>
-  );
-};
-
-export default Services;
+          </div>*/}    

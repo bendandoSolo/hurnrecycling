@@ -16,3 +16,14 @@ $original-dark: #0a3110;
 $danger-color: #cf1322;//#FC3932;
 $success-color: #389e0d;//#46C000;
 $action-color:#608BD8;
+
+$offwhite1-color: #fafafa;
+$offwhite2-color: #f5f5f5;
+
+.background-offwhite1{
+    background-color: $offwhite1-color;
+}
+
+.background-offwhite2{
+    background-color: $offwhite2-color;
+}
