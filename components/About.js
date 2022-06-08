@@ -19,7 +19,7 @@ const About = () => {
             <p className="lead mb-4 pb-1">
             With over 20 years experience in the waste collection and recycling business we continue to provide the highest levels of service for our customers and help to protect the environment. We are always looking for ways to make businesses more sustainable and eco-friendly and to reduce landfill.
             </p>
-            <h4 className="mb-4 text-center pt-4"><strong>Superb customer Service</strong>
+            <h4 className="mb-4 text-center pt-4"><strong>Superb customer service</strong>
             </h4>
             <p className="lead mb-4 pb-1">
             We pride ourselves on our high standards of services; we have a dedicated customer service team, who are committed to answer calls within a few rings and to direct your calls to right person for your enquiry. All customer queries are answered in a few hours, so you can focus on running your business and allow us help to make your business more sustainable.
