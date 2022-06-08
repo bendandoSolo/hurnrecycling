@@ -1,7 +1,7 @@
 import Head from "next/head";
 import Header from "../components/Header";
 import GoogleMapsSection from "../components/GoogleMapsSection";
-import AreasWeCover from "../components/AreasWeCover";
+import AreasWeCover from "../components/widgets/AreasWeCover";
 
 import { Formik, Form, Field } from "formik";
 import * as Yup from "yup";

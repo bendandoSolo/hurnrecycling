@@ -35,9 +35,18 @@ a {
   text-decoration: none;
 }
 
-a.highlight-link{
-  text-decoration: underline;
+a.highlight-link, span.highlight-link, p >a.highlight-link{
+  text-decoration: underline !important;
+  // font-weight: bold;
+  cursor: pointer;
 }
+
+a.highlight-link:hover, span.highlight-link:hover, p >a.highlight-link:hover{
+  text-decoration: underline !important;
+  color: $original-logo-color;
+}
+
+
 
 * {
   box-sizing: border-box;

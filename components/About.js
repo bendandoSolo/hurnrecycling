@@ -1,5 +1,6 @@
 import React from "react";
-import AreasWeCover from './AreasWeCover';
+import AreasWeCover from './widgets/AreasWeCover';
+import CallNowButton from './widgets/CallNowButton';
 
 const About = () => {
   return (
@@ -7,11 +8,10 @@ const About = () => {
       <div className="container my-5 pt-5 pb-1 mt-2">
       <h2 className="text-center">HURN RECYCLING AND WASTE MANAGMENT</h2>
                 <p className="lead mb-4 pb-1">
-                Hurn Recycling began as a family run business in Bournemouth, Dorset. Started in 1998 with the help of the <a href='https://www.princes-trust.org.uk/' target='_blank' className="highlight-link">Princess&nbsp;Trust&nbsp;Dorset</a>. From there we have grown rapidly to become the largest independent waste company in the County of Dorset, and offer our waste collection services and brokerage in the four surrounding Counties of Devon, Hampshire, Somerset and Wiltshire.
+                Hurn Recycling began as a family run business in Bournemouth, Dorset. Started in 1998 with the help of the <a href='https://www.princes-trust.org.uk/' target='_blank' className="highlight-link"><strong>Princess&nbsp;Trust&nbsp;Dorset</strong></a>. From there we have grown rapidly to become the largest independent waste company in the County of Dorset, and offer our waste collection services and brokerage in the four surrounding Counties of Devon, Hampshire, Somerset and Wiltshire.
                 </p>
-                <div className="nav-item call-now-navbar-button horizontal-center-singleitem ">
-                   <a href="tel:+441202257530"><button type="button" className="btn btn-success btn-lg my-5">CALL 01202 257 530 <i className="fas fa-phone ps-2"></i></button></a>
-                </div>
+                <CallNowButton margin={'my-5'} />
+                
         <div className="row flex-row mb-5 mt-5">
           <div className="col-lg-6 mb-4">
             <h4 className="mb-4 text-center"><strong>Over 20 years experience in the recycling business</strong>
