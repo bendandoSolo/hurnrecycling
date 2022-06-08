@@ -1,15 +1,16 @@
 import React from "react";
+import AreasWeCover from './AreasWeCover';
 
 const About = () => {
   return (
     <section className="about">
-      <div className="container my-5 p-5 mt-2">
+      <div className="container my-5 pt-5 pb-1 mt-2">
       <h2 className="text-center">HURN RECYCLING AND WASTE MANAGMENT</h2>
                 <p className="lead mb-4 pb-1">
-                Hurn Recycling began as a family run business in Dorset, started in 1998 with the help of the <a href='https://www.princes-trust.org.uk/' target='_blank' className="highlight-link">Princess Trust in Dorset</a>. From there we have grown rapidly to become the largest independent waste company in the County of Dorset, and offer our waste collection services and brokerage in the four surrounding Counties of Devon, Hampshire, Somerset and Wiltshire.
+                Hurn Recycling began as a family run business in Bournemouth, Dorset. Started in 1998 with the help of the <a href='https://www.princes-trust.org.uk/' target='_blank' className="highlight-link">Princess&nbsp;Trust&nbsp;Dorset</a>. From there we have grown rapidly to become the largest independent waste company in the County of Dorset, and offer our waste collection services and brokerage in the four surrounding Counties of Devon, Hampshire, Somerset and Wiltshire.
                 </p>
-                <div className="nav-item call-now-navbar-button horizontal-center-singleitem">
-                   <a href="tel:+441202257530"><button type="button" className="btn btn-success btn-lg mb-5">CALL 01202 257 530 <i className="fas fa-phone ps-2"></i></button></a>
+                <div className="nav-item call-now-navbar-button horizontal-center-singleitem ">
+                   <a href="tel:+441202257530"><button type="button" className="btn btn-success btn-lg my-5">CALL 01202 257 530 <i className="fas fa-phone ps-2"></i></button></a>
                 </div>
         <div className="row flex-row mb-5 mt-5">
           <div className="col-lg-6 mb-4">
@@ -24,7 +25,7 @@ const About = () => {
             We pride ourselves on our high standards of services; we have a dedicated customer service team, who are committed to answer calls within a few rings and to direct your calls to right person for your enquiry. All customer queries are answered in a few hours, so you can focus on running your business and allow us help to make your business more sustainable.
             </p>
                 <a className="horizontal-center-singleitem" href='https://uk.trustpilot.com/review/hurnrecycling.com' target='_blank'>
-                  <button type="button" className="btn btn-success btn-lg mb-5">Our Trust Pilot Reviews </button>
+                  <button type="button" className="btn btn-success btn-lg mb-5">Our Trust Pilot Reviews</button>
                 </a>
           </div>
           <div className="col-lg-6 mb-4 mt-4 px-3 mb-lg-0 pb-2 pb-lg-0 pb-xl-2">
@@ -47,10 +48,8 @@ const About = () => {
       
         <div className="row flex-row mb-5 mt-5">
           <div className="col-lg-6 mb-4">
-            <h4 className="mb-4 text-center"><strong>Recycling and Waste management in the South West of England: Dorset, Devon, Hampshire, Somerset and Wiltshire</strong></h4>
-            <p className="lead mb-4 pb-1">We offer recycling and waste collection in the south west of England specifically in the following areas:</p>
-            <p className="lead mb-4 pb-1">Bournemouth, Poole, Christchurch, Wimborne, Blandford, Ferndown, Dorchester, Ringwood, New Milton, Lymington, New Forest, Bridport, Weymouth.</p>
-           </div>
+            <AreasWeCover/>
+          </div>
         <div className="col-lg-6 mb-4">
             <h4 className="mb-4 text-center" ><strong>Going above and beyond for the environment</strong></h4>
             <p className="lead mb-4 pb-1">Hurn Recycling Ltd recognizes that it has a responsibility to the environment beyond legal and regulatory requirements.</p>

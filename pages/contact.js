@@ -1,6 +1,7 @@
 import Head from "next/head";
 import Header from "../components/Header";
 import GoogleMapsSection from "../components/GoogleMapsSection";
+import AreasWeCover from "../components/AreasWeCover";
 
 import { Formik, Form, Field } from "formik";
 import * as Yup from "yup";
@@ -101,7 +102,8 @@ const contact = () => {
         {/* <h2 className="mb-5 text-center">CONTACT</h2> */}
         <div className="row">
           <div className="col-lg-6 p-4">
-          <h2 className="mb-4">CONTACT HURN RECYCLING</h2>
+          <h2 className="mb-4">CONTACT HURN RECYCLING </h2>
+             <p className="lead">Recycling and waste mangement services based in Bournemouth, Dorset. Serving the surrounding counties.</p>
             <p className="lead pb-4">
               We look forward to hearing from you by phone or email.
               Alternatively you can complete our enquiry form and we will get right back to you.
@@ -243,29 +245,14 @@ const contact = () => {
                   )}
                 </Formik>
               }
+              <div className="mb-4 mt-5">
+              <AreasWeCover />
+                     </div>
+             
+ 
             </div>
 
-          {/* <div className="col-md-6 p-3 mb-5">
-            <form className="p-4">
-              <label className="mb-2">Name:</label>
-              <input type="text" name="name" className="mb-4 p-2" />
-              <label className="mb-2">Email:</label>
-              <input type="text" name="name" className="mb-4 p-2" />
-              <label className="mb-2">Phone Number:</label>
-              <input type="text" name="name" className="mb-4 p-2" />
-              <label className="mb-3">Message:</label>
-              <textarea
-                name="message"
-                id=""
-                cols="30"
-                rows="10"
-                className="mb-4 p-2"
-              ></textarea>
-              <button className="btn btn-lg btn-success" type="submit">
-                Submit
-              </button>
-            </form>
-          </div> */}
+         
         </div>
       </div>
     </>
