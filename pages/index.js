@@ -23,7 +23,7 @@ export default function Home() {
       />
       <main>
         <Services title />
-        <Header text="About" smallText="" background="About_Hurn_Recycling.jpg" />
+        {/* <Header text="About" smallText="" background="About_Hurn_Recycling.jpg" /> */}
         <About />
         {/* <About /> */}
         <Clients />

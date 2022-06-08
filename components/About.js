@@ -3,115 +3,72 @@ import React from "react";
 const About = () => {
   return (
     <section className="about">
-      <div className="container my-5 p-5 mt-2 /*shadow-5*/">
-
-        {/* <h2 className="text-center pb-5">ABOUT</h2> */}
-        <div className="row flex-row mb-4 mt-5">
-        <h4 className="mb-4 text-center" ><strong>Hurn Recycling and Waste Management</strong></h4>
-            <div style={{ paddingBottom: '40px'}}>
+      <div className="container my-5 p-5 mt-2">
+      <h2 className="text-center">HURN RECYCLING AND WASTE MANAGMENT</h2>
                 <p className="lead mb-4 pb-1">
-                If you're looking for reliable and professional recycling services, you can trust in the team at Hurn Recycling. We offer a wide range of recycling and waste management services to businesses and households throughout the UK, so whatever your recycling needs, we can help.
+                Hurn Recycling began as a family run business in Dorset, started in 1998 with the help of the <a href='https://www.princes-trust.org.uk/' target='_blank' className="highlight-link">Princess Trust in Dorset</a>. From there we have grown rapidly to become the largest independent waste company in the County of Dorset, and offer our waste collection services and brokerage in the four surrounding Counties of Devon, Hampshire, Somerset and Wiltshire.
                 </p>
-                <p className="lead mb-4 pb-1">
-                We understand that recycling and waste management can be confusing and overwhelming, so our team are on hand to provide advice and support every step of the way. We offer a range of recycling services, from paper and cardboard recycling to metal and electronic recycling, whatever you need, we can help.
-                Give us a call today so we can discuss how we can help you manage your waste most effectively.
-                </p>
-
                 <div className="nav-item call-now-navbar-button horizontal-center-singleitem">
-                <a href="tel:+441202257530">
-                  <button type="button" className="btn btn-success btn-lg">
-                    CALL 01202 257 530 <i className="fas fa-phone ps-2"></i>
-                  </button>
+                   <a href="tel:+441202257530"><button type="button" className="btn btn-success btn-lg mb-5">CALL 01202 257 530 <i className="fas fa-phone ps-2"></i></button></a>
+                </div>
+        <div className="row flex-row mb-5 mt-5">
+          <div className="col-lg-6 mb-4">
+            <h4 className="mb-4 text-center"><strong>Over 20 years experience in the recycling business</strong>
+            </h4>
+            <p className="lead mb-4 pb-1">
+            With over 20 years experience in the waste collection and recycling business we continue to provide the highest levels of service for our customers and help to protect the environment. We are always looking for ways to make businesses more sustainable and eco-friendly and to reduce landfill.
+            </p>
+            <h4 className="mb-4 text-center pt-4"><strong>Superb customer Service</strong>
+            </h4>
+            <p className="lead mb-4 pb-1">
+            We pride ourselves on our high standards of services; we have a dedicated customer service team, who are committed to answer calls within a few rings and to direct your calls to right person for your enquiry. All customer queries are answered in a few hours, so you can focus on running your business and allow us help to make your business more sustainable.
+            </p>
+                <a className="horizontal-center-singleitem" href='https://uk.trustpilot.com/review/hurnrecycling.com' target='_blank'>
+                  <button type="button" className="btn btn-success btn-lg mb-5">Our Trust Pilot Reviews </button>
                 </a>
-              </div>
-
-
-                {/* <p className="lead mb-4 pb-1">
-                We also provide a free collection service for large quantities of recyclable materials, so if you have a lot of recycling to dispose of, we can help. All you need to do is call us and we'll arrange to collect your recyclables free of charge.
-                </p> */}
-                {/* <p className="lead mb-4 pb-1">
-                If you're looking for a reliable and professional recycling company, call us today. We offer a wide range of recycling services to businesses and households throughout the UK, so whatever your recycling needs, we can help.
-                </p> */}
-            </div>
-          
-          
-          <div className="col-lg-6">
-            <h4 className="mb-4"><strong>Recycling & Waste Management throughout England and the UK</strong>
-            </h4>
-            <p className="lead mb-4 pb-1">
-            Hurn Recycling was established in 1998 by the now owner Mr Peri Cascarino. Peri’s background in the waste paper recycling sector began with Sevenside (now St Regis) Waste Paper. He started working within the Company at the Company’s Hurn site in Christchurch. He rapidly rose through the ranks and ultimately took the role of general manger, obtained his O-licence in 5 years.
-            </p>
-            <p className="lead mb-4 pb-1">
-            Unfortunately due to a national decline in recycled material markets the site at Hurn was closed however Peri took over the site and founded Hurn Recycling Ltd.
-            </p>
-            <p className="lead mb-4 pb-1">
-            We are proud to say that we are now the largest independent waste company in the County of Dorset, and offer our waste collection services and brokerage in the four surrounding Counties.
-            </p>
-            <p className="lead mb-4 pb-1">
-            This success is due to our effective motivated team inspired by Peri, and our keen interest in the use of the latest technologies to deliver a level of service that is second to none.  
-            </p>
           </div>
-          <div className="col-lg-6 mb-4 px-3 mb-lg-0 pb-2 pb-lg-0 pb-xl-2">
+          <div className="col-lg-6 mb-4 mt-4 px-3 mb-lg-0 pb-2 pb-lg-0 pb-xl-2">
             <img src="/images/lorry-hurn.jpg" className="img-fluid"alt="Hurn Recycling Lorry"/>
           </div>
         </div>
+        
 
-        <div style={{textAlign: 'center', paddingTop: '40px'}}>
-        <h4 className="mb-4" ><strong>Our Vision and the Environment</strong>
-            </h4>
-            <p className="lead mb-4 pb-1">
-            We are committed to continuing to providing Dorset and the surrounding counties with the highest level of waste collection services for businesses. We are passionate about the beautiful county of Dorset and our proud to be working towards creating a cleaner greener Dorset for posterity.
-             {/* our children and children’s children. */}
-             We work hard to recycle as much as possible to minimize any waste needing to be sent to landfill to help protect the environment. 
-            </p>
+        <div className="row flex-row mb-5 mt-5">
+          <div className="col-lg-6 mb-4">
+            <h4 className="mb-4 text-center"><strong>Recycling that doesn't cost the earth</strong></h4>
+            <p className="lead mb-4 pb-1">It’s very important to us ensure businesses can recycle their waste as reliably and cost effectively as possible. We advise on <a href='https://www.gov.uk/government/news/fund-opens-to-reduce-waste-from-plastic-packaging-and-textiles' target='_blank' className="highlight-link"><strong>UK&nbsp;government&nbsp;recycling&nbsp;grants</strong></a> to help reduce your costs.</p>
+            <p className="lead mb-4 pb-1">We offer highly competitive rates for all our recycling and waste management services if you find a cheaper quote please get in touch and we will do our very best to it.</p>
         </div>
-
-        {/* <div className="row flex-row mb-4 mt-5">
-          <div className="col-lg-6 mb-4 px-3 mb-lg-0 pb-2 pb-lg-0 pb-xl-2">
-            <img src="/images/lorry-hurn.jpg" className="img-fluid"alt="Hurn Recycling Lorry"/>
-          </div>
-          <div className="col-lg-6">
-            <h4 className="mb-4"><strong>Our Vision and the Environment</strong>
-            </h4>
-            <p className="lead mb-4 pb-1">
-            We are committed to continuing to providing Dorset and the surrounding counties with the highest level of waste collection services for businesses. We are passionate about the beautiful county of  Dorset and our proud to be working towards creating a cleaner greener Dorset , for our children and children’s children.
-            </p>
-            
-          </div>
-        </div> */}
-
-
-          {/* <div className="row flex-row mb-4 mt-5">
-          </div>
-
-            <h4 className="mb-4">
-              <strong>
-              Our Vision and the Environment
-              </strong>
-            </h4>
-
-            <p className="lead mb-4 pb-1">
-            We are committed to continuing to providing Dorset and the surrounding counties with the highest level of waste collection services for businesses. We are passionate about the beautiful county of  Dorset and our proud to be working towards creating a cleaner greener Dorset , for our children and children’s children.
-            </p>
-          </div>
+        <div className="col-lg-6 mb-4">
+            <h4 className="mb-4 text-center" ><strong>Recycle with piece of mind</strong></h4>
+            <p className="lead mb-4 pb-1">Health and safety is very important to us we do everything we can to keep our drivers and customers safe. We always provide site surveys and risk assessments as part of our service to ensure the safety of all parties.</p>
         </div>
-        <div className="row align-items-center">
-          <div className="col-lg-6 mb-4 px-3 mb-lg-0 pb-2 pb-lg-0 pb-xl-2">
-            <img
-              src="/images/card.png"
-              className="img-fluid"
-              alt="cardboard"
-            />
-          </div>
-          <div className="col-lg-6">
-            
-          </div>
-        </div> */}
-
-       
+        </div>
+      
+        <div className="row flex-row mb-5 mt-5">
+          <div className="col-lg-6 mb-4">
+            <h4 className="mb-4 text-center"><strong>Recycling and Waste management in the South West of England: Dorset, Devon, Hampshire, Somerset and Wiltshire</strong></h4>
+            <p className="lead mb-4 pb-1">We offer recycling and waste collection in the south west of England specifically in the following areas:</p>
+            <p className="lead mb-4 pb-1">Bournemouth, Poole, Christchurch, Wimborne, Blandford, Ferndown, Dorchester, Ringwood, New Milton, Lymington, New Forest, Bridport, Weymouth.</p>
+           </div>
+        <div className="col-lg-6 mb-4">
+            <h4 className="mb-4 text-center" ><strong>Going above and beyond for the environment</strong></h4>
+            <p className="lead mb-4 pb-1">Hurn Recycling Ltd recognizes that it has a responsibility to the environment beyond legal and regulatory requirements.</p>
+            <p className="lead mb-4 pb-1">We are committed to reduce our environmental impact and 
+                continually improve our environmental performance as an integral part of our business 
+                strategy and operating methods, with regular review points. We will encourage customers, suppliers and other stakeholders to do the same. 
+            </p>
+                <a className="horizontal-center-singleitem" href='/files/Environmental Policy exp 31122022.docx'>
+                  <button type="button" className="btn btn-success btn-lg mb-5"><i className="fas fa-download ps-2"></i> Hurn Environmental Policy</button>
+                </a>
+        </div>
+        </div>
 
 
       </div>
+
+      
+
     </section>
   );
 };

@@ -35,6 +35,10 @@ a {
   text-decoration: none;
 }
 
+a.highlight-link{
+  text-decoration: underline;
+}
+
 * {
   box-sizing: border-box;
 }
@@ -330,6 +334,7 @@ padding-top: 0;
   color: #ffffff !important;
   transition: 1.5s;
 }
+
 
 .bendando-link:hover a {
   text-decoration: underline;
