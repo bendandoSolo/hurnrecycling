@@ -95,8 +95,8 @@ const dryMixed = () => {
           </div>
       </section>
 
-      <section>
-        <div className="container py-5 row mb-1" >
+      <section className="container">
+        <div className="py-5 row mb-1" >
             <div className="col-lg-6">
               <h4 className="mb-4 pt-4"><strong>What can go into your DMR bin?</strong></h4>
               <p className="lead mb-2 pb-1">
