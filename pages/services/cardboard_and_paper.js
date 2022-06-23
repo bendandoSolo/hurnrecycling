@@ -31,7 +31,7 @@ const cardPackaging = () => {
                 </strong>
               </h4>
               <p className="lead mb-4 pb-1">
-              At Hurn Recycling we know that cardboard is the largest single constituent of municipal waste worldwide. 80-90% of material we collect is made up of cardboard, so we have every kind of solution to help you recycle yours.
+              At Hurn Recycling we know that cardboard is the largest single constituent of general (or municipal) waste worldwide. 80-90% of material we collect is made up of cardboard, so we have every kind of solution to help you recycle yours.
               </p>
               <p className="lead mb-4 pb-1">
               We  provide both 660 and 1100 litre containers in for cardboard recycling. Alternatively, we can arrange baled and loose cardboard collections, in case your business does not have space for bins to be stored. 

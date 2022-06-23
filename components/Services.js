@@ -60,7 +60,7 @@ const Services = () => {
             title={"General Waste"}
             text={"Wheelie Bin Collections? AWAITING TEXT"}
             imageURL={"/images/service_cards/General_waste.jpg"}
-            url='municipal-waste'
+            url='general-waste'
             />
           <FlexboxServiceCard
             title={"Dry Mixed Recycling"}

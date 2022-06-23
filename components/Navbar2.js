@@ -67,8 +67,8 @@ const Navbar2 = () => {
                   Services
                 </a>
                 <ul className="dropdown-menu">
-                  <li><Link href="/services/municipal-waste">
-                    <a className="dropdown-item">Municipal Waste</a>
+                  <li><Link href="/services/general-waste">
+                    <a className="dropdown-item">General Waste</a>
                     </Link></li> 
                   <li><Link href="/services/dry_mixed_recycling">
                       <a className="dropdown-item">Dry Mixed Recycling</a>

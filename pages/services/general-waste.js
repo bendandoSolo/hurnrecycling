@@ -3,20 +3,20 @@ import Head from "next/head";
 import Link from "next/link";
 import Header from "../../components/Header";
 
+//changed URL to general waste since search term is 3x that off municipal waste
 const municipalWaste = () => {
   return (
       <> 
       <Head>
        <title>General Waste Recycling in Bournemouth, Poole &amp; Dorset - Hurn Recycling</title>
-       <meta name="description" content="Hurn Recycling offer General Waste Recycling Services throughout Bournemouth, Poole, Dorset and the South West"></meta>
+       <meta name="description" content="Hurn Recycling offers General Waste Recycling Services throughout Bournemouth, Poole, Dorset and the South West"></meta>
        <meta name="keywords" content="General Waste, Cardboard Recycling, Packaging Recycling, Office Paper Recycling, Waste Management, Confidential Waste Disposal, Glass Recycling, Cardboard Recycling, Plastic Recycling, Electrical Equipment Recycling, Waste Disposal, Office Furniture Disposal"/>  
       </Head>
       <Header text="General Waste" smallText="" background="General_waste.jpg"/>
       <section>
       <div className="container mt-5 py-5">
-      
-        <div className="row mb-4">  <h2 className="mb-5 text-center">General Waste</h2>
-         
+        <div className="row mb-4"> 
+          <h2 className="mb-5 text-center">General Waste</h2>
           <div className="col-lg-6 mt-5">
             <h4 className="mb-4">
               <strong>
