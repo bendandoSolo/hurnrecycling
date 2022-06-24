@@ -34,7 +34,7 @@ const Footer = () => {
             <h5 className="text-uppercase mb-4">Services</h5>
             <ul className="list-unstyled mb-0">
               <li>
-                <Link href="/services/general-waste">General Waste</Link>
+                <Link href="/services/general_waste">General Waste</Link>
               </li>
               <li>
                 <Link href="/services/dry_mixed_recycling">Dry Mixed Recycling</Link>

@@ -29,11 +29,7 @@ const dryMixed = () => {
                 </strong>
               </h5>
               <CallNowButton margin={'my-2'} />
-              <h4 className="mb-4 pt-4">
-                <strong>
-               What is Dry Mixed Recycling (DMR) ?
-                </strong>
-              </h4>
+              <h4 className="mb-4 pt-4"><strong>What is Dry Mixed Recycling (DMR) ?</strong></h4>
               <p className="lead mb-4 pb-1">
                  Dry Mixed Recycling is exactly what is says on the tin. 
                  By sorting all your clean dry recyclables such as <Link href="/services/paper" ><span className="highlight-link" >cardboard and paper</span></Link>

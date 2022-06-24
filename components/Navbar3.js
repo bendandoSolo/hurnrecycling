@@ -49,7 +49,7 @@ const Navbar3 = () => {
                 Services
               </a>
               <ul className="dropdown-menu">
-                  <li><Link href="/services/general-waste">
+                  <li><Link href="/services/general_waste">
                     <a className="dropdown-item">General Waste</a>
                   </Link></li> 
                   <li><Link href="/services/dry_mixed_recycling">
