@@ -18,6 +18,16 @@ const Navbar3 = () => {
     return () => window.removeEventListener("scroll", handleScroll);
   }, []);
 
+  //DIRTY HACK SINCE MDB BOOTSTRAP DOESN'T CLOSE NAVBAR ON DROPDOWN CLICK
+  const dropDownMenuClicked = e => {
+    e.preventDefaut = false;
+      if (window.innerWidth < 993){
+        let navBar =  document.getElementById("navbarNav");
+        navBar.classList.remove('show');
+      }
+  }
+
+
   return (
     <nav className="navbar navbar-expand-lg navbar-dark fixed-top scrolling-navbar">
       <div className="container">
@@ -48,7 +58,7 @@ const Navbar3 = () => {
               >
                 Services
               </a>
-              <ul className="dropdown-menu">
+              <ul className="dropdown-menu" onClick={e => {dropDownMenuClicked(e)}} >
                   <li><Link href="/services/general_waste">
                     <a className="dropdown-item">General Waste</a>
                   </Link></li> 
