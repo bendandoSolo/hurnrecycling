@@ -3,6 +3,7 @@ import Head from "next/head";
 import Link from "next/link";
 import Header from "../../components/Header";
 import CallNowButton from '../../components/widgets/CallNowButton';
+import FindOutMore from "../../components/widgets/FindOutMore";
 
 //changed URL to general waste since search term is 3x that off municipal waste
 const municipalWaste = () => {
@@ -49,20 +50,58 @@ const municipalWaste = () => {
               <li>Not allow the waste carrier to dispose of your waste illegally </li>
               <p className="py-2"><b>Further information can be found on the <a href='https://www.gov.uk/managing-your-waste-an-overview' target='_blank' className="highlight-link">UK government Website</a>.</b></p>
             </ul>
+
+              <h4 className="mb-4 pt-2"><strong>General Waste Collection and Disposal Bin Sizes</strong></h4>
+              <p className="lead mb-4 pb-1">We cater for any size business and offer the following range of bin sizes for general waste collection:</p>
+              <ul className="lead">
+                <li>240 Litre General waste bin</li>
+                <li>360 Litre General Waste Bin</li>
+                <li>660 Litre General Waste Bin</li>
+                <li>1110 Litre General Waste Bin</li>
+              </ul>
+              <p className="lead mb-4 pb-1">If your business does not have the space for a general waste bin, we offer a pre-paid bags service to collect your bagged general waste.</p>
             </div>
+            <FindOutMore />
           </div>
          
 
             <div className="row mb-4"> 
-              <div className="col-lg-6 mt-5">
-              <h4 className="mb-4 pt-4"><strong>What can you put in General Waste Bins?</strong></h4>
+              <div className="col-lg-6 mt-4">
+              <h4 className="mb-4 pt-4"><strong>What can be disposed of in General Waste Bins?</strong></h4>
               
               <h5>Plastics</h5>
-              <p className="lead mb-4 pb-1">
-              Plastics often cannot be recycled separately. These can be put into your general waste disposal bins or for plastics that can be recycled use our <Link href="/services/dry_mixed_recycling" ><a className="highlight-link">dry mixed recycling service</a></Link>.</p>
+              <p className=" mb-3 pb-1">
+              Plastics can be put into your general waste disposal bins or for plastics that can be recycled use our <Link href="/services/dry_mixed_recycling" ><a className="highlight-link">dry mixed recycling service</a></Link>.</p>
+              <h5>Metals</h5>
+              <h5>Ceramics</h5>
+              <h5>Glass</h5>
+              <p className=" mb-3 pb-1">
+              Any type of <Link href="/services/glass" ><a className="highlight-link">glass</a></Link> can be disposed of in general waste bins as part of your normal rubbish collection, however we recommend you have a separate <Link href="/services/glass" ><a className="highlight-link">glass recycling</a></Link> bin.</p>
+              <h5>Packaging Materials</h5>
+              <p className="mb-3 pb-1">
+              All packaging can be disposed of in general waste bins, <Link href="/services/polystyrene_collection" ><a className="highlight-link">polystyrene</a></Link> can also be disposed of as part of your general commercial waste but we recommend you <Link href="/services/polystyrene_collection" ><a className="highlight-link">recycle your polystyrene</a></Link>, as it highly poluting and there is an increasing amount found in the Pacific and our waterways.
+              </p>
 
-
-
+              <h4 className="mb-4 pt-4"><strong>What should not be disposed of in General Waste Bins?</strong></h4>
+              <p className="lead mb-3 pb-1">We advise businesses on their commercial waste collection and general waste disposal. The following items we would <b>not recommend</b> disposing of in general waste bins:</p>
+              <h5>Recyclable Materials:</h5>
+              <ul>
+                <li><Link href="/services/cardboard_and_paper" ><a className="highlight-link">Cardboard and paper</a></Link></li>
+                <li><Link href="/services/glass" ><a className="highlight-link">Glass</a></Link></li>
+                <li><Link href="/services/dry_mixed_recycling" ><a className="highlight-link">Plastics</a></Link></li>
+                <li><Link href="/services/polystyrene_collection" ><a className="highlight-link">Polystyrene</a></Link></li>
+              </ul>
+              <h5>Hazardous Materials:</h5>
+              <ul>
+                <li>Chemicals</li>
+                <li>Gas canisters</li>
+                <li>Medical waste (leftover medications etc)</li>
+                <li>Batteries</li>
+                <li>Paint</li>
+              </ul>
+              <h5><Link href="/services/waste_electrical_and_electronic_equipment" ><a className="highlight-link">Electrical Items – WEEE waste</a></Link></h5>
+              <h5>Hot Ash</h5>
+              <h5>Construction Materials</h5>
               </div>
               <div className="col-lg-6 mb-4 mb-lg-0 pb-2 pb-lg-0 pb-xl-2 mt-5">
                 <img
@@ -72,24 +111,23 @@ const municipalWaste = () => {
                 />
               </div>
             </div>
-
-
-            <p className="lead mb-4 pb-1">
-            Please note that the following items are not considered general waste: construction materials, wood, hazardous waste . For more details about what can and cannot go into your general waste container please see the poster below. Please get in touch for more information. 
-                        </p>
-            <p className="lead mb-4 pb-1">
-              To find out more, call free on 01202 257 530 or request a
-              Callback.
-            </p>
-            <Link href="/contact">
-              <button
-                className="btn btn-lg btn-success text-center mb-4"
-                id="green-btn"
-              >
-                Get A Quote
-              </button>
-            </Link>
          
+            <div className='horizontal-center-singleitem container pb-5'>
+              <div><p className="lead mb-4 pb-1">
+              For more details about what can and cannot go into your general waste container see the poster on this page and please don't hesistate to get in touch:, call us on <a href="tel:+441202257530" className="highlight-link"> <i className="fas fa-phone ps-2" /> 01202 257 530</a>. If out of office hours leave a message and we will get right back to you.
+              </p>
+              <div className='horizontal-center-singleitem'>
+              <Link href="/contact">
+                <button className="btn btn-lg btn-success text-center mb-4" id="green-btn">
+                  Get A Quote
+                </button>
+              </Link>
+              </div>
+          </div>
+      </div>
+
+
+
     </section>
      
     </>

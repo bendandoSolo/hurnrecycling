@@ -71,7 +71,7 @@ const Navbar3 = () => {
                     <a className="dropdown-item">Man & Van Clearance</a>
                   </Link></li>
                   <li><Link href="/services/waste_electrical_and_electronic_equipment">
-                    <a className="dropdown-item">WEE Waste Collection</a>
+                    <a className="dropdown-item">WEEE Waste Collection</a>
                   </Link></li>
                   <li><Link href="/services/office_clearance">
                       <a className="dropdown-item">Office Clearance</a>

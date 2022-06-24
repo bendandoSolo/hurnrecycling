@@ -3,6 +3,7 @@ import Head from "next/head";
 import Link from "next/link";
 import Header from "../../components/Header";
 import CallNowButton from '../../components/widgets/CallNowButton';
+import FindOutMore from "../../components/widgets/FindOutMore";
 
 const dryMixed = () => {
   return (
@@ -32,7 +33,7 @@ const dryMixed = () => {
               <h4 className="mb-4 pt-4"><strong>What is Dry Mixed Recycling (DMR) ?</strong></h4>
               <p className="lead mb-4 pb-1">
                  Dry Mixed Recycling is exactly what is says on the tin. 
-                 By sorting all your clean dry recyclables such as <Link href="/services/paper" ><span className="highlight-link" >cardboard and paper</span></Link>
+                 By sorting all your clean dry recyclables such as <Link href="/services/cardboard_and_paper" ><span className="highlight-link" >cardboard and paper</span></Link>
                 , plastic, metal and <Link href="/services/glass" ><span className="highlight-link" >glass</span></Link> into one container, and separating them from 
                  wet or sticky waste such as food waste, it allows us to process your waste efficiently and at a low cost.
                  Helping both the environment and your business reduce its waste management costs.
@@ -44,7 +45,7 @@ const dryMixed = () => {
                 </strong>
               </h4>
               <p className="lead mb-4 pb-1">
-              Dry mixed recycling involves sorting and separating different materials such as <Link href="/services/paper" ><span className="highlight-link" >cardboard and paper</span></Link>,
+              Dry mixed recycling involves sorting and separating different materials such as <Link href="/services/cardboard_and_paper" ><span className="highlight-link" >cardboard and paper</span></Link>,
                plastic, metal and <Link href="/services/glass" ><span className="highlight-link" >glass</span></Link>. The sorted materials are then sold to manufacturers who use them to create new products. 
               The benefits of dry mixed recycling include:</p> 
               
@@ -106,21 +107,9 @@ const dryMixed = () => {
                   containers with residue of food or liquids and hard plastics. Please see the poster below, or contact us for more information.</p> 
             </div>
         </div>
+      
+       <FindOutMore />
       </section>
-
-      <div className='horizontal-center-singleitem container pb-5'>
-        <div><p className="lead mb-4 pb-1">
-                To find out more, call us on <a href="tel:+441202257530" className="highlight-link"> <i className="fas fa-phone ps-2" /> 01202 257 530</a>. If out of office hours leave a message and we will get right back to you.
-              </p>
-              <div className='horizontal-center-singleitem'>
-              <Link href="/contact">
-                <button className="btn btn-lg btn-success text-center mb-4" id="green-btn">
-                  Get A Quote
-                </button>
-              </Link>
-              </div>
-          </div>
-      </div>
 
     </>
   );
