@@ -3,6 +3,7 @@ import Head from "next/head";
 import Link from "next/link";
 import Header from "../../components/Header";
 import FindOutMore from "../../components/widgets/FindOutMore";
+import ReactPlayer from 'react-player/youtube';
 
 const food = () => {
   return (
@@ -111,11 +112,16 @@ const food = () => {
           <p className="lead mb-4 pb-1">Food waste can be recycled in a number of ways. It can be composted, which is a process of breaking down organic matter into a nutrient-rich soil amendment. It can be anaerobically digested, which is a process of breaking down organic matter in the absence of oxygen to produce methane gas, which can then be used to generate electricity. And food waste can also be recycled into animal feed. This is often done with meat and dairy products that are not fit for human consumption.</p>
           <p className="lead mb-4 pb-1">The key to successful food waste recycling is to keep it out of the landfill. Landfills are a major source of methane, a powerful greenhouse gas. When food waste decomposes in a landfill, it produces methane. When food waste goes to landfill, it decomposes under uncontrolled conditions and releases methane, which is 23x more dangerous to the planet than carbon dioxide. The bottom line is that food waste is a problem that we can all do something about.</p>
           <div className="row mb-4 ">
-              <div className="col-lg-6 mt-5"></div>
-              <div className="col-lg-6 mt-5"></div>
+              <div className="col-lg-6 mt-5">
+                <h5 className="text-center mb-5"><strong>How Food Waste is Recycled: Anaerobic digestion</strong></h5>
+                <ReactPlayer url="hhttps://www.youtube.com/watch?v=WdZViehrUks" origin="http://localhost:3000" width='100%' height='100%' style={{width: '100%', height: 'auto', minHeight: '300px'}} controls/>
+            
+              </div>
+              <div className="col-lg-6 mt-5">
+                <h5 className="text-center mb-5"><strong>How Food Waste is Recycled: In-vessel composting </strong></h5>
+                <ReactPlayer url="https://www.youtube.com/watch?v=Td30khKYc5Y" origin="http://localhost:3000" width='100%' height='100%' style={{width: '100%', height: 'auto', minHeight: '300px'}} controls/>
+              </div>
           </div>
-      
-      
       </section>
 
       </div>
