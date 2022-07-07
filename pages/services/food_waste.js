@@ -49,24 +49,77 @@ const food = () => {
                 </strong>
               </h4>
                     
-            </div>
-            <FindOutMore />      
+            </div>        
           </div>
+          <FindOutMore />
       </section>
-
-      {/* <section>
-      <h4 className="text-center mb-5">
-        <strong>
-        Food Waste Recycling in the UK and the around the world
-        </strong>
-      </h4>
-          <p className="lead mb-4 pb-1"></p>
-          <p className="lead mb-4 pb-1"></p>
-  
-      </section> */}
-
       </div>
 
+      <section className="mb-5 background-offwhite1">
+          <div className="container">
+          <div className="row mb-4 ">
+              <div className="col-lg-6 mt-5">
+                  <h4 className="mb-5 ms-3"><strong>What can be put into Food Waste Recycling Bins?</strong></h4>
+                  <ul>
+                    <li>All uneaten food and plate scrapings</li>
+                    <li>All types of palletised food waste</li>
+                    <li>Meat and fish (cooked or raw)</li>
+                    <li>Cooked food (e.g. rice, pasta, vegetables etc.) and Ready Meals</li>
+                    <li>Baked goods such as bread, cakes and pastries</li>
+                    <li>Fruit and vegetables including raw and cooked vegetables and peelings</li>
+                    <li>Tea bags, coffee grounds</li>
+                    <li>Cereals</li>
+                    <li>All Dairy products</li>
+                    <li>Any Category 3 animal by-product (contaminated)</li>
+                    <li>Out-of-date or mouldy food</li>
+                    <li>Raw and cooked meat or fish, including small bones</li>
+                  </ul>
+              </div>
+              
+              <div className="col-lg-6 mt-5">
+              <h4 className="mb-5 ms-3"><strong>What cannot be put into Food Waste Recycling Bins?</strong></h4>
+              <ul>
+                <li>NB: Please ensure that any bags of food placed in the bin are transparent</li>
+                <li>Liquids: These may cause leaks and spillages when transporting the food</li>
+                <li>Non-food products including nappies</li>
+                <li>Packaging of any kind</li>
+                <li>medical waste</li>
+                <li>Large parts of animals</li>
+              </ul>
+              </div>
+          </div>
+        </div>
+      </section>
+
+      <div className="container mt-5 py-5" >
+      <section className="mb-5">
+      <h4 className="text-center mb-5">
+        <strong>
+        Food Waste Recycling in the UK and Globally
+        </strong>
+      </h4>
+          <p className="lead mb-2 pb-1">The United Nations estimates that a third of all food produced globally is lost or wasted each year, totalling 1.3 billion tons. That's enough to feed the world's hungry many times over. And it's not just a developing world problem. In the UK 4.5 million tonnes of food are thrown away by households annually.</p>
+          <p className="lead mb-4 pb-1">The good news is that there are many ways to reduce food waste, and recycling is one of them.</p>
+      </section>
+
+      <section className="mb-5">
+      <h4 className="text-center mb-5">
+        <strong>
+        How Food Waste is Recycled
+        </strong>
+      </h4>
+          <p className="lead mb-4 pb-1">Food waste can be recycled in a number of ways. It can be composted, which is a process of breaking down organic matter into a nutrient-rich soil amendment. It can be anaerobically digested, which is a process of breaking down organic matter in the absence of oxygen to produce methane gas, which can then be used to generate electricity. And food waste can also be recycled into animal feed. This is often done with meat and dairy products that are not fit for human consumption.</p>
+          <p className="lead mb-4 pb-1">The key to successful food waste recycling is to keep it out of the landfill. Landfills are a major source of methane, a powerful greenhouse gas. When food waste decomposes in a landfill, it produces methane. When food waste goes to landfill, it decomposes under uncontrolled conditions and releases methane, which is 23x more dangerous to the planet than carbon dioxide. The bottom line is that food waste is a problem that we can all do something about.</p>
+          <div className="row mb-4 ">
+              <div className="col-lg-6 mt-5"></div>
+              <div className="col-lg-6 mt-5"></div>
+          </div>
+      
+      
+      </section>
+
+      </div>
+      <FindOutMore />
       <div className="background-offwhite1">
         <div className="container mt-5 py-5">
         <section >
