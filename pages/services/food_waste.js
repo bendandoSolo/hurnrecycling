@@ -93,32 +93,32 @@ const food = () => {
       </section>
 
       <div className="container mt-5 py-5" >
-      <section className="mb-5">
+      <section className="mb-5 ">
       <h4 className="text-center mb-5">
         <strong>
-        Food Waste Recycling in the UK and Globally
+        Food Waste Recycling in the UK and Worldwide
         </strong>
       </h4>
           <p className="lead mb-2 pb-1">The United Nations estimates that a third of all food produced globally is lost or wasted each year, totalling 1.3 billion tons. That's enough to feed the world's hungry many times over. And it's not just a developing world problem. In the UK 4.5 million tonnes of food are thrown away by households annually.</p>
           <p className="lead mb-4 pb-1">The good news is that there are many ways to reduce food waste, and recycling is one of them.</p>
       </section>
 
-      <section className="mb-5">
-      <h4 className="text-center mb-5">
+      <section className="mb-5 mt-5">
+      <h4 className="text-center mb-5 mt-5">
         <strong>
         How Food Waste is Recycled
         </strong>
       </h4>
           <p className="lead mb-4 pb-1">Food waste can be recycled in a number of ways. It can be composted, which is a process of breaking down organic matter into a nutrient-rich soil amendment. It can be anaerobically digested, which is a process of breaking down organic matter in the absence of oxygen to produce methane gas, which can then be used to generate electricity. And food waste can also be recycled into animal feed. This is often done with meat and dairy products that are not fit for human consumption.</p>
-          <p className="lead mb-4 pb-1">The key to successful food waste recycling is to keep it out of the landfill. Landfills are a major source of methane, a powerful greenhouse gas. When food waste decomposes in a landfill, it produces methane. When food waste goes to landfill, it decomposes under uncontrolled conditions and releases methane, which is 23x more dangerous to the planet than carbon dioxide. The bottom line is that food waste is a problem that we can all do something about.</p>
+          <p className="lead mb-2 pb-1">The key to successful food waste recycling is to keep it out of the landfill. Landfills are a major source of methane, a powerful greenhouse gas. When food waste decomposes in a landfill, it produces methane. When food waste goes to landfill, it decomposes under uncontrolled conditions and releases methane, which is 23x more dangerous to the planet than carbon dioxide. The bottom line is that food waste is a problem that we can all do something about.</p>
           <div className="row mb-4 ">
-              <div className="col-lg-6 mt-5">
-                <h5 className="text-center mb-5"><strong>How Food Waste is Recycled: Anaerobic digestion</strong></h5>
+              <div className="col-lg-6 mt-5 pt-5">
+                <h5 className="text-center mb-3 pt-3"><strong>How Food Waste is Recycled: Anaerobic digestion</strong></h5>
                 <ReactPlayer url="hhttps://www.youtube.com/watch?v=WdZViehrUks" origin="http://localhost:3000" width='100%' height='100%' style={{width: '100%', height: 'auto', minHeight: '300px'}} controls/>
             
               </div>
-              <div className="col-lg-6 mt-5">
-                <h5 className="text-center mb-5"><strong>How Food Waste is Recycled: In-vessel composting </strong></h5>
+              <div className="col-lg-6 mt-5 pt-5">
+                <h5 className="text-center mb-3 pt-3"><strong>How Food Waste is Recycled: In-vessel composting </strong></h5>
                 <ReactPlayer url="https://www.youtube.com/watch?v=Td30khKYc5Y" origin="http://localhost:3000" width='100%' height='100%' style={{width: '100%', height: 'auto', minHeight: '300px'}} controls/>
               </div>
           </div>
