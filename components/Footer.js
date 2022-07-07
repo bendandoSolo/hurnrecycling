@@ -46,7 +46,7 @@ const Footer = () => {
                 <Link href="/services/glass">Glass Recycling</Link>
               </li>
               <li>
-                <Link href="/services/food">Food Waste</Link>
+                <Link href="/services/food_waste">Food Waste</Link>
               </li>
               <li>
                 <Link href="/services/polystyrene_collection">Polystyrene Collection</Link>

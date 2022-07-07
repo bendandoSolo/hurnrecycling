@@ -91,7 +91,7 @@ const Services = () => {
               "Recycle all your glass with easy and cost effective recycling solutions for your business"
             }
             imageURL={"/images/service_cards/Food_recycling.jpg"}
-            url='food'
+            url='food_waste'
           /> 
         </div>
         <h2 className="mb-5 mt-5 pt-5">SPECIALIST RECYCLING SERVICES</h2>
