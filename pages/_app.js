@@ -5,11 +5,10 @@ import * as gtag from "../lib/gtag";
 import "../styles/mdb.min.css";
 //import 'mdb-react-ui-kit/dist/css/mdb.min.css'
 import "../styles/site.scss";
-
 import "../styles/feedback-styles.scss";
 import Head from "next/head";
-import Navbar3 from "../components/Navbar3";
-//import Navbar4 from "../components/Navbar4";
+//import Navbar3 from "../components/Navbar3";
+import Navbar5 from "../components/Navbar5";
 import Footer from "../components/Footer";
 
 const MyApp = ({ Component, pageProps }) => {
@@ -49,7 +48,7 @@ const MyApp = ({ Component, pageProps }) => {
         <script type="text/javascript" src="/mdb.min.js"></script>
       
       </Head>
-      <Navbar3 />
+      <Navbar5 />
       <Component {...pageProps} />
       <Footer />
     </>

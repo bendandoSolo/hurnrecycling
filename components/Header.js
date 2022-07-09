@@ -22,7 +22,7 @@ const Header = ({ background, text, smallText, button, mask, full }) => {
 const showMask = !mask ? "mask" : "";
 
   return (
-    <header style={{/*marginTop: '100px'*/}}>
+    <header>
       <div className="text-center bg-image" id="intro-sm" >
         <div className="text-center bg-image"
           style={{ backgroundImage: `url(${bgImage}${background})`,backgroundPosition: 'center top' }} id="intro2-sm" >
@@ -81,7 +81,7 @@ export const HomeHeader = ({ background, text, smallText, button, mask, full }) 
   const showMask = !mask ? "mask" : "";
   
     return (
-      <header style={{/*marginTop: '100px'*/}}>
+      <header>
         <div id="intro" className="text-center bg-image homeheader" >
 
           <div className="text-center bg-image homeheader" id="intro2" 

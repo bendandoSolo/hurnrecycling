@@ -14,7 +14,7 @@ body {
 
 @media (min-width: 992px){
 header{
-  margin-top: 100px;
+  margin-top: 164px; //100px
 }
 }
 
@@ -43,7 +43,7 @@ a.highlight-link, span.highlight-link, p >a.highlight-link{
 
 a.highlight-link:hover, span.highlight-link:hover, p >a.highlight-link:hover{
   text-decoration: underline !important;
-  color: $original-logo-color;
+  color: $primary-color;
 }
 
 
@@ -133,7 +133,7 @@ header {
 
 // Footer Component
 footer {
-  background-color: $original-logo-color; //rgba(0, 80, 24, 1);
+  background-color: $primary-color; //rgba(0, 80, 24, 1);
   hr {
     background-color: whitesmoke;
   }
@@ -150,14 +150,14 @@ footer {
     color: whitesmoke;
   }
   .copyright {
-    background-color: $original-dark;
-    color: $original-logo-color;
+    //background-color: $original-dark;
+    //color: $original-logo-color;
     a {
       color: whitesmoke;
     }
-    a:hover {
-      color: $original-light;
-    }
+    // a:hover {
+    //   //color: $original-light;
+    // }
   }
 }
 
@@ -350,10 +350,11 @@ padding-top: 0;
 }
 
 .contact a{
-  color: $original-logo-color;
+  color: $primary-color //$original-logo-color;
 }
 .contact a:hover{
-  color: $original-light;
+  opacity: 0.7;
+  //color: $original-light;
 }
 
 .bendando-link a {
