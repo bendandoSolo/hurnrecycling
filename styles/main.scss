@@ -238,6 +238,24 @@ form {
 
 }
 
+
+//layout/display
+
+@media screen and (min-width: 768px) {
+.d-lg-none{
+  display: none;
+}
+}
+
+@media screen and (max-width: 767px) {
+  .d-lg-none{
+    display: inline-block;
+  }
+  }
+  
+
+
+
 .primary-large-service-card-image{
   width: 32vw;
   height: 24vw;

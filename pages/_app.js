@@ -3,10 +3,13 @@ import { useRouter } from "next/router";
 import * as gtag from "../lib/gtag";
 
 import "../styles/mdb.min.css";
+//import 'mdb-react-ui-kit/dist/css/mdb.min.css'
 import "../styles/site.scss";
+
 import "../styles/feedback-styles.scss";
 import Head from "next/head";
 import Navbar3 from "../components/Navbar3";
+//import Navbar4 from "../components/Navbar4";
 import Footer from "../components/Footer";
 
 const MyApp = ({ Component, pageProps }) => {
@@ -43,7 +46,7 @@ const MyApp = ({ Component, pageProps }) => {
       ></script> */}
         
         {/* <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/js/bootstrap.bundle.min.js" integrity="sha384-MrcW6ZMFYlzcLA8Nl+NtUVF0sA7MsXsP1UyJoMp4YLEuNSfAP+JcXn/tWtIaxVXM" crossorigin="anonymous"></script> */}
-        <script type="text/javascript" src="mdb.min.js"></script>
+        <script type="text/javascript" src="/mdb.min.js"></script>
       
       </Head>
       <Navbar3 />

@@ -27,6 +27,12 @@ const Navbar3 = () => {
       }
   }
 
+  const toogleMenuClicked = e => {
+    e.preventDefaut = false;
+    
+  }
+
+
 
   return (
     <nav className="navbar navbar-expand-lg navbar-dark fixed-top scrolling-navbar">
@@ -42,6 +48,7 @@ const Navbar3 = () => {
           aria-controls="navbarNav"
           aria-expanded="false"
           aria-label="Toggle navigation"
+          onClick={e => {toogleMenuClicked(e)}}
         >
           <i className="fas fa-bars"></i>
         </button>
