@@ -23,7 +23,7 @@ const Navbar5 = () => {
 
   return (
     <>
-    <nav className="navbar navbar-expand-lg navbar-dark fixed-top scrolling-navbar pb-md-0">
+    <nav className="navbar navbar-expand-lg navbar-dark fixed-top scrolling-navbar pb-lg-0">
       {/* <div> */}
       <div className="container flex-row-lg">
         <Link href="/">
@@ -43,16 +43,10 @@ const Navbar5 = () => {
         <div className="collapse navbar-collapse" id="navbarNav">
           <ul className="navbar-nav">
             <li className="nav-item">
-                <a className="nav-link active" aria-current="page" href="/">Home</a>            
+              <Link href="/"><a className="nav-link active" aria-current="page" href="/">Home</a></Link>           
             </li>
             <li className="nav-item dropdown">
-              <a
-                className="nav-link dropdown-toggle"
-                href="/services"
-                data-bs-toggle="dropdown"
-              >
-                Services
-              </a>
+            <Link href="/services"><a className="nav-link dropdown-toggle" href="/services" data-bs-toggle="dropdown">Services</a></Link>
               <ul className="dropdown-menu" onClick={e => {dropDownMenuClicked(e)}} >
                   <li><Link href="/services/general_waste"><a className="dropdown-item">General Waste</a></Link></li> 
                   <li><Link href="/services/dry_mixed_recycling"><a className="dropdown-item">Dry Mixed Recycling</a></Link></li>
@@ -68,13 +62,13 @@ const Navbar5 = () => {
                 </ul>
             </li>
             <li className="nav-item">
-                <a className="nav-link"  href="/environment">Environment</a>
+              <Link href="/environment"><a className="nav-link"  href="/environment">Environment</a></Link>
             </li>
             <li className="nav-item">
-                <a className="nav-link" href="/contact">Contact</a>
+              <Link href="/contact"><a className="nav-link" href="/contact">Contact</a></Link>
             </li>
-            <li className="nav-item call-now-navbar-button" style={{  marginTop: "1px" }}>
-                <a href="tel:+441202257530"><button type="button" className="btn btn-success btn-lg">
+            <li className="nav-item call-now-navbar-button">
+                <a href="tel:+441202257530"><button type="button" className="btn btn-inverted">
                         CALL 01202 257 530 <i className="fas fa-phone ps-2"></i>
                 </button></a>
               </li>

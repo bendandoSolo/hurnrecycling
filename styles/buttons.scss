@@ -6,7 +6,20 @@
 }
 
 .btn-success:hover {
-  opacity: 0.7;
+  //opacity: 0.7;
   //background-color: $original-light;//$original-dark;
-  color: white;
+  color: black;
+}
+
+
+.btn-inverted{
+  background-color: white;
+  color:  $primary-color;
+}
+
+@media all and (min-width: 992px) {
+.call-now-navbar-button{
+  margin-left: 20px;
+  margin-bottom: 20px;
+}
 }
