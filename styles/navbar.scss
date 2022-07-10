@@ -9,7 +9,7 @@
 }
 
 nav img {
-  width: 150px;
+  width: 125px;
   cursor: pointer;
 }
 @media all and (max-width: 992px) {
@@ -99,10 +99,10 @@ nav img {
   
   .dropdown-menu {
     background-color: white;//rgba(0, 80, 24, 1);
-    border-radius: 0 !important;
+    border-radius: 5 !important;
     .dropdown-item {
       color: white;//$primary-color;//$original-logo-color;
-      border-radius: 0 !important;
+      //border-radius: 0 !important;
     }
   }
   
@@ -165,7 +165,7 @@ nav img {
 @media screen and (min-width: 992px) {
   .subMenu{
     position: fixed;
-    top: 88px;
+    top: 76px;
   }
 }
 
